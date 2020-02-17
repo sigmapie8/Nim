@@ -1,0 +1,2 @@
+sameTrees	compiler/patterns.html#sameTrees,PNode,PNode	patterns: sameTrees(a, b: PNode): bool	
+applyRule	compiler/patterns.html#applyRule,PContext,PSym,PNode	patterns: applyRule(c: PContext; s: PSym; n: PNode): PNode	

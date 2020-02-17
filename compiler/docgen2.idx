@@ -1,0 +1,3 @@
+docgen2Pass	compiler/docgen2.html#docgen2Pass	docgen2: docgen2Pass	
+docgen2JsonPass	compiler/docgen2.html#docgen2JsonPass	docgen2: docgen2JsonPass	
+finishDoc2Pass	compiler/docgen2.html#finishDoc2Pass,string	docgen2: finishDoc2Pass(project: string)	

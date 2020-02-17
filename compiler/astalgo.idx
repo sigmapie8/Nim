@@ -1,0 +1,58 @@
+typekinds	compiler/astalgo.html#typekinds,PType	astalgo: typekinds(t: PType)	
+debug	compiler/astalgo.html#debug.t	astalgo: debug(x: PSym | PType | PNode)	
+debug	compiler/astalgo.html#debug.t,auto	astalgo: debug(x: auto)	
+mdbg	compiler/astalgo.html#mdbg.t	astalgo: mdbg(): bool	
+InvalidKey	compiler/astalgo.html#InvalidKey	astalgo: InvalidKey	
+TIIPair	compiler/astalgo.html#TIIPair	astalgo: TIIPair	
+TIIPairSeq	compiler/astalgo.html#TIIPairSeq	astalgo: TIIPairSeq	
+TIITable	compiler/astalgo.html#TIITable	astalgo: TIITable	
+skipConvAndClosure	compiler/astalgo.html#skipConvAndClosure,PNode	astalgo: skipConvAndClosure(n: PNode): PNode	
+sameValue	compiler/astalgo.html#sameValue,PNode,PNode	astalgo: sameValue(a, b: PNode): bool	
+leValue	compiler/astalgo.html#leValue,PNode,PNode	astalgo: leValue(a, b: PNode): bool	
+weakLeValue	compiler/astalgo.html#weakLeValue,PNode,PNode	astalgo: weakLeValue(a, b: PNode): TImplication	
+lookupInRecord	compiler/astalgo.html#lookupInRecord,PNode,PIdent	astalgo: lookupInRecord(n: PNode; field: PIdent): PSym	
+getModule	compiler/astalgo.html#getModule,PSym	astalgo: getModule(s: PSym): PSym	
+getSymFromList	compiler/astalgo.html#getSymFromList,PNode,PIdent,int	astalgo: getSymFromList(list: PNode; ident: PIdent; start: int = 0): PSym	
+getNamedParamFromList	compiler/astalgo.html#getNamedParamFromList,PNode,PIdent	astalgo: getNamedParamFromList(list: PNode; ident: PIdent): PSym	
+hashNode	compiler/astalgo.html#hashNode,RootRef	astalgo: hashNode(p: RootRef): Hash	
+mustRehash	compiler/astalgo.html#mustRehash,int,int	astalgo: mustRehash(length, counter: int): bool	
+makeYamlString	compiler/astalgo.html#makeYamlString,string	astalgo: makeYamlString(s: string): Rope	
+lineInfoToStr	compiler/astalgo.html#lineInfoToStr,ConfigRef,TLineInfo	astalgo: lineInfoToStr(conf: ConfigRef; info: TLineInfo): Rope	
+treeToYaml	compiler/astalgo.html#treeToYaml,ConfigRef,PNode,int,int	astalgo: treeToYaml(conf: ConfigRef; n: PNode; indent: int = 0; maxRecDepth: int = -1): Rope	
+typeToYaml	compiler/astalgo.html#typeToYaml,ConfigRef,PType,int,int	astalgo: typeToYaml(conf: ConfigRef; n: PType; indent: int = 0; maxRecDepth: int = -1): Rope	
+symToYaml	compiler/astalgo.html#symToYaml,ConfigRef,PSym,int,int	astalgo: symToYaml(conf: ConfigRef; n: PSym; indent: int = 0; maxRecDepth: int = -1): Rope	
+debug	compiler/astalgo.html#debug,PSym,ConfigRef	astalgo: debug(n: PSym; conf: ConfigRef = nil)	
+debug	compiler/astalgo.html#debug,PType,ConfigRef	astalgo: debug(n: PType; conf: ConfigRef = nil)	
+debug	compiler/astalgo.html#debug,PNode,ConfigRef	astalgo: debug(n: PNode; conf: ConfigRef = nil)	
+nextTry	compiler/astalgo.html#nextTry,Hash,Hash	astalgo: nextTry(h, maxHash: Hash): Hash	
+objectSetContains	compiler/astalgo.html#objectSetContains,TObjectSet,RootRef	astalgo: objectSetContains(t: TObjectSet; obj: RootRef): bool	
+objectSetIncl	compiler/astalgo.html#objectSetIncl,TObjectSet,RootRef	astalgo: objectSetIncl(t: var TObjectSet; obj: RootRef)	
+objectSetContainsOrIncl	compiler/astalgo.html#objectSetContainsOrIncl,TObjectSet,RootRef	astalgo: objectSetContainsOrIncl(t: var TObjectSet; obj: RootRef): bool	
+strTableContains	compiler/astalgo.html#strTableContains,TStrTable,PSym	astalgo: strTableContains(t: TStrTable; n: PSym): bool	
+symTabReplace	compiler/astalgo.html#symTabReplace,TStrTable,PSym,PSym	astalgo: symTabReplace(t: var TStrTable; prevSym: PSym; newSym: PSym)	
+strTableAdd	compiler/astalgo.html#strTableAdd,TStrTable,PSym	astalgo: strTableAdd(t: var TStrTable; n: PSym)	
+strTableInclReportConflict	compiler/astalgo.html#strTableInclReportConflict,TStrTable,PSym	astalgo: strTableInclReportConflict(t: var TStrTable; n: PSym; onConflictKeepOld = false): PSym	
+strTableIncl	compiler/astalgo.html#strTableIncl,TStrTable,PSym	astalgo: strTableIncl(t: var TStrTable; n: PSym; onConflictKeepOld = false): bool	
+strTableGet	compiler/astalgo.html#strTableGet,TStrTable,PIdent	astalgo: strTableGet(t: TStrTable; name: PIdent): PSym	
+TIdentIter	compiler/astalgo.html#TIdentIter	astalgo: TIdentIter	
+nextIdentIter	compiler/astalgo.html#nextIdentIter,TIdentIter,TStrTable	astalgo: nextIdentIter(ti: var TIdentIter; tab: TStrTable): PSym	
+initIdentIter	compiler/astalgo.html#initIdentIter,TIdentIter,TStrTable,PIdent	astalgo: initIdentIter(ti: var TIdentIter; tab: TStrTable; s: PIdent): PSym	
+nextIdentExcluding	compiler/astalgo.html#nextIdentExcluding,TIdentIter,TStrTable,IntSet	astalgo: nextIdentExcluding(ti: var TIdentIter; tab: TStrTable; excluding: IntSet): PSym	
+firstIdentExcluding	compiler/astalgo.html#firstIdentExcluding,TIdentIter,TStrTable,PIdent,IntSet	astalgo: firstIdentExcluding(ti: var TIdentIter; tab: TStrTable; s: PIdent; excluding: IntSet): PSym	
+TTabIter	compiler/astalgo.html#TTabIter	astalgo: TTabIter	
+nextIter	compiler/astalgo.html#nextIter,TTabIter,TStrTable	astalgo: nextIter(ti: var TTabIter; tab: TStrTable): PSym	
+initTabIter	compiler/astalgo.html#initTabIter,TTabIter,TStrTable	astalgo: initTabIter(ti: var TTabIter; tab: TStrTable): PSym	
+items	compiler/astalgo.html#items.i,TStrTable	astalgo: items(tab: TStrTable): PSym	
+idTableHasObjectAsKey	compiler/astalgo.html#idTableHasObjectAsKey,TIdTable,PIdObj	astalgo: idTableHasObjectAsKey(t: TIdTable; key: PIdObj): bool	
+idTableGet	compiler/astalgo.html#idTableGet,TIdTable,PIdObj	astalgo: idTableGet(t: TIdTable; key: PIdObj): RootRef	
+idTableGet	compiler/astalgo.html#idTableGet,TIdTable,int	astalgo: idTableGet(t: TIdTable; key: int): RootRef	
+pairs	compiler/astalgo.html#pairs.i,TIdTable	astalgo: pairs(t: TIdTable): tuple[key: int, value: RootRef]	
+idTablePut	compiler/astalgo.html#idTablePut,TIdTable,PIdObj,RootRef	astalgo: idTablePut(t: var TIdTable; key: PIdObj; val: RootRef)	
+idTablePairs	compiler/astalgo.html#idTablePairs.i,TIdTable	astalgo: idTablePairs(t: TIdTable): tuple[key: PIdObj, val: RootRef]	
+idNodeTableGet	compiler/astalgo.html#idNodeTableGet,TIdNodeTable,PIdObj	astalgo: idNodeTableGet(t: TIdNodeTable; key: PIdObj): PNode	
+idNodeTablePut	compiler/astalgo.html#idNodeTablePut,TIdNodeTable,PIdObj,PNode	astalgo: idNodeTablePut(t: var TIdNodeTable; key: PIdObj; val: PNode)	
+pairs	compiler/astalgo.html#pairs.i,TIdNodeTable	astalgo: pairs(t: TIdNodeTable): tuple[key: PIdObj, val: PNode]	
+initIiTable	compiler/astalgo.html#initIiTable,TIITable	astalgo: initIiTable(x: var TIITable)	
+iiTableGet	compiler/astalgo.html#iiTableGet,TIITable,int	astalgo: iiTableGet(t: TIITable; key: int): int	
+iiTablePut	compiler/astalgo.html#iiTablePut,TIITable,int,int	astalgo: iiTablePut(t: var TIITable; key, val: int)	
+isAddrNode	compiler/astalgo.html#isAddrNode,PNode	astalgo: isAddrNode(n: PNode): bool	

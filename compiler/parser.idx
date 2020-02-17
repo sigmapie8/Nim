@@ -1,0 +1,26 @@
+TParser	compiler/parser.html#TParser	parser: TParser	
+getTok	compiler/parser.html#getTok,TParser	parser: getTok(p: var TParser)	
+openParser	compiler/parser.html#openParser,TParser,FileIndex,PLLStream,IdentCache,ConfigRef	parser: openParser(p: var TParser; fileIdx: FileIndex; inputStream: PLLStream;\n           cache: IdentCache; config: ConfigRef)	
+openParser	compiler/parser.html#openParser,TParser,AbsoluteFile,PLLStream,IdentCache,ConfigRef	parser: openParser(p: var TParser; filename: AbsoluteFile; inputStream: PLLStream;\n           cache: IdentCache; config: ConfigRef)	
+closeParser	compiler/parser.html#closeParser,TParser	parser: closeParser(p: var TParser)	
+parMessage	compiler/parser.html#parMessage,TParser,TMsgKind,string	parser: parMessage(p: TParser; msg: TMsgKind; arg: string = &quot;&quot;)	
+skipComment	compiler/parser.html#skipComment,TParser,PNode	parser: skipComment(p: var TParser; node: PNode)	
+skipInd	compiler/parser.html#skipInd,TParser	parser: skipInd(p: var TParser)	
+optPar	compiler/parser.html#optPar,TParser	parser: optPar(p: var TParser)	
+optInd	compiler/parser.html#optInd,TParser,PNode	parser: optInd(p: var TParser; n: PNode)	
+expectIdentOrKeyw	compiler/parser.html#expectIdentOrKeyw,TParser	parser: expectIdentOrKeyw(p: TParser)	
+expectIdent	compiler/parser.html#expectIdent,TParser	parser: expectIdent(p: TParser)	
+eat	compiler/parser.html#eat,TParser,TTokType	parser: eat(p: var TParser; tokType: TTokType)	
+parLineInfo	compiler/parser.html#parLineInfo,TParser	parser: parLineInfo(p: TParser): TLineInfo	
+indAndComment	compiler/parser.html#indAndComment,TParser,PNode	parser: indAndComment(p: var TParser; n: PNode)	
+newNodeP	compiler/parser.html#newNodeP,TNodeKind,TParser	parser: newNodeP(kind: TNodeKind; p: TParser): PNode	
+newIntNodeP	compiler/parser.html#newIntNodeP,TNodeKind,BiggestInt,TParser	parser: newIntNodeP(kind: TNodeKind; intVal: BiggestInt; p: TParser): PNode	
+newFloatNodeP	compiler/parser.html#newFloatNodeP,TNodeKind,BiggestFloat,TParser	parser: newFloatNodeP(kind: TNodeKind; floatVal: BiggestFloat; p: TParser): PNode	
+newStrNodeP	compiler/parser.html#newStrNodeP,TNodeKind,string,TParser	parser: newStrNodeP(kind: TNodeKind; strVal: string; p: TParser): PNode	
+newIdentNodeP	compiler/parser.html#newIdentNodeP,PIdent,TParser	parser: newIdentNodeP(ident: PIdent; p: TParser): PNode	
+isOperator	compiler/parser.html#isOperator,TToken	parser: isOperator(tok: TToken): bool	
+parseSymbol	compiler/parser.html#parseSymbol,TParser	parser: parseSymbol(p: var TParser; mode = smNormal): PNode	
+setBaseFlags	compiler/parser.html#setBaseFlags,PNode,TNumericalBase	parser: setBaseFlags(n: PNode; base: TNumericalBase)	
+parseAll	compiler/parser.html#parseAll,TParser	parser: parseAll(p: var TParser): PNode	
+parseTopLevelStmt	compiler/parser.html#parseTopLevelStmt,TParser	parser: parseTopLevelStmt(p: var TParser): PNode	
+parseString	compiler/parser.html#parseString,string,IdentCache,ConfigRef,string,int,TErrorHandler	parser: parseString(s: string; cache: IdentCache; config: ConfigRef; filename: string = &quot;&quot;;\n            line: int = 0; errorHandler: TErrorHandler = nil): PNode	

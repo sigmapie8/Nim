@@ -1,0 +1,8 @@
+genSectionStart	compiler/ccgmerge.html#genSectionStart,TCFileSection,ConfigRef	ccgmerge: genSectionStart(fs: TCFileSection; conf: ConfigRef): Rope	
+genSectionEnd	compiler/ccgmerge.html#genSectionEnd,TCFileSection,ConfigRef	ccgmerge: genSectionEnd(fs: TCFileSection; conf: ConfigRef): Rope	
+genSectionStart	compiler/ccgmerge.html#genSectionStart,TCProcSection,ConfigRef	ccgmerge: genSectionStart(ps: TCProcSection; conf: ConfigRef): Rope	
+genSectionEnd	compiler/ccgmerge.html#genSectionEnd,TCProcSection,ConfigRef	ccgmerge: genSectionEnd(ps: TCProcSection; conf: ConfigRef): Rope	
+genMergeInfo	compiler/ccgmerge.html#genMergeInfo,BModule	ccgmerge: genMergeInfo(m: BModule): Rope	
+readMergeInfo	compiler/ccgmerge.html#readMergeInfo,AbsoluteFile,BModule	ccgmerge: readMergeInfo(cfilename: AbsoluteFile; m: BModule)	
+mergeRequired	compiler/ccgmerge.html#mergeRequired,BModule	ccgmerge: mergeRequired(m: BModule): bool	
+mergeFiles	compiler/ccgmerge.html#mergeFiles,AbsoluteFile,BModule	ccgmerge: mergeFiles(cfilename: AbsoluteFile; m: BModule)	

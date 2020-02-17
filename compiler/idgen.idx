@@ -1,0 +1,8 @@
+gFrontEndId	compiler/idgen.html#gFrontEndId	idgen: gFrontEndId	
+debugIds	compiler/idgen.html#debugIds	idgen: debugIds	
+registerID	compiler/idgen.html#registerID,PIdObj	idgen: registerID(id: PIdObj)	
+getID	compiler/idgen.html#getID	idgen: getID(): int	
+setId	compiler/idgen.html#setId,int	idgen: setId(id: int)	
+idSynchronizationPoint	compiler/idgen.html#idSynchronizationPoint,int	idgen: idSynchronizationPoint(idRange: int)	
+saveMaxIds	compiler/idgen.html#saveMaxIds,ConfigRef,AbsoluteFile	idgen: saveMaxIds(conf: ConfigRef; project: AbsoluteFile)	
+loadMaxIds	compiler/idgen.html#loadMaxIds,ConfigRef,AbsoluteFile	idgen: loadMaxIds(conf: ConfigRef; project: AbsoluteFile)	

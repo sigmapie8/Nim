@@ -1,0 +1,4 @@
+opSlurp	compiler/vmdeps.html#opSlurp,string,TLineInfo,PSym,ConfigRef	vmdeps: opSlurp(file: string; info: TLineInfo; module: PSym; conf: ConfigRef): string	
+opMapTypeToAst	compiler/vmdeps.html#opMapTypeToAst,IdentCache,PType,TLineInfo	vmdeps: opMapTypeToAst(cache: IdentCache; t: PType; info: TLineInfo): PNode	
+opMapTypeInstToAst	compiler/vmdeps.html#opMapTypeInstToAst,IdentCache,PType,TLineInfo	vmdeps: opMapTypeInstToAst(cache: IdentCache; t: PType; info: TLineInfo): PNode	
+opMapTypeImplToAst	compiler/vmdeps.html#opMapTypeImplToAst,IdentCache,PType,TLineInfo	vmdeps: opMapTypeImplToAst(cache: IdentCache; t: PType; info: TLineInfo): PNode	

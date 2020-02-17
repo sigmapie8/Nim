@@ -1,0 +1,2 @@
+liftTypeBoundOps	compiler/liftdestructors.html#liftTypeBoundOps.t,PContext,PType,TLineInfo	liftdestructors: liftTypeBoundOps(c: PContext; typ: PType; info: TLineInfo)	
+createTypeBoundOps	compiler/liftdestructors.html#createTypeBoundOps,ModuleGraph,PContext,PType,TLineInfo	liftdestructors: createTypeBoundOps(g: ModuleGraph; c: PContext; orig: PType; info: TLineInfo)	

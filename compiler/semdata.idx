@@ -1,0 +1,78 @@
+TOptionEntry	compiler/semdata.html#TOptionEntry	semdata: TOptionEntry	
+POptionEntry	compiler/semdata.html#POptionEntry	semdata: POptionEntry	
+PProcCon	compiler/semdata.html#PProcCon	semdata: PProcCon	
+TProcCon	compiler/semdata.html#TProcCon	semdata: TProcCon	
+TMatchedConcept	compiler/semdata.html#TMatchedConcept	semdata: TMatchedConcept	
+TInstantiationPair	compiler/semdata.html#TInstantiationPair	semdata: TInstantiationPair	
+efLValue	compiler/semdata.html#efLValue	TExprFlag.efLValue	
+efWantIterator	compiler/semdata.html#efWantIterator	TExprFlag.efWantIterator	
+efInTypeof	compiler/semdata.html#efInTypeof	TExprFlag.efInTypeof	
+efNeedStatic	compiler/semdata.html#efNeedStatic	TExprFlag.efNeedStatic	
+efPreferStatic	compiler/semdata.html#efPreferStatic	TExprFlag.efPreferStatic	
+efPreferNilResult	compiler/semdata.html#efPreferNilResult	TExprFlag.efPreferNilResult	
+efWantStmt	compiler/semdata.html#efWantStmt	TExprFlag.efWantStmt	
+efAllowStmt	compiler/semdata.html#efAllowStmt	TExprFlag.efAllowStmt	
+efDetermineType	compiler/semdata.html#efDetermineType	TExprFlag.efDetermineType	
+efExplain	compiler/semdata.html#efExplain	TExprFlag.efExplain	
+efAllowDestructor	compiler/semdata.html#efAllowDestructor	TExprFlag.efAllowDestructor	
+efWantValue	compiler/semdata.html#efWantValue	TExprFlag.efWantValue	
+efOperand	compiler/semdata.html#efOperand	TExprFlag.efOperand	
+efNoSemCheck	compiler/semdata.html#efNoSemCheck	TExprFlag.efNoSemCheck	
+efNoEvaluateGeneric	compiler/semdata.html#efNoEvaluateGeneric	TExprFlag.efNoEvaluateGeneric	
+efInCall	compiler/semdata.html#efInCall	TExprFlag.efInCall	
+efFromHlo	compiler/semdata.html#efFromHlo	TExprFlag.efFromHlo	
+efNoUndeclared	compiler/semdata.html#efNoUndeclared	TExprFlag.efNoUndeclared	
+TExprFlag	compiler/semdata.html#TExprFlag	semdata: TExprFlag	
+TExprFlags	compiler/semdata.html#TExprFlags	semdata: TExprFlags	
+PContext	compiler/semdata.html#PContext	semdata: PContext	
+TContext	compiler/semdata.html#TContext	semdata: TContext	
+config	compiler/semdata.html#config.t,PContext	semdata: config(c: PContext): ConfigRef	
+makeInstPair	compiler/semdata.html#makeInstPair,PSym,PInstantiation	semdata: makeInstPair(s: PSym; inst: PInstantiation): TInstantiationPair	
+filename	compiler/semdata.html#filename,PContext	semdata: filename(c: PContext): string	
+scopeDepth	compiler/semdata.html#scopeDepth,PContext	semdata: scopeDepth(c: PContext): int	
+getCurrOwner	compiler/semdata.html#getCurrOwner,PContext	semdata: getCurrOwner(c: PContext): PSym	
+pushOwner	compiler/semdata.html#pushOwner,PContext,PSym	semdata: pushOwner(c: PContext; owner: PSym)	
+popOwner	compiler/semdata.html#popOwner,PContext	semdata: popOwner(c: PContext)	
+lastOptionEntry	compiler/semdata.html#lastOptionEntry,PContext	semdata: lastOptionEntry(c: PContext): POptionEntry	
+popProcCon	compiler/semdata.html#popProcCon,PContext	semdata: popProcCon(c: PContext)	
+put	compiler/semdata.html#put,PProcCon,PSym,PSym	semdata: put(p: PProcCon; key, val: PSym)	
+get	compiler/semdata.html#get,PProcCon,PSym	semdata: get(p: PProcCon; key: PSym): PSym	
+getGenSym	compiler/semdata.html#getGenSym,PContext,PSym	semdata: getGenSym(c: PContext; s: PSym): PSym	
+considerGenSyms	compiler/semdata.html#considerGenSyms,PContext,PNode	semdata: considerGenSyms(c: PContext; n: PNode)	
+newOptionEntry	compiler/semdata.html#newOptionEntry,ConfigRef	semdata: newOptionEntry(conf: ConfigRef): POptionEntry	
+pushOptionEntry	compiler/semdata.html#pushOptionEntry,PContext	semdata: pushOptionEntry(c: PContext): POptionEntry	
+popOptionEntry	compiler/semdata.html#popOptionEntry,PContext	semdata: popOptionEntry(c: PContext)	
+newContext	compiler/semdata.html#newContext,ModuleGraph,PSym	semdata: newContext(graph: ModuleGraph; module: PSym): PContext	
+addConverter	compiler/semdata.html#addConverter,PContext,PSym	semdata: addConverter(c: PContext; conv: PSym)	
+addPattern	compiler/semdata.html#addPattern,PContext,PSym	semdata: addPattern(c: PContext; p: PSym)	
+newLib	compiler/semdata.html#newLib,TLibKind	semdata: newLib(kind: TLibKind): PLib	
+addToLib	compiler/semdata.html#addToLib,PLib,PSym	semdata: addToLib(lib: PLib; sym: PSym)	
+newTypeS	compiler/semdata.html#newTypeS,TTypeKind,PContext	semdata: newTypeS(kind: TTypeKind; c: PContext): PType	
+makePtrType	compiler/semdata.html#makePtrType,PContext,PType	semdata: makePtrType(c: PContext; baseType: PType): PType	
+makeTypeWithModifier	compiler/semdata.html#makeTypeWithModifier,PContext,TTypeKind,PType	semdata: makeTypeWithModifier(c: PContext; modifier: TTypeKind; baseType: PType): PType	
+makeVarType	compiler/semdata.html#makeVarType,PContext,PType	semdata: makeVarType(c: PContext; baseType: PType; kind = tyVar): PType	
+makeVarType	compiler/semdata.html#makeVarType,PSym,PType	semdata: makeVarType(owner: PSym; baseType: PType; kind = tyVar): PType	
+makeTypeDesc	compiler/semdata.html#makeTypeDesc,PContext,PType	semdata: makeTypeDesc(c: PContext; typ: PType): PType	
+makeTypeSymNode	compiler/semdata.html#makeTypeSymNode,PContext,PType,TLineInfo	semdata: makeTypeSymNode(c: PContext; typ: PType; info: TLineInfo): PNode	
+makeTypeFromExpr	compiler/semdata.html#makeTypeFromExpr,PContext,PNode	semdata: makeTypeFromExpr(c: PContext; n: PNode): PType	
+newTypeWithSons	compiler/semdata.html#newTypeWithSons,PSym,TTypeKind,seq[T][PType]	semdata: newTypeWithSons(owner: PSym; kind: TTypeKind; sons: seq[PType]): PType	
+newTypeWithSons	compiler/semdata.html#newTypeWithSons,PContext,TTypeKind,seq[T][PType]	semdata: newTypeWithSons(c: PContext; kind: TTypeKind; sons: seq[PType]): PType	
+makeStaticExpr	compiler/semdata.html#makeStaticExpr,PContext,PNode	semdata: makeStaticExpr(c: PContext; n: PNode): PNode	
+makeAndType	compiler/semdata.html#makeAndType,PContext,PType,PType	semdata: makeAndType(c: PContext; t1, t2: PType): PType	
+makeOrType	compiler/semdata.html#makeOrType,PContext,PType,PType	semdata: makeOrType(c: PContext; t1, t2: PType): PType	
+makeNotType	compiler/semdata.html#makeNotType,PContext,PType	semdata: makeNotType(c: PContext; t1: PType): PType	
+makeRangeWithStaticExpr	compiler/semdata.html#makeRangeWithStaticExpr,PContext,PNode	semdata: makeRangeWithStaticExpr(c: PContext; n: PNode): PType	
+rangeHasUnresolvedStatic	compiler/semdata.html#rangeHasUnresolvedStatic.t,PType	semdata: rangeHasUnresolvedStatic(t: PType): bool	
+errorType	compiler/semdata.html#errorType,PContext	semdata: errorType(c: PContext): PType	
+errorNode	compiler/semdata.html#errorNode,PContext,PNode	semdata: errorNode(c: PContext; n: PNode): PNode	
+fillTypeS	compiler/semdata.html#fillTypeS,PType,TTypeKind,PContext	semdata: fillTypeS(dest: PType; kind: TTypeKind; c: PContext)	
+makeRangeType	compiler/semdata.html#makeRangeType,PContext,BiggestInt,BiggestInt,TLineInfo,PType	semdata: makeRangeType(c: PContext; first, last: BiggestInt; info: TLineInfo;\n              intType: PType = nil): PType	
+markIndirect	compiler/semdata.html#markIndirect,PContext,PSym	semdata: markIndirect(c: PContext; s: PSym)	
+illFormedAst	compiler/semdata.html#illFormedAst,PNode,ConfigRef	semdata: illFormedAst(n: PNode; conf: ConfigRef)	
+illFormedAstLocal	compiler/semdata.html#illFormedAstLocal,PNode,ConfigRef	semdata: illFormedAstLocal(n: PNode; conf: ConfigRef)	
+checkSonsLen	compiler/semdata.html#checkSonsLen,PNode,int,ConfigRef	semdata: checkSonsLen(n: PNode; length: int; conf: ConfigRef)	
+checkMinSonsLen	compiler/semdata.html#checkMinSonsLen,PNode,int,ConfigRef	semdata: checkMinSonsLen(n: PNode; length: int; conf: ConfigRef)	
+isTopLevel	compiler/semdata.html#isTopLevel,PContext	semdata: isTopLevel(c: PContext): bool	
+pushCaseContext	compiler/semdata.html#pushCaseContext,PContext,PNode	semdata: pushCaseContext(c: PContext; caseNode: PNode)	
+popCaseContext	compiler/semdata.html#popCaseContext,PContext	semdata: popCaseContext(c: PContext)	
+setCaseContextIdx	compiler/semdata.html#setCaseContextIdx,PContext,int	semdata: setCaseContextIdx(c: PContext; idx: int)	

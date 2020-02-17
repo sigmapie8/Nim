@@ -1,0 +1,152 @@
+MaxLineLength	compiler/lexer.html#MaxLineLength	lexer: MaxLineLength	
+numChars	compiler/lexer.html#numChars	lexer: numChars	
+SymChars	compiler/lexer.html#SymChars	lexer: SymChars	
+SymStartChars	compiler/lexer.html#SymStartChars	lexer: SymStartChars	
+OpChars	compiler/lexer.html#OpChars	lexer: OpChars	
+tkInvalid	compiler/lexer.html#tkInvalid	TTokType.tkInvalid	
+tkEof	compiler/lexer.html#tkEof	TTokType.tkEof	
+tkSymbol	compiler/lexer.html#tkSymbol	TTokType.tkSymbol	
+tkAddr	compiler/lexer.html#tkAddr	TTokType.tkAddr	
+tkAnd	compiler/lexer.html#tkAnd	TTokType.tkAnd	
+tkAs	compiler/lexer.html#tkAs	TTokType.tkAs	
+tkAsm	compiler/lexer.html#tkAsm	TTokType.tkAsm	
+tkBind	compiler/lexer.html#tkBind	TTokType.tkBind	
+tkBlock	compiler/lexer.html#tkBlock	TTokType.tkBlock	
+tkBreak	compiler/lexer.html#tkBreak	TTokType.tkBreak	
+tkCase	compiler/lexer.html#tkCase	TTokType.tkCase	
+tkCast	compiler/lexer.html#tkCast	TTokType.tkCast	
+tkConcept	compiler/lexer.html#tkConcept	TTokType.tkConcept	
+tkConst	compiler/lexer.html#tkConst	TTokType.tkConst	
+tkContinue	compiler/lexer.html#tkContinue	TTokType.tkContinue	
+tkConverter	compiler/lexer.html#tkConverter	TTokType.tkConverter	
+tkDefer	compiler/lexer.html#tkDefer	TTokType.tkDefer	
+tkDiscard	compiler/lexer.html#tkDiscard	TTokType.tkDiscard	
+tkDistinct	compiler/lexer.html#tkDistinct	TTokType.tkDistinct	
+tkDiv	compiler/lexer.html#tkDiv	TTokType.tkDiv	
+tkDo	compiler/lexer.html#tkDo	TTokType.tkDo	
+tkElif	compiler/lexer.html#tkElif	TTokType.tkElif	
+tkElse	compiler/lexer.html#tkElse	TTokType.tkElse	
+tkEnd	compiler/lexer.html#tkEnd	TTokType.tkEnd	
+tkEnum	compiler/lexer.html#tkEnum	TTokType.tkEnum	
+tkExcept	compiler/lexer.html#tkExcept	TTokType.tkExcept	
+tkExport	compiler/lexer.html#tkExport	TTokType.tkExport	
+tkFinally	compiler/lexer.html#tkFinally	TTokType.tkFinally	
+tkFor	compiler/lexer.html#tkFor	TTokType.tkFor	
+tkFrom	compiler/lexer.html#tkFrom	TTokType.tkFrom	
+tkFunc	compiler/lexer.html#tkFunc	TTokType.tkFunc	
+tkIf	compiler/lexer.html#tkIf	TTokType.tkIf	
+tkImport	compiler/lexer.html#tkImport	TTokType.tkImport	
+tkIn	compiler/lexer.html#tkIn	TTokType.tkIn	
+tkInclude	compiler/lexer.html#tkInclude	TTokType.tkInclude	
+tkInterface	compiler/lexer.html#tkInterface	TTokType.tkInterface	
+tkIs	compiler/lexer.html#tkIs	TTokType.tkIs	
+tkIsnot	compiler/lexer.html#tkIsnot	TTokType.tkIsnot	
+tkIterator	compiler/lexer.html#tkIterator	TTokType.tkIterator	
+tkLet	compiler/lexer.html#tkLet	TTokType.tkLet	
+tkMacro	compiler/lexer.html#tkMacro	TTokType.tkMacro	
+tkMethod	compiler/lexer.html#tkMethod	TTokType.tkMethod	
+tkMixin	compiler/lexer.html#tkMixin	TTokType.tkMixin	
+tkMod	compiler/lexer.html#tkMod	TTokType.tkMod	
+tkNil	compiler/lexer.html#tkNil	TTokType.tkNil	
+tkNot	compiler/lexer.html#tkNot	TTokType.tkNot	
+tkNotin	compiler/lexer.html#tkNotin	TTokType.tkNotin	
+tkObject	compiler/lexer.html#tkObject	TTokType.tkObject	
+tkOf	compiler/lexer.html#tkOf	TTokType.tkOf	
+tkOr	compiler/lexer.html#tkOr	TTokType.tkOr	
+tkOut	compiler/lexer.html#tkOut	TTokType.tkOut	
+tkProc	compiler/lexer.html#tkProc	TTokType.tkProc	
+tkPtr	compiler/lexer.html#tkPtr	TTokType.tkPtr	
+tkRaise	compiler/lexer.html#tkRaise	TTokType.tkRaise	
+tkRef	compiler/lexer.html#tkRef	TTokType.tkRef	
+tkReturn	compiler/lexer.html#tkReturn	TTokType.tkReturn	
+tkShl	compiler/lexer.html#tkShl	TTokType.tkShl	
+tkShr	compiler/lexer.html#tkShr	TTokType.tkShr	
+tkStatic	compiler/lexer.html#tkStatic	TTokType.tkStatic	
+tkTemplate	compiler/lexer.html#tkTemplate	TTokType.tkTemplate	
+tkTry	compiler/lexer.html#tkTry	TTokType.tkTry	
+tkTuple	compiler/lexer.html#tkTuple	TTokType.tkTuple	
+tkType	compiler/lexer.html#tkType	TTokType.tkType	
+tkUsing	compiler/lexer.html#tkUsing	TTokType.tkUsing	
+tkVar	compiler/lexer.html#tkVar	TTokType.tkVar	
+tkWhen	compiler/lexer.html#tkWhen	TTokType.tkWhen	
+tkWhile	compiler/lexer.html#tkWhile	TTokType.tkWhile	
+tkXor	compiler/lexer.html#tkXor	TTokType.tkXor	
+tkYield	compiler/lexer.html#tkYield	TTokType.tkYield	
+tkIntLit	compiler/lexer.html#tkIntLit	TTokType.tkIntLit	
+tkInt8Lit	compiler/lexer.html#tkInt8Lit	TTokType.tkInt8Lit	
+tkInt16Lit	compiler/lexer.html#tkInt16Lit	TTokType.tkInt16Lit	
+tkInt32Lit	compiler/lexer.html#tkInt32Lit	TTokType.tkInt32Lit	
+tkInt64Lit	compiler/lexer.html#tkInt64Lit	TTokType.tkInt64Lit	
+tkUIntLit	compiler/lexer.html#tkUIntLit	TTokType.tkUIntLit	
+tkUInt8Lit	compiler/lexer.html#tkUInt8Lit	TTokType.tkUInt8Lit	
+tkUInt16Lit	compiler/lexer.html#tkUInt16Lit	TTokType.tkUInt16Lit	
+tkUInt32Lit	compiler/lexer.html#tkUInt32Lit	TTokType.tkUInt32Lit	
+tkUInt64Lit	compiler/lexer.html#tkUInt64Lit	TTokType.tkUInt64Lit	
+tkFloatLit	compiler/lexer.html#tkFloatLit	TTokType.tkFloatLit	
+tkFloat32Lit	compiler/lexer.html#tkFloat32Lit	TTokType.tkFloat32Lit	
+tkFloat64Lit	compiler/lexer.html#tkFloat64Lit	TTokType.tkFloat64Lit	
+tkFloat128Lit	compiler/lexer.html#tkFloat128Lit	TTokType.tkFloat128Lit	
+tkStrLit	compiler/lexer.html#tkStrLit	TTokType.tkStrLit	
+tkRStrLit	compiler/lexer.html#tkRStrLit	TTokType.tkRStrLit	
+tkTripleStrLit	compiler/lexer.html#tkTripleStrLit	TTokType.tkTripleStrLit	
+tkGStrLit	compiler/lexer.html#tkGStrLit	TTokType.tkGStrLit	
+tkGTripleStrLit	compiler/lexer.html#tkGTripleStrLit	TTokType.tkGTripleStrLit	
+tkCharLit	compiler/lexer.html#tkCharLit	TTokType.tkCharLit	
+tkParLe	compiler/lexer.html#tkParLe	TTokType.tkParLe	
+tkParRi	compiler/lexer.html#tkParRi	TTokType.tkParRi	
+tkBracketLe	compiler/lexer.html#tkBracketLe	TTokType.tkBracketLe	
+tkBracketRi	compiler/lexer.html#tkBracketRi	TTokType.tkBracketRi	
+tkCurlyLe	compiler/lexer.html#tkCurlyLe	TTokType.tkCurlyLe	
+tkCurlyRi	compiler/lexer.html#tkCurlyRi	TTokType.tkCurlyRi	
+tkBracketDotLe	compiler/lexer.html#tkBracketDotLe	TTokType.tkBracketDotLe	
+tkBracketDotRi	compiler/lexer.html#tkBracketDotRi	TTokType.tkBracketDotRi	
+tkCurlyDotLe	compiler/lexer.html#tkCurlyDotLe	TTokType.tkCurlyDotLe	
+tkCurlyDotRi	compiler/lexer.html#tkCurlyDotRi	TTokType.tkCurlyDotRi	
+tkParDotLe	compiler/lexer.html#tkParDotLe	TTokType.tkParDotLe	
+tkParDotRi	compiler/lexer.html#tkParDotRi	TTokType.tkParDotRi	
+tkComma	compiler/lexer.html#tkComma	TTokType.tkComma	
+tkSemiColon	compiler/lexer.html#tkSemiColon	TTokType.tkSemiColon	
+tkColon	compiler/lexer.html#tkColon	TTokType.tkColon	
+tkColonColon	compiler/lexer.html#tkColonColon	TTokType.tkColonColon	
+tkEquals	compiler/lexer.html#tkEquals	TTokType.tkEquals	
+tkDot	compiler/lexer.html#tkDot	TTokType.tkDot	
+tkDotDot	compiler/lexer.html#tkDotDot	TTokType.tkDotDot	
+tkBracketLeColon	compiler/lexer.html#tkBracketLeColon	TTokType.tkBracketLeColon	
+tkOpr	compiler/lexer.html#tkOpr	TTokType.tkOpr	
+tkComment	compiler/lexer.html#tkComment	TTokType.tkComment	
+tkAccent	compiler/lexer.html#tkAccent	TTokType.tkAccent	
+tkSpaces	compiler/lexer.html#tkSpaces	TTokType.tkSpaces	
+tkInfixOpr	compiler/lexer.html#tkInfixOpr	TTokType.tkInfixOpr	
+tkPrefixOpr	compiler/lexer.html#tkPrefixOpr	TTokType.tkPrefixOpr	
+tkPostfixOpr	compiler/lexer.html#tkPostfixOpr	TTokType.tkPostfixOpr	
+TTokType	compiler/lexer.html#TTokType	lexer: TTokType	
+TTokTypes	compiler/lexer.html#TTokTypes	lexer: TTokTypes	
+tokKeywordLow	compiler/lexer.html#tokKeywordLow	lexer: tokKeywordLow	
+tokKeywordHigh	compiler/lexer.html#tokKeywordHigh	lexer: tokKeywordHigh	
+TokTypeToStr	compiler/lexer.html#TokTypeToStr	lexer: TokTypeToStr	
+base10	compiler/lexer.html#base10	TNumericalBase.base10	
+base2	compiler/lexer.html#base2	TNumericalBase.base2	
+base8	compiler/lexer.html#base8	TNumericalBase.base8	
+base16	compiler/lexer.html#base16	TNumericalBase.base16	
+TNumericalBase	compiler/lexer.html#TNumericalBase	lexer: TNumericalBase	
+CursorPosition	compiler/lexer.html#CursorPosition	lexer: CursorPosition	
+TToken	compiler/lexer.html#TToken	lexer: TToken	
+TErrorHandler	compiler/lexer.html#TErrorHandler	lexer: TErrorHandler	
+TLexer	compiler/lexer.html#TLexer	lexer: TLexer	
+getLineInfo	compiler/lexer.html#getLineInfo,TLexer,TToken	lexer: getLineInfo(L: TLexer; tok: TToken): TLineInfo	
+isKeyword	compiler/lexer.html#isKeyword,TTokType	lexer: isKeyword(kind: TTokType): bool	
+isNimIdentifier	compiler/lexer.html#isNimIdentifier,string	lexer: isNimIdentifier(s: string): bool	
+`$`	compiler/lexer.html#$,TToken	lexer: `$`(tok: TToken): string	
+prettyTok	compiler/lexer.html#prettyTok,TToken	lexer: prettyTok(tok: TToken): string	
+printTok	compiler/lexer.html#printTok,ConfigRef,TToken	lexer: printTok(conf: ConfigRef; tok: TToken)	
+initToken	compiler/lexer.html#initToken,TToken	lexer: initToken(L: var TToken)	
+openLexer	compiler/lexer.html#openLexer,TLexer,FileIndex,PLLStream,IdentCache,ConfigRef	lexer: openLexer(lex: var TLexer; fileIdx: FileIndex; inputstream: PLLStream;\n          cache: IdentCache; config: ConfigRef)	
+openLexer	compiler/lexer.html#openLexer,TLexer,AbsoluteFile,PLLStream,IdentCache,ConfigRef	lexer: openLexer(lex: var TLexer; filename: AbsoluteFile; inputstream: PLLStream;\n          cache: IdentCache; config: ConfigRef)	
+closeLexer	compiler/lexer.html#closeLexer,TLexer	lexer: closeLexer(lex: var TLexer)	
+lexMessage	compiler/lexer.html#lexMessage,TLexer,TMsgKind,string	lexer: lexMessage(L: TLexer; msg: TMsgKind; arg = &quot;&quot;)	
+lexMessageTok	compiler/lexer.html#lexMessageTok,TLexer,TMsgKind,TToken,string	lexer: lexMessageTok(L: TLexer; msg: TMsgKind; tok: TToken; arg = &quot;&quot;)	
+getPrecedence	compiler/lexer.html#getPrecedence,TToken,bool	lexer: getPrecedence(tok: TToken; strongSpaces: bool): int	
+newlineFollows	compiler/lexer.html#newlineFollows,TLexer	lexer: newlineFollows(L: TLexer): bool	
+rawGetTok	compiler/lexer.html#rawGetTok,TLexer,TToken	lexer: rawGetTok(L: var TLexer; tok: var TToken)	
+getIndentWidth	compiler/lexer.html#getIndentWidth,FileIndex,PLLStream,IdentCache,ConfigRef	lexer: getIndentWidth(fileIdx: FileIndex; inputstream: PLLStream; cache: IdentCache;\n               config: ConfigRef): int	
+getPrecedence	compiler/lexer.html#getPrecedence,PIdent	lexer: getPrecedence(ident: PIdent): int	

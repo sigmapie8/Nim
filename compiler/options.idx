@@ -1,0 +1,244 @@
+hasTinyCBackend	compiler/options.html#hasTinyCBackend	options: hasTinyCBackend	
+useEffectSystem	compiler/options.html#useEffectSystem	options: useEffectSystem	
+useWriteTracking	compiler/options.html#useWriteTracking	options: useWriteTracking	
+hasFFI	compiler/options.html#hasFFI	options: hasFFI	
+copyrightYear	compiler/options.html#copyrightYear	options: copyrightYear	
+optNone	compiler/options.html#optNone	TOption.optNone	
+optObjCheck	compiler/options.html#optObjCheck	TOption.optObjCheck	
+optFieldCheck	compiler/options.html#optFieldCheck	TOption.optFieldCheck	
+optRangeCheck	compiler/options.html#optRangeCheck	TOption.optRangeCheck	
+optBoundsCheck	compiler/options.html#optBoundsCheck	TOption.optBoundsCheck	
+optOverflowCheck	compiler/options.html#optOverflowCheck	TOption.optOverflowCheck	
+optNilCheck	compiler/options.html#optNilCheck	TOption.optNilCheck	
+optRefCheck	compiler/options.html#optRefCheck	TOption.optRefCheck	
+optNaNCheck	compiler/options.html#optNaNCheck	TOption.optNaNCheck	
+optInfCheck	compiler/options.html#optInfCheck	TOption.optInfCheck	
+optStyleCheck	compiler/options.html#optStyleCheck	TOption.optStyleCheck	
+optAssert	compiler/options.html#optAssert	TOption.optAssert	
+optLineDir	compiler/options.html#optLineDir	TOption.optLineDir	
+optWarns	compiler/options.html#optWarns	TOption.optWarns	
+optHints	compiler/options.html#optHints	TOption.optHints	
+optOptimizeSpeed	compiler/options.html#optOptimizeSpeed	TOption.optOptimizeSpeed	
+optOptimizeSize	compiler/options.html#optOptimizeSize	TOption.optOptimizeSize	
+optStackTrace	compiler/options.html#optStackTrace	TOption.optStackTrace	
+optLineTrace	compiler/options.html#optLineTrace	TOption.optLineTrace	
+optByRef	compiler/options.html#optByRef	TOption.optByRef	
+optProfiler	compiler/options.html#optProfiler	TOption.optProfiler	
+optImplicitStatic	compiler/options.html#optImplicitStatic	TOption.optImplicitStatic	
+optTrMacros	compiler/options.html#optTrMacros	TOption.optTrMacros	
+optMemTracker	compiler/options.html#optMemTracker	TOption.optMemTracker	
+optLaxStrings	compiler/options.html#optLaxStrings	TOption.optLaxStrings	
+optNilSeqs	compiler/options.html#optNilSeqs	TOption.optNilSeqs	
+optOldAst	compiler/options.html#optOldAst	TOption.optOldAst	
+TOption	compiler/options.html#TOption	options: TOption	
+TOptions	compiler/options.html#TOptions	options: TOptions	
+gloptNone	compiler/options.html#gloptNone	TGlobalOption.gloptNone	
+optForceFullMake	compiler/options.html#optForceFullMake	TGlobalOption.optForceFullMake	
+optWasNimscript	compiler/options.html#optWasNimscript	TGlobalOption.optWasNimscript	
+optListCmd	compiler/options.html#optListCmd	TGlobalOption.optListCmd	
+optCompileOnly	compiler/options.html#optCompileOnly	TGlobalOption.optCompileOnly	
+optNoLinking	compiler/options.html#optNoLinking	TGlobalOption.optNoLinking	
+optCDebug	compiler/options.html#optCDebug	TGlobalOption.optCDebug	
+optGenDynLib	compiler/options.html#optGenDynLib	TGlobalOption.optGenDynLib	
+optGenStaticLib	compiler/options.html#optGenStaticLib	TGlobalOption.optGenStaticLib	
+optGenGuiApp	compiler/options.html#optGenGuiApp	TGlobalOption.optGenGuiApp	
+optGenScript	compiler/options.html#optGenScript	TGlobalOption.optGenScript	
+optGenMapping	compiler/options.html#optGenMapping	TGlobalOption.optGenMapping	
+optRun	compiler/options.html#optRun	TGlobalOption.optRun	
+optStyleHint	compiler/options.html#optStyleHint	TGlobalOption.optStyleHint	
+optStyleError	compiler/options.html#optStyleError	TGlobalOption.optStyleError	
+optSkipSystemConfigFile	compiler/options.html#optSkipSystemConfigFile	TGlobalOption.optSkipSystemConfigFile	
+optSkipProjConfigFile	compiler/options.html#optSkipProjConfigFile	TGlobalOption.optSkipProjConfigFile	
+optSkipUserConfigFile	compiler/options.html#optSkipUserConfigFile	TGlobalOption.optSkipUserConfigFile	
+optSkipParentConfigFiles	compiler/options.html#optSkipParentConfigFiles	TGlobalOption.optSkipParentConfigFiles	
+optNoMain	compiler/options.html#optNoMain	TGlobalOption.optNoMain	
+optUseColors	compiler/options.html#optUseColors	TGlobalOption.optUseColors	
+optThreads	compiler/options.html#optThreads	TGlobalOption.optThreads	
+optStdout	compiler/options.html#optStdout	TGlobalOption.optStdout	
+optThreadAnalysis	compiler/options.html#optThreadAnalysis	TGlobalOption.optThreadAnalysis	
+optTaintMode	compiler/options.html#optTaintMode	TGlobalOption.optTaintMode	
+optTlsEmulation	compiler/options.html#optTlsEmulation	TGlobalOption.optTlsEmulation	
+optGenIndex	compiler/options.html#optGenIndex	TGlobalOption.optGenIndex	
+optEmbedOrigSrc	compiler/options.html#optEmbedOrigSrc	TGlobalOption.optEmbedOrigSrc	
+optIdeDebug	compiler/options.html#optIdeDebug	TGlobalOption.optIdeDebug	
+optIdeTerse	compiler/options.html#optIdeTerse	TGlobalOption.optIdeTerse	
+optExcessiveStackTrace	compiler/options.html#optExcessiveStackTrace	TGlobalOption.optExcessiveStackTrace	
+optShowAllMismatches	compiler/options.html#optShowAllMismatches	TGlobalOption.optShowAllMismatches	
+optWholeProject	compiler/options.html#optWholeProject	TGlobalOption.optWholeProject	
+optDocInternal	compiler/options.html#optDocInternal	TGlobalOption.optDocInternal	
+optMixedMode	compiler/options.html#optMixedMode	TGlobalOption.optMixedMode	
+optListFullPaths	compiler/options.html#optListFullPaths	TGlobalOption.optListFullPaths	
+optNoNimblePath	compiler/options.html#optNoNimblePath	TGlobalOption.optNoNimblePath	
+optHotCodeReloading	compiler/options.html#optHotCodeReloading	TGlobalOption.optHotCodeReloading	
+optDynlibOverrideAll	compiler/options.html#optDynlibOverrideAll	TGlobalOption.optDynlibOverrideAll	
+optSeqDestructors	compiler/options.html#optSeqDestructors	TGlobalOption.optSeqDestructors	
+optTinyRtti	compiler/options.html#optTinyRtti	TGlobalOption.optTinyRtti	
+optOwnedRefs	compiler/options.html#optOwnedRefs	TGlobalOption.optOwnedRefs	
+optMultiMethods	compiler/options.html#optMultiMethods	TGlobalOption.optMultiMethods	
+optNimV019	compiler/options.html#optNimV019	TGlobalOption.optNimV019	
+optBenchmarkVM	compiler/options.html#optBenchmarkVM	TGlobalOption.optBenchmarkVM	
+optProduceAsm	compiler/options.html#optProduceAsm	TGlobalOption.optProduceAsm	
+TGlobalOption	compiler/options.html#TGlobalOption	options: TGlobalOption	
+TGlobalOptions	compiler/options.html#TGlobalOptions	options: TGlobalOptions	
+harmlessOptions	compiler/options.html#harmlessOptions	options: harmlessOptions	
+cmdNone	compiler/options.html#cmdNone	TCommands.cmdNone	
+cmdCompileToC	compiler/options.html#cmdCompileToC	TCommands.cmdCompileToC	
+cmdCompileToCpp	compiler/options.html#cmdCompileToCpp	TCommands.cmdCompileToCpp	
+cmdCompileToOC	compiler/options.html#cmdCompileToOC	TCommands.cmdCompileToOC	
+cmdCompileToJS	compiler/options.html#cmdCompileToJS	TCommands.cmdCompileToJS	
+cmdCompileToLLVM	compiler/options.html#cmdCompileToLLVM	TCommands.cmdCompileToLLVM	
+cmdInterpret	compiler/options.html#cmdInterpret	TCommands.cmdInterpret	
+cmdPretty	compiler/options.html#cmdPretty	TCommands.cmdPretty	
+cmdDoc	compiler/options.html#cmdDoc	TCommands.cmdDoc	
+cmdGenDepend	compiler/options.html#cmdGenDepend	TCommands.cmdGenDepend	
+cmdDump	compiler/options.html#cmdDump	TCommands.cmdDump	
+cmdCheck	compiler/options.html#cmdCheck	TCommands.cmdCheck	
+cmdParse	compiler/options.html#cmdParse	TCommands.cmdParse	
+cmdScan	compiler/options.html#cmdScan	TCommands.cmdScan	
+cmdIdeTools	compiler/options.html#cmdIdeTools	TCommands.cmdIdeTools	
+cmdDef	compiler/options.html#cmdDef	TCommands.cmdDef	
+cmdRst2html	compiler/options.html#cmdRst2html	TCommands.cmdRst2html	
+cmdRst2tex	compiler/options.html#cmdRst2tex	TCommands.cmdRst2tex	
+cmdInteractive	compiler/options.html#cmdInteractive	TCommands.cmdInteractive	
+cmdRun	compiler/options.html#cmdRun	TCommands.cmdRun	
+cmdJsonScript	compiler/options.html#cmdJsonScript	TCommands.cmdJsonScript	
+TCommands	compiler/options.html#TCommands	options: TCommands	
+TStringSeq	compiler/options.html#TStringSeq	options: TStringSeq	
+gcUnselected	compiler/options.html#gcUnselected	TGCMode.gcUnselected	
+gcNone	compiler/options.html#gcNone	TGCMode.gcNone	
+gcBoehm	compiler/options.html#gcBoehm	TGCMode.gcBoehm	
+gcRegions	compiler/options.html#gcRegions	TGCMode.gcRegions	
+gcMarkAndSweep	compiler/options.html#gcMarkAndSweep	TGCMode.gcMarkAndSweep	
+gcArc	compiler/options.html#gcArc	TGCMode.gcArc	
+gcOrc	compiler/options.html#gcOrc	TGCMode.gcOrc	
+gcHooks	compiler/options.html#gcHooks	TGCMode.gcHooks	
+gcRefc	compiler/options.html#gcRefc	TGCMode.gcRefc	
+gcV2	compiler/options.html#gcV2	TGCMode.gcV2	
+gcGo	compiler/options.html#gcGo	TGCMode.gcGo	
+TGCMode	compiler/options.html#TGCMode	options: TGCMode	
+ideNone	compiler/options.html#ideNone	IdeCmd.ideNone	
+ideSug	compiler/options.html#ideSug	IdeCmd.ideSug	
+ideCon	compiler/options.html#ideCon	IdeCmd.ideCon	
+ideDef	compiler/options.html#ideDef	IdeCmd.ideDef	
+ideUse	compiler/options.html#ideUse	IdeCmd.ideUse	
+ideDus	compiler/options.html#ideDus	IdeCmd.ideDus	
+ideChk	compiler/options.html#ideChk	IdeCmd.ideChk	
+ideMod	compiler/options.html#ideMod	IdeCmd.ideMod	
+ideHighlight	compiler/options.html#ideHighlight	IdeCmd.ideHighlight	
+ideOutline	compiler/options.html#ideOutline	IdeCmd.ideOutline	
+ideKnown	compiler/options.html#ideKnown	IdeCmd.ideKnown	
+ideMsg	compiler/options.html#ideMsg	IdeCmd.ideMsg	
+ideProject	compiler/options.html#ideProject	IdeCmd.ideProject	
+IdeCmd	compiler/options.html#IdeCmd	options: IdeCmd	
+implicitDeref	compiler/options.html#implicitDeref	Feature.implicitDeref	
+dotOperators	compiler/options.html#dotOperators	Feature.dotOperators	
+callOperator	compiler/options.html#callOperator	Feature.callOperator	
+parallel	compiler/options.html#parallel	Feature.parallel	
+destructor	compiler/options.html#destructor	Feature.destructor	
+notnil	compiler/options.html#notnil	Feature.notnil	
+dynamicBindSym	compiler/options.html#dynamicBindSym	Feature.dynamicBindSym	
+forLoopMacros	compiler/options.html#forLoopMacros	Feature.forLoopMacros	
+caseStmtMacros	compiler/options.html#caseStmtMacros	Feature.caseStmtMacros	
+codeReordering	compiler/options.html#codeReordering	Feature.codeReordering	
+compiletimeFFI	compiler/options.html#compiletimeFFI	Feature.compiletimeFFI	
+Feature	compiler/options.html#Feature	options: Feature	
+allowSemcheckedAstModification	compiler/options.html#allowSemcheckedAstModification	LegacyFeature.allowSemcheckedAstModification	
+checkUnsignedConversions	compiler/options.html#checkUnsignedConversions	LegacyFeature.checkUnsignedConversions	
+LegacyFeature	compiler/options.html#LegacyFeature	options: LegacyFeature	
+disabledSf	compiler/options.html#disabledSf	SymbolFilesOption.disabledSf	
+writeOnlySf	compiler/options.html#writeOnlySf	SymbolFilesOption.writeOnlySf	
+readOnlySf	compiler/options.html#readOnlySf	SymbolFilesOption.readOnlySf	
+v2Sf	compiler/options.html#v2Sf	SymbolFilesOption.v2Sf	
+SymbolFilesOption	compiler/options.html#SymbolFilesOption	options: SymbolFilesOption	
+ccNone	compiler/options.html#ccNone	TSystemCC.ccNone	
+ccGcc	compiler/options.html#ccGcc	TSystemCC.ccGcc	
+ccNintendoSwitch	compiler/options.html#ccNintendoSwitch	TSystemCC.ccNintendoSwitch	
+ccLLVM_Gcc	compiler/options.html#ccLLVM_Gcc	TSystemCC.ccLLVM_Gcc	
+ccCLang	compiler/options.html#ccCLang	TSystemCC.ccCLang	
+ccLcc	compiler/options.html#ccLcc	TSystemCC.ccLcc	
+ccBcc	compiler/options.html#ccBcc	TSystemCC.ccBcc	
+ccDmc	compiler/options.html#ccDmc	TSystemCC.ccDmc	
+ccWcc	compiler/options.html#ccWcc	TSystemCC.ccWcc	
+ccVcc	compiler/options.html#ccVcc	TSystemCC.ccVcc	
+ccTcc	compiler/options.html#ccTcc	TSystemCC.ccTcc	
+ccPcc	compiler/options.html#ccPcc	TSystemCC.ccPcc	
+ccUcc	compiler/options.html#ccUcc	TSystemCC.ccUcc	
+ccIcl	compiler/options.html#ccIcl	TSystemCC.ccIcl	
+ccIcc	compiler/options.html#ccIcc	TSystemCC.ccIcc	
+ccClangCl	compiler/options.html#ccClangCl	TSystemCC.ccClangCl	
+TSystemCC	compiler/options.html#TSystemCC	options: TSystemCC	
+excNone	compiler/options.html#excNone	ExceptionSystem.excNone	
+excSetjmp	compiler/options.html#excSetjmp	ExceptionSystem.excSetjmp	
+excCpp	compiler/options.html#excCpp	ExceptionSystem.excCpp	
+excGoto	compiler/options.html#excGoto	ExceptionSystem.excGoto	
+excQuirky	compiler/options.html#excQuirky	ExceptionSystem.excQuirky	
+ExceptionSystem	compiler/options.html#ExceptionSystem	options: ExceptionSystem	
+CfileFlag	compiler/options.html#CfileFlag	options: CfileFlag	
+Cfile	compiler/options.html#Cfile	options: Cfile	
+CfileList	compiler/options.html#CfileList	options: CfileList	
+Suggest	compiler/options.html#Suggest	options: Suggest	
+Suggestions	compiler/options.html#Suggestions	options: Suggestions	
+ConfigRef	compiler/options.html#ConfigRef	options: ConfigRef	
+hcrOn	compiler/options.html#hcrOn,ConfigRef	options: hcrOn(conf: ConfigRef): bool	
+depConfigFields	compiler/options.html#depConfigFields.t	options: depConfigFields(fn)	
+oldExperimentalFeatures	compiler/options.html#oldExperimentalFeatures	options: oldExperimentalFeatures	
+ChecksOptions	compiler/options.html#ChecksOptions	options: ChecksOptions	
+DefaultOptions	compiler/options.html#DefaultOptions	options: DefaultOptions	
+DefaultGlobalOptions	compiler/options.html#DefaultGlobalOptions	options: DefaultGlobalOptions	
+getDateStr	compiler/options.html#getDateStr	options: getDateStr(): string	
+getClockStr	compiler/options.html#getClockStr	options: getClockStr(): string	
+newPackageCache	compiler/options.html#newPackageCache.t	options: newPackageCache(): untyped	
+newConfigRef	compiler/options.html#newConfigRef	options: newConfigRef(): ConfigRef	
+newPartialConfigRef	compiler/options.html#newPartialConfigRef	options: newPartialConfigRef(): ConfigRef	
+cppDefine	compiler/options.html#cppDefine,ConfigRef,string	options: cppDefine(c: ConfigRef; define: string)	
+isDefined	compiler/options.html#isDefined,ConfigRef,string	options: isDefined(conf: ConfigRef; symbol: string): bool	
+importantComments	compiler/options.html#importantComments,ConfigRef	options: importantComments(conf: ConfigRef): bool	
+usesWriteBarrier	compiler/options.html#usesWriteBarrier,ConfigRef	options: usesWriteBarrier(conf: ConfigRef): bool	
+compilationCachePresent	compiler/options.html#compilationCachePresent.t,ConfigRef	options: compilationCachePresent(conf: ConfigRef): untyped	
+optPreserveOrigSource	compiler/options.html#optPreserveOrigSource.t,ConfigRef	options: optPreserveOrigSource(conf: ConfigRef): untyped	
+genSubDir	compiler/options.html#genSubDir	options: genSubDir	
+NimExt	compiler/options.html#NimExt	options: NimExt	
+RodExt	compiler/options.html#RodExt	options: RodExt	
+HtmlExt	compiler/options.html#HtmlExt	options: HtmlExt	
+JsonExt	compiler/options.html#JsonExt	options: JsonExt	
+TagsExt	compiler/options.html#TagsExt	options: TagsExt	
+TexExt	compiler/options.html#TexExt	options: TexExt	
+IniExt	compiler/options.html#IniExt	options: IniExt	
+DefaultConfig	compiler/options.html#DefaultConfig	options: DefaultConfig	
+DefaultConfigNims	compiler/options.html#DefaultConfigNims	options: DefaultConfigNims	
+DocConfig	compiler/options.html#DocConfig	options: DocConfig	
+DocTexConfig	compiler/options.html#DocTexConfig	options: DocTexConfig	
+oKeepVariableNames	compiler/options.html#oKeepVariableNames	options: oKeepVariableNames	
+mainCommandArg	compiler/options.html#mainCommandArg,ConfigRef	options: mainCommandArg(conf: ConfigRef): string	
+existsConfigVar	compiler/options.html#existsConfigVar,ConfigRef,string	options: existsConfigVar(conf: ConfigRef; key: string): bool	
+getConfigVar	compiler/options.html#getConfigVar,ConfigRef,string,string	options: getConfigVar(conf: ConfigRef; key: string; default = &quot;&quot;): string	
+setConfigVar	compiler/options.html#setConfigVar,ConfigRef,string,string	options: setConfigVar(conf: ConfigRef; key, val: string)	
+getOutFile	compiler/options.html#getOutFile,ConfigRef,RelativeFile,string	options: getOutFile(conf: ConfigRef; filename: RelativeFile; ext: string): AbsoluteFile	
+absOutFile	compiler/options.html#absOutFile,ConfigRef	options: absOutFile(conf: ConfigRef): AbsoluteFile	
+prepareToWriteOutput	compiler/options.html#prepareToWriteOutput,ConfigRef	options: prepareToWriteOutput(conf: ConfigRef): AbsoluteFile	
+getPrefixDir	compiler/options.html#getPrefixDir,ConfigRef	options: getPrefixDir(conf: ConfigRef): AbsoluteDir	
+setDefaultLibpath	compiler/options.html#setDefaultLibpath,ConfigRef	options: setDefaultLibpath(conf: ConfigRef)	
+canonicalizePath	compiler/options.html#canonicalizePath,ConfigRef,AbsoluteFile	options: canonicalizePath(conf: ConfigRef; path: AbsoluteFile): AbsoluteFile	
+shortenDir	compiler/options.html#shortenDir,ConfigRef,string	options: shortenDir(conf: ConfigRef; dir: string): string	
+removeTrailingDirSep	compiler/options.html#removeTrailingDirSep,string	options: removeTrailingDirSep(path: string): string	
+disableNimblePath	compiler/options.html#disableNimblePath,ConfigRef	options: disableNimblePath(conf: ConfigRef)	
+clearNimblePath	compiler/options.html#clearNimblePath,ConfigRef	options: clearNimblePath(conf: ConfigRef)	
+getNimbleFile	compiler/options.html#getNimbleFile,ConfigRef,string	options: getNimbleFile(conf: ConfigRef; path: string): string	
+getPackageName	compiler/options.html#getPackageName,ConfigRef,string	options: getPackageName(conf: ConfigRef; path: string): string	
+fakePackageName	compiler/options.html#fakePackageName,ConfigRef,AbsoluteFile	options: fakePackageName(conf: ConfigRef; path: AbsoluteFile): string	
+demanglePackageName	compiler/options.html#demanglePackageName,string	options: demanglePackageName(path: string): string	
+withPackageName	compiler/options.html#withPackageName,ConfigRef,AbsoluteFile	options: withPackageName(conf: ConfigRef; path: AbsoluteFile): AbsoluteFile	
+getNimcacheDir	compiler/options.html#getNimcacheDir,ConfigRef	options: getNimcacheDir(conf: ConfigRef): AbsoluteDir	
+pathSubs	compiler/options.html#pathSubs,ConfigRef,string,string	options: pathSubs(conf: ConfigRef; p, config: string): string	
+nimbleSubs	compiler/options.html#nimbleSubs.i,ConfigRef,string	options: nimbleSubs(conf: ConfigRef; p: string): string	
+toGeneratedFile	compiler/options.html#toGeneratedFile,ConfigRef,AbsoluteFile,string	options: toGeneratedFile(conf: ConfigRef; path: AbsoluteFile; ext: string): AbsoluteFile	
+completeGeneratedFilePath	compiler/options.html#completeGeneratedFilePath,ConfigRef,AbsoluteFile,bool	options: completeGeneratedFilePath(conf: ConfigRef; f: AbsoluteFile;\n                          createSubDir: bool = true): AbsoluteFile	
+getRelativePathFromConfigPath	compiler/options.html#getRelativePathFromConfigPath,ConfigRef,AbsoluteFile	options: getRelativePathFromConfigPath(conf: ConfigRef; f: AbsoluteFile): RelativeFile	
+findFile	compiler/options.html#findFile,ConfigRef,string	options: findFile(conf: ConfigRef; f: string; suppressStdlib = false): AbsoluteFile	
+findModule	compiler/options.html#findModule,ConfigRef,string,string	options: findModule(conf: ConfigRef; modulename, currentModule: string): AbsoluteFile	
+findProjectNimFile	compiler/options.html#findProjectNimFile,ConfigRef,string	options: findProjectNimFile(conf: ConfigRef; pkg: string): string	
+inclDynlibOverride	compiler/options.html#inclDynlibOverride,ConfigRef,string	options: inclDynlibOverride(conf: ConfigRef; lib: string)	
+isDynlibOverride	compiler/options.html#isDynlibOverride,ConfigRef,string	options: isDynlibOverride(conf: ConfigRef; lib: string): bool	
+parseIdeCmd	compiler/options.html#parseIdeCmd,string	options: parseIdeCmd(s: string): IdeCmd	
+`$`	compiler/options.html#$,IdeCmd	options: `$`(c: IdeCmd): string	
+floatInt64Align	compiler/options.html#floatInt64Align,ConfigRef	options: floatInt64Align(conf: ConfigRef): int16	

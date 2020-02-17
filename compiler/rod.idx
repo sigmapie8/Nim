@@ -1,0 +1,7 @@
+setupModuleCache	compiler/rod.html#setupModuleCache.t,ModuleGraph	rod: setupModuleCache(g: ModuleGraph)	
+storeNode	compiler/rod.html#storeNode.t,ModuleGraph,PSym,PNode	rod: storeNode(g: ModuleGraph; module: PSym; n: PNode)	
+loadNode	compiler/rod.html#loadNode.t,ModuleGraph,PSym	rod: loadNode(g: ModuleGraph; module: PSym): PNode	
+loadModuleSym	compiler/rod.html#loadModuleSym,ModuleGraph,FileIndex,AbsoluteFile	rod: loadModuleSym(g: ModuleGraph; fileIdx: FileIndex; fullpath: AbsoluteFile): (PSym, int)	
+addModuleDep	compiler/rod.html#addModuleDep.t,ModuleGraph,FileIndex,FileIndex,bool	rod: addModuleDep(g: ModuleGraph; module, fileIdx: FileIndex; isIncludeFile: bool)	
+storeRemaining	compiler/rod.html#storeRemaining.t,ModuleGraph,PSym	rod: storeRemaining(g: ModuleGraph; module: PSym)	
+registerModule	compiler/rod.html#registerModule.t,ModuleGraph,PSym	rod: registerModule(g: ModuleGraph; module: PSym)	

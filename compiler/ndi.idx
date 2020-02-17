@@ -1,0 +1,4 @@
+NdiFile	compiler/ndi.html#NdiFile	ndi: NdiFile	
+writeMangledName	compiler/ndi.html#writeMangledName.t,NdiFile,PSym,ConfigRef	ndi: writeMangledName(f: NdiFile; s: PSym; conf: ConfigRef)	
+open	compiler/ndi.html#open,NdiFile,AbsoluteFile,ConfigRef	ndi: open(f: var NdiFile; filename: AbsoluteFile; conf: ConfigRef)	
+close	compiler/ndi.html#close,NdiFile	ndi: close(f: var NdiFile)	

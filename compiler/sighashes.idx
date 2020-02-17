@@ -1,0 +1,14 @@
+CoProc	compiler/sighashes.html#CoProc	ConsiderFlag.CoProc	
+CoType	compiler/sighashes.html#CoType	ConsiderFlag.CoType	
+CoOwnerSig	compiler/sighashes.html#CoOwnerSig	ConsiderFlag.CoOwnerSig	
+CoIgnoreRange	compiler/sighashes.html#CoIgnoreRange	ConsiderFlag.CoIgnoreRange	
+CoConsiderOwned	compiler/sighashes.html#CoConsiderOwned	ConsiderFlag.CoConsiderOwned	
+CoDistinct	compiler/sighashes.html#CoDistinct	ConsiderFlag.CoDistinct	
+ConsiderFlag	compiler/sighashes.html#ConsiderFlag	sighashes: ConsiderFlag	
+hashType	compiler/sighashes.html#hashType,PType,set[ConsiderFlag]	sighashes: hashType(t: PType; flags: set[ConsiderFlag] = {CoType}): SigHash	
+hashProc	compiler/sighashes.html#hashProc,PSym	sighashes: hashProc(s: PSym): SigHash	
+hashNonProc	compiler/sighashes.html#hashNonProc,PSym	sighashes: hashNonProc(s: PSym): SigHash	
+hashOwner	compiler/sighashes.html#hashOwner,PSym	sighashes: hashOwner(s: PSym): SigHash	
+sigHash	compiler/sighashes.html#sigHash,PSym	sighashes: sigHash(s: PSym): SigHash	
+symBodyDigest	compiler/sighashes.html#symBodyDigest,ModuleGraph,PSym	sighashes: symBodyDigest(graph: ModuleGraph; sym: PSym): SigHash	
+idOrSig	compiler/sighashes.html#idOrSig,PSym,string,CountTable[SigHash]	sighashes: idOrSig(s: PSym; currentModule: string; sigCollisions: var CountTable[SigHash]): Rope	

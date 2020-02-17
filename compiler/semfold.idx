@@ -1,0 +1,10 @@
+errorType	compiler/semfold.html#errorType,ModuleGraph	semfold: errorType(g: ModuleGraph): PType	
+newIntNodeT	compiler/semfold.html#newIntNodeT,BiggestInt,PNode,ModuleGraph	semfold: newIntNodeT(intVal: BiggestInt; n: PNode; g: ModuleGraph): PNode	
+newIntNodeT	compiler/semfold.html#newIntNodeT,Int128,PNode,ModuleGraph	semfold: newIntNodeT(intVal: Int128; n: PNode; g: ModuleGraph): PNode	
+newFloatNodeT	compiler/semfold.html#newFloatNodeT,BiggestFloat,PNode,ModuleGraph	semfold: newFloatNodeT(floatVal: BiggestFloat; n: PNode; g: ModuleGraph): PNode	
+newStrNodeT	compiler/semfold.html#newStrNodeT,string,PNode,ModuleGraph	semfold: newStrNodeT(strVal: string; n: PNode; g: ModuleGraph): PNode	
+ordinalValToString	compiler/semfold.html#ordinalValToString,PNode,ModuleGraph	semfold: ordinalValToString(a: PNode; g: ModuleGraph): string	
+evalOp	compiler/semfold.html#evalOp,TMagic,PNode,PNode,PNode,PNode,ModuleGraph	semfold: evalOp(m: TMagic; n, a, b, c: PNode; g: ModuleGraph): PNode	
+leValueConv	compiler/semfold.html#leValueConv,PNode,PNode	semfold: leValueConv(a, b: PNode): bool	
+newSymNodeTypeDesc	compiler/semfold.html#newSymNodeTypeDesc,PSym,TLineInfo	semfold: newSymNodeTypeDesc(s: PSym; info: TLineInfo): PNode	
+getConstExpr	compiler/semfold.html#getConstExpr,PSym,PNode,ModuleGraph	semfold: getConstExpr(m: PSym; n: PNode; g: ModuleGraph): PNode	

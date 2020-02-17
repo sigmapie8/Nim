@@ -1,0 +1,79 @@
+osNone	compiler/platform.html#osNone	TSystemOS.osNone	
+osDos	compiler/platform.html#osDos	TSystemOS.osDos	
+osWindows	compiler/platform.html#osWindows	TSystemOS.osWindows	
+osOs2	compiler/platform.html#osOs2	TSystemOS.osOs2	
+osLinux	compiler/platform.html#osLinux	TSystemOS.osLinux	
+osMorphos	compiler/platform.html#osMorphos	TSystemOS.osMorphos	
+osSkyos	compiler/platform.html#osSkyos	TSystemOS.osSkyos	
+osSolaris	compiler/platform.html#osSolaris	TSystemOS.osSolaris	
+osIrix	compiler/platform.html#osIrix	TSystemOS.osIrix	
+osNetbsd	compiler/platform.html#osNetbsd	TSystemOS.osNetbsd	
+osFreebsd	compiler/platform.html#osFreebsd	TSystemOS.osFreebsd	
+osOpenbsd	compiler/platform.html#osOpenbsd	TSystemOS.osOpenbsd	
+osDragonfly	compiler/platform.html#osDragonfly	TSystemOS.osDragonfly	
+osAix	compiler/platform.html#osAix	TSystemOS.osAix	
+osPalmos	compiler/platform.html#osPalmos	TSystemOS.osPalmos	
+osQnx	compiler/platform.html#osQnx	TSystemOS.osQnx	
+osAmiga	compiler/platform.html#osAmiga	TSystemOS.osAmiga	
+osAtari	compiler/platform.html#osAtari	TSystemOS.osAtari	
+osNetware	compiler/platform.html#osNetware	TSystemOS.osNetware	
+osMacos	compiler/platform.html#osMacos	TSystemOS.osMacos	
+osMacosx	compiler/platform.html#osMacosx	TSystemOS.osMacosx	
+osIos	compiler/platform.html#osIos	TSystemOS.osIos	
+osHaiku	compiler/platform.html#osHaiku	TSystemOS.osHaiku	
+osAndroid	compiler/platform.html#osAndroid	TSystemOS.osAndroid	
+osVxWorks	compiler/platform.html#osVxWorks	TSystemOS.osVxWorks	
+osGenode	compiler/platform.html#osGenode	TSystemOS.osGenode	
+osJS	compiler/platform.html#osJS	TSystemOS.osJS	
+osNimVM	compiler/platform.html#osNimVM	TSystemOS.osNimVM	
+osStandalone	compiler/platform.html#osStandalone	TSystemOS.osStandalone	
+osNintendoSwitch	compiler/platform.html#osNintendoSwitch	TSystemOS.osNintendoSwitch	
+osAny	compiler/platform.html#osAny	TSystemOS.osAny	
+TSystemOS	compiler/platform.html#TSystemOS	platform: TSystemOS	
+ospNeedsPIC	compiler/platform.html#ospNeedsPIC	TInfoOSProp.ospNeedsPIC	
+ospCaseInsensitive	compiler/platform.html#ospCaseInsensitive	TInfoOSProp.ospCaseInsensitive	
+ospPosix	compiler/platform.html#ospPosix	TInfoOSProp.ospPosix	
+ospLacksThreadVars	compiler/platform.html#ospLacksThreadVars	TInfoOSProp.ospLacksThreadVars	
+TInfoOSProp	compiler/platform.html#TInfoOSProp	platform: TInfoOSProp	
+TInfoOSProps	compiler/platform.html#TInfoOSProps	platform: TInfoOSProps	
+TInfoOS	compiler/platform.html#TInfoOS	platform: TInfoOS	
+OS	compiler/platform.html#OS	platform: OS	
+cpuNone	compiler/platform.html#cpuNone	TSystemCPU.cpuNone	
+cpuI386	compiler/platform.html#cpuI386	TSystemCPU.cpuI386	
+cpuM68k	compiler/platform.html#cpuM68k	TSystemCPU.cpuM68k	
+cpuAlpha	compiler/platform.html#cpuAlpha	TSystemCPU.cpuAlpha	
+cpuPowerpc	compiler/platform.html#cpuPowerpc	TSystemCPU.cpuPowerpc	
+cpuPowerpc64	compiler/platform.html#cpuPowerpc64	TSystemCPU.cpuPowerpc64	
+cpuPowerpc64el	compiler/platform.html#cpuPowerpc64el	TSystemCPU.cpuPowerpc64el	
+cpuSparc	compiler/platform.html#cpuSparc	TSystemCPU.cpuSparc	
+cpuVm	compiler/platform.html#cpuVm	TSystemCPU.cpuVm	
+cpuHppa	compiler/platform.html#cpuHppa	TSystemCPU.cpuHppa	
+cpuIa64	compiler/platform.html#cpuIa64	TSystemCPU.cpuIa64	
+cpuAmd64	compiler/platform.html#cpuAmd64	TSystemCPU.cpuAmd64	
+cpuMips	compiler/platform.html#cpuMips	TSystemCPU.cpuMips	
+cpuMipsel	compiler/platform.html#cpuMipsel	TSystemCPU.cpuMipsel	
+cpuArm	compiler/platform.html#cpuArm	TSystemCPU.cpuArm	
+cpuArm64	compiler/platform.html#cpuArm64	TSystemCPU.cpuArm64	
+cpuJS	compiler/platform.html#cpuJS	TSystemCPU.cpuJS	
+cpuNimVM	compiler/platform.html#cpuNimVM	TSystemCPU.cpuNimVM	
+cpuAVR	compiler/platform.html#cpuAVR	TSystemCPU.cpuAVR	
+cpuMSP430	compiler/platform.html#cpuMSP430	TSystemCPU.cpuMSP430	
+cpuSparc64	compiler/platform.html#cpuSparc64	TSystemCPU.cpuSparc64	
+cpuMips64	compiler/platform.html#cpuMips64	TSystemCPU.cpuMips64	
+cpuMips64el	compiler/platform.html#cpuMips64el	TSystemCPU.cpuMips64el	
+cpuRiscV64	compiler/platform.html#cpuRiscV64	TSystemCPU.cpuRiscV64	
+cpuWasm32	compiler/platform.html#cpuWasm32	TSystemCPU.cpuWasm32	
+TSystemCPU	compiler/platform.html#TSystemCPU	platform: TSystemCPU	
+littleEndian	compiler/platform.html#littleEndian	TEndian.littleEndian	
+bigEndian	compiler/platform.html#bigEndian	TEndian.bigEndian	
+TEndian	compiler/platform.html#TEndian	platform: TEndian	
+TInfoCPU	compiler/platform.html#TInfoCPU	platform: TInfoCPU	
+EndianToStr	compiler/platform.html#EndianToStr	platform: EndianToStr	
+CPU	compiler/platform.html#CPU	platform: CPU	
+Target	compiler/platform.html#Target	platform: Target	
+setTarget	compiler/platform.html#setTarget,Target,TSystemOS,TSystemCPU	platform: setTarget(t: var Target; o: TSystemOS; c: TSystemCPU)	
+nameToOS	compiler/platform.html#nameToOS,string	platform: nameToOS(name: string): TSystemOS	
+listOSnames	compiler/platform.html#listOSnames	platform: listOSnames(): seq[string]	
+nameToCPU	compiler/platform.html#nameToCPU,string	platform: nameToCPU(name: string): TSystemCPU	
+listCPUnames	compiler/platform.html#listCPUnames	platform: listCPUnames(): seq[string]	
+setTargetFromSystem	compiler/platform.html#setTargetFromSystem,Target	platform: setTargetFromSystem(t: var Target)	

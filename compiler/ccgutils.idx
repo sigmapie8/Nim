@@ -1,0 +1,6 @@
+getPragmaStmt	compiler/ccgutils.html#getPragmaStmt,PNode,TSpecialWord	ccgutils: getPragmaStmt(n: PNode; w: TSpecialWord): PNode	
+stmtsContainPragma	compiler/ccgutils.html#stmtsContainPragma,PNode,TSpecialWord	ccgutils: stmtsContainPragma(n: PNode; w: TSpecialWord): bool	
+hashString	compiler/ccgutils.html#hashString,ConfigRef,string	ccgutils: hashString(conf: ConfigRef; s: string): BiggestInt	
+getUniqueType	compiler/ccgutils.html#getUniqueType.t,PType	ccgutils: getUniqueType(key: PType): PType	
+makeSingleLineCString	compiler/ccgutils.html#makeSingleLineCString,string	ccgutils: makeSingleLineCString(s: string): string	
+mangle	compiler/ccgutils.html#mangle,string	ccgutils: mangle(name: string): string	

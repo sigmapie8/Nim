@@ -1,0 +1,66 @@
+toCChar	compiler/msgs.html#toCChar,char,string	msgs: toCChar(c: char; result: var string)	
+makeCString	compiler/msgs.html#makeCString,string	msgs: makeCString(s: string): Rope	
+fileInfoKnown	compiler/msgs.html#fileInfoKnown,ConfigRef,AbsoluteFile	msgs: fileInfoKnown(conf: ConfigRef; filename: AbsoluteFile): bool	
+fileInfoIdx	compiler/msgs.html#fileInfoIdx,ConfigRef,AbsoluteFile,bool	msgs: fileInfoIdx(conf: ConfigRef; filename: AbsoluteFile; isKnownFile: var bool): FileIndex	
+fileInfoIdx	compiler/msgs.html#fileInfoIdx,ConfigRef,AbsoluteFile	msgs: fileInfoIdx(conf: ConfigRef; filename: AbsoluteFile): FileIndex	
+newLineInfo	compiler/msgs.html#newLineInfo,FileIndex,int,int	msgs: newLineInfo(fileInfoIdx: FileIndex; line, col: int): TLineInfo	
+newLineInfo	compiler/msgs.html#newLineInfo,ConfigRef,AbsoluteFile,int,int	msgs: newLineInfo(conf: ConfigRef; filename: AbsoluteFile; line, col: int): TLineInfo	
+suggestWriteln	compiler/msgs.html#suggestWriteln,ConfigRef,string	msgs: suggestWriteln(conf: ConfigRef; s: string)	
+msgQuit	compiler/msgs.html#msgQuit,int8	msgs: msgQuit(x: int8)	
+msgQuit	compiler/msgs.html#msgQuit,string	msgs: msgQuit(x: string)	
+suggestQuit	compiler/msgs.html#suggestQuit	msgs: suggestQuit()	
+ColOffset	compiler/msgs.html#ColOffset	msgs: ColOffset	
+getInfoContextLen	compiler/msgs.html#getInfoContextLen,ConfigRef	msgs: getInfoContextLen(conf: ConfigRef): int	
+setInfoContextLen	compiler/msgs.html#setInfoContextLen,ConfigRef,int	msgs: setInfoContextLen(conf: ConfigRef; L: int)	
+pushInfoContext	compiler/msgs.html#pushInfoContext,ConfigRef,TLineInfo,string	msgs: pushInfoContext(conf: ConfigRef; info: TLineInfo; detail: string = &quot;&quot;)	
+popInfoContext	compiler/msgs.html#popInfoContext,ConfigRef	msgs: popInfoContext(conf: ConfigRef)	
+getInfoContext	compiler/msgs.html#getInfoContext,ConfigRef,int	msgs: getInfoContext(conf: ConfigRef; index: int): TLineInfo	
+toFilename	compiler/msgs.html#toFilename.t,ConfigRef,FileIndex	msgs: toFilename(conf: ConfigRef; fileIdx: FileIndex): string	
+toProjPath	compiler/msgs.html#toProjPath,ConfigRef,FileIndex	msgs: toProjPath(conf: ConfigRef; fileIdx: FileIndex): string	
+toFullPath	compiler/msgs.html#toFullPath,ConfigRef,FileIndex	msgs: toFullPath(conf: ConfigRef; fileIdx: FileIndex): string	
+setDirtyFile	compiler/msgs.html#setDirtyFile,ConfigRef,FileIndex,AbsoluteFile	msgs: setDirtyFile(conf: ConfigRef; fileIdx: FileIndex; filename: AbsoluteFile)	
+setHash	compiler/msgs.html#setHash,ConfigRef,FileIndex,string	msgs: setHash(conf: ConfigRef; fileIdx: FileIndex; hash: string)	
+getHash	compiler/msgs.html#getHash,ConfigRef,FileIndex	msgs: getHash(conf: ConfigRef; fileIdx: FileIndex): string	
+toFullPathConsiderDirty	compiler/msgs.html#toFullPathConsiderDirty,ConfigRef,FileIndex	msgs: toFullPathConsiderDirty(conf: ConfigRef; fileIdx: FileIndex): AbsoluteFile	
+toFilename	compiler/msgs.html#toFilename.t,ConfigRef,TLineInfo	msgs: toFilename(conf: ConfigRef; info: TLineInfo): string	
+toProjPath	compiler/msgs.html#toProjPath.t,ConfigRef,TLineInfo	msgs: toProjPath(conf: ConfigRef; info: TLineInfo): string	
+toFullPath	compiler/msgs.html#toFullPath.t,ConfigRef,TLineInfo	msgs: toFullPath(conf: ConfigRef; info: TLineInfo): string	
+toFullPathConsiderDirty	compiler/msgs.html#toFullPathConsiderDirty.t,ConfigRef,TLineInfo	msgs: toFullPathConsiderDirty(conf: ConfigRef; info: TLineInfo): string	
+toMsgFilename	compiler/msgs.html#toMsgFilename,ConfigRef,FileIndex	msgs: toMsgFilename(conf: ConfigRef; info: FileIndex): string	
+toMsgFilename	compiler/msgs.html#toMsgFilename.t,ConfigRef,TLineInfo	msgs: toMsgFilename(conf: ConfigRef; info: TLineInfo): string	
+toLinenumber	compiler/msgs.html#toLinenumber,TLineInfo	msgs: toLinenumber(info: TLineInfo): int	
+toColumn	compiler/msgs.html#toColumn,TLineInfo	msgs: toColumn(info: TLineInfo): int	
+toFileLineCol	compiler/msgs.html#toFileLineCol,ConfigRef,TLineInfo	msgs: toFileLineCol(conf: ConfigRef; info: TLineInfo): string	
+`$`	compiler/msgs.html#$,ConfigRef,TLineInfo	msgs: `$`(conf: ConfigRef; info: TLineInfo): string	
+`$`	compiler/msgs.html#$,TLineInfo	msgs: `$`(info: TLineInfo): string	
+`??`	compiler/msgs.html#??,ConfigRef,TLineInfo,string	msgs: `??`(conf: ConfigRef; info: TLineInfo; filename: string): bool	
+msgStdout	compiler/msgs.html#msgStdout	MsgFlag.msgStdout	
+msgSkipHook	compiler/msgs.html#msgSkipHook	MsgFlag.msgSkipHook	
+MsgFlag	compiler/msgs.html#MsgFlag	msgs: MsgFlag	
+MsgFlags	compiler/msgs.html#MsgFlags	msgs: MsgFlags	
+msgWriteln	compiler/msgs.html#msgWriteln,ConfigRef,string,MsgFlags	msgs: msgWriteln(conf: ConfigRef; s: string; flags: MsgFlags = {})	
+styledMsgWriteln	compiler/msgs.html#styledMsgWriteln.t,varargs[typed]	msgs: styledMsgWriteln(args: varargs[typed])	
+msgKindToString	compiler/msgs.html#msgKindToString,TMsgKind	msgs: msgKindToString(kind: TMsgKind): string	
+log	compiler/msgs.html#log,string	msgs: log(s: string)	
+`==`	compiler/msgs.html#==,TLineInfo,TLineInfo	msgs: `==`(a, b: TLineInfo): bool	
+exactEquals	compiler/msgs.html#exactEquals,TLineInfo,TLineInfo	msgs: exactEquals(a, b: TLineInfo): bool	
+rawMessage	compiler/msgs.html#rawMessage,ConfigRef,TMsgKind,openArray[string]	msgs: rawMessage(conf: ConfigRef; msg: TMsgKind; args: openArray[string])	
+rawMessage	compiler/msgs.html#rawMessage,ConfigRef,TMsgKind,string	msgs: rawMessage(conf: ConfigRef; msg: TMsgKind; arg: string)	
+resetAttributes	compiler/msgs.html#resetAttributes,ConfigRef	msgs: resetAttributes(conf: ConfigRef)	
+sourceLine	compiler/msgs.html#sourceLine,ConfigRef,TLineInfo	msgs: sourceLine(conf: ConfigRef; i: TLineInfo): string	
+formatMsg	compiler/msgs.html#formatMsg,ConfigRef,TLineInfo,TMsgKind,string	msgs: formatMsg(conf: ConfigRef; info: TLineInfo; msg: TMsgKind; arg: string): string	
+fatal	compiler/msgs.html#fatal,ConfigRef,TLineInfo,TMsgKind,string	msgs: fatal(conf: ConfigRef; info: TLineInfo; msg: TMsgKind; arg = &quot;&quot;)	
+globalError	compiler/msgs.html#globalError,ConfigRef,TLineInfo,TMsgKind,string	msgs: globalError(conf: ConfigRef; info: TLineInfo; msg: TMsgKind; arg = &quot;&quot;)	
+globalError	compiler/msgs.html#globalError,ConfigRef,TLineInfo,string	msgs: globalError(conf: ConfigRef; info: TLineInfo; arg: string)	
+localError	compiler/msgs.html#localError,ConfigRef,TLineInfo,TMsgKind,string	msgs: localError(conf: ConfigRef; info: TLineInfo; msg: TMsgKind; arg = &quot;&quot;)	
+localError	compiler/msgs.html#localError,ConfigRef,TLineInfo,string	msgs: localError(conf: ConfigRef; info: TLineInfo; arg: string)	
+localError	compiler/msgs.html#localError,ConfigRef,TLineInfo,string,openArray[string]	msgs: localError(conf: ConfigRef; info: TLineInfo; format: string; params: openArray[string])	
+message	compiler/msgs.html#message,ConfigRef,TLineInfo,TMsgKind,string	msgs: message(conf: ConfigRef; info: TLineInfo; msg: TMsgKind; arg = &quot;&quot;)	
+internalError	compiler/msgs.html#internalError,ConfigRef,TLineInfo,string	msgs: internalError(conf: ConfigRef; info: TLineInfo; errMsg: string)	
+internalError	compiler/msgs.html#internalError,ConfigRef,string	msgs: internalError(conf: ConfigRef; errMsg: string)	
+assertNotNil	compiler/msgs.html#assertNotNil.t,ConfigRef,	msgs: assertNotNil(conf: ConfigRef; e): untyped	
+internalAssert	compiler/msgs.html#internalAssert.t,ConfigRef,bool	msgs: internalAssert(conf: ConfigRef; e: bool)	
+quotedFilename	compiler/msgs.html#quotedFilename,ConfigRef,TLineInfo	msgs: quotedFilename(conf: ConfigRef; i: TLineInfo): Rope	
+listWarnings	compiler/msgs.html#listWarnings,ConfigRef	msgs: listWarnings(conf: ConfigRef)	
+listHints	compiler/msgs.html#listHints,ConfigRef	msgs: listHints(conf: ConfigRef)	
+lintReport	compiler/msgs.html#lintReport,ConfigRef,TLineInfo,string,string	msgs: lintReport(conf: ConfigRef; info: TLineInfo; beau, got: string)	

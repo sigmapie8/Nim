@@ -1,0 +1,4 @@
+nimIncremental	compiler/incremental.html#nimIncremental	incremental: nimIncremental	
+IncrementalCtx	compiler/incremental.html#IncrementalCtx	incremental: IncrementalCtx	
+init	compiler/incremental.html#init.t,IncrementalCtx	incremental: init(incr: IncrementalCtx)	
+addModuleDep	compiler/incremental.html#addModuleDep.t,IncrementalCtx,ConfigRef,FileIndex,FileIndex,bool	incremental: addModuleDep(incr: var IncrementalCtx; conf: ConfigRef; module, fileIdx: FileIndex;\n             isIncludeFile: bool)	

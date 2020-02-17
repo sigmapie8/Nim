@@ -1,0 +1,941 @@
+ccDefault	compiler/ast.html#ccDefault	TCallingConvention.ccDefault	
+ccStdCall	compiler/ast.html#ccStdCall	TCallingConvention.ccStdCall	
+ccCDecl	compiler/ast.html#ccCDecl	TCallingConvention.ccCDecl	
+ccSafeCall	compiler/ast.html#ccSafeCall	TCallingConvention.ccSafeCall	
+ccSysCall	compiler/ast.html#ccSysCall	TCallingConvention.ccSysCall	
+ccInline	compiler/ast.html#ccInline	TCallingConvention.ccInline	
+ccNoInline	compiler/ast.html#ccNoInline	TCallingConvention.ccNoInline	
+ccFastCall	compiler/ast.html#ccFastCall	TCallingConvention.ccFastCall	
+ccClosure	compiler/ast.html#ccClosure	TCallingConvention.ccClosure	
+ccNoConvention	compiler/ast.html#ccNoConvention	TCallingConvention.ccNoConvention	
+TCallingConvention	compiler/ast.html#TCallingConvention	ast: TCallingConvention	
+CallingConvToStr	compiler/ast.html#CallingConvToStr	ast: CallingConvToStr	
+nkNone	compiler/ast.html#nkNone	TNodeKind.nkNone	
+nkEmpty	compiler/ast.html#nkEmpty	TNodeKind.nkEmpty	
+nkIdent	compiler/ast.html#nkIdent	TNodeKind.nkIdent	
+nkSym	compiler/ast.html#nkSym	TNodeKind.nkSym	
+nkType	compiler/ast.html#nkType	TNodeKind.nkType	
+nkCharLit	compiler/ast.html#nkCharLit	TNodeKind.nkCharLit	
+nkIntLit	compiler/ast.html#nkIntLit	TNodeKind.nkIntLit	
+nkInt8Lit	compiler/ast.html#nkInt8Lit	TNodeKind.nkInt8Lit	
+nkInt16Lit	compiler/ast.html#nkInt16Lit	TNodeKind.nkInt16Lit	
+nkInt32Lit	compiler/ast.html#nkInt32Lit	TNodeKind.nkInt32Lit	
+nkInt64Lit	compiler/ast.html#nkInt64Lit	TNodeKind.nkInt64Lit	
+nkUIntLit	compiler/ast.html#nkUIntLit	TNodeKind.nkUIntLit	
+nkUInt8Lit	compiler/ast.html#nkUInt8Lit	TNodeKind.nkUInt8Lit	
+nkUInt16Lit	compiler/ast.html#nkUInt16Lit	TNodeKind.nkUInt16Lit	
+nkUInt32Lit	compiler/ast.html#nkUInt32Lit	TNodeKind.nkUInt32Lit	
+nkUInt64Lit	compiler/ast.html#nkUInt64Lit	TNodeKind.nkUInt64Lit	
+nkFloatLit	compiler/ast.html#nkFloatLit	TNodeKind.nkFloatLit	
+nkFloat32Lit	compiler/ast.html#nkFloat32Lit	TNodeKind.nkFloat32Lit	
+nkFloat64Lit	compiler/ast.html#nkFloat64Lit	TNodeKind.nkFloat64Lit	
+nkFloat128Lit	compiler/ast.html#nkFloat128Lit	TNodeKind.nkFloat128Lit	
+nkStrLit	compiler/ast.html#nkStrLit	TNodeKind.nkStrLit	
+nkRStrLit	compiler/ast.html#nkRStrLit	TNodeKind.nkRStrLit	
+nkTripleStrLit	compiler/ast.html#nkTripleStrLit	TNodeKind.nkTripleStrLit	
+nkNilLit	compiler/ast.html#nkNilLit	TNodeKind.nkNilLit	
+nkComesFrom	compiler/ast.html#nkComesFrom	TNodeKind.nkComesFrom	
+nkDotCall	compiler/ast.html#nkDotCall	TNodeKind.nkDotCall	
+nkCommand	compiler/ast.html#nkCommand	TNodeKind.nkCommand	
+nkCall	compiler/ast.html#nkCall	TNodeKind.nkCall	
+nkCallStrLit	compiler/ast.html#nkCallStrLit	TNodeKind.nkCallStrLit	
+nkInfix	compiler/ast.html#nkInfix	TNodeKind.nkInfix	
+nkPrefix	compiler/ast.html#nkPrefix	TNodeKind.nkPrefix	
+nkPostfix	compiler/ast.html#nkPostfix	TNodeKind.nkPostfix	
+nkHiddenCallConv	compiler/ast.html#nkHiddenCallConv	TNodeKind.nkHiddenCallConv	
+nkExprEqExpr	compiler/ast.html#nkExprEqExpr	TNodeKind.nkExprEqExpr	
+nkExprColonExpr	compiler/ast.html#nkExprColonExpr	TNodeKind.nkExprColonExpr	
+nkIdentDefs	compiler/ast.html#nkIdentDefs	TNodeKind.nkIdentDefs	
+nkVarTuple	compiler/ast.html#nkVarTuple	TNodeKind.nkVarTuple	
+nkPar	compiler/ast.html#nkPar	TNodeKind.nkPar	
+nkObjConstr	compiler/ast.html#nkObjConstr	TNodeKind.nkObjConstr	
+nkCurly	compiler/ast.html#nkCurly	TNodeKind.nkCurly	
+nkCurlyExpr	compiler/ast.html#nkCurlyExpr	TNodeKind.nkCurlyExpr	
+nkBracket	compiler/ast.html#nkBracket	TNodeKind.nkBracket	
+nkBracketExpr	compiler/ast.html#nkBracketExpr	TNodeKind.nkBracketExpr	
+nkPragmaExpr	compiler/ast.html#nkPragmaExpr	TNodeKind.nkPragmaExpr	
+nkRange	compiler/ast.html#nkRange	TNodeKind.nkRange	
+nkDotExpr	compiler/ast.html#nkDotExpr	TNodeKind.nkDotExpr	
+nkCheckedFieldExpr	compiler/ast.html#nkCheckedFieldExpr	TNodeKind.nkCheckedFieldExpr	
+nkDerefExpr	compiler/ast.html#nkDerefExpr	TNodeKind.nkDerefExpr	
+nkIfExpr	compiler/ast.html#nkIfExpr	TNodeKind.nkIfExpr	
+nkElifExpr	compiler/ast.html#nkElifExpr	TNodeKind.nkElifExpr	
+nkElseExpr	compiler/ast.html#nkElseExpr	TNodeKind.nkElseExpr	
+nkLambda	compiler/ast.html#nkLambda	TNodeKind.nkLambda	
+nkDo	compiler/ast.html#nkDo	TNodeKind.nkDo	
+nkAccQuoted	compiler/ast.html#nkAccQuoted	TNodeKind.nkAccQuoted	
+nkTableConstr	compiler/ast.html#nkTableConstr	TNodeKind.nkTableConstr	
+nkBind	compiler/ast.html#nkBind	TNodeKind.nkBind	
+nkClosedSymChoice	compiler/ast.html#nkClosedSymChoice	TNodeKind.nkClosedSymChoice	
+nkOpenSymChoice	compiler/ast.html#nkOpenSymChoice	TNodeKind.nkOpenSymChoice	
+nkHiddenStdConv	compiler/ast.html#nkHiddenStdConv	TNodeKind.nkHiddenStdConv	
+nkHiddenSubConv	compiler/ast.html#nkHiddenSubConv	TNodeKind.nkHiddenSubConv	
+nkConv	compiler/ast.html#nkConv	TNodeKind.nkConv	
+nkCast	compiler/ast.html#nkCast	TNodeKind.nkCast	
+nkStaticExpr	compiler/ast.html#nkStaticExpr	TNodeKind.nkStaticExpr	
+nkAddr	compiler/ast.html#nkAddr	TNodeKind.nkAddr	
+nkHiddenAddr	compiler/ast.html#nkHiddenAddr	TNodeKind.nkHiddenAddr	
+nkHiddenDeref	compiler/ast.html#nkHiddenDeref	TNodeKind.nkHiddenDeref	
+nkObjDownConv	compiler/ast.html#nkObjDownConv	TNodeKind.nkObjDownConv	
+nkObjUpConv	compiler/ast.html#nkObjUpConv	TNodeKind.nkObjUpConv	
+nkChckRangeF	compiler/ast.html#nkChckRangeF	TNodeKind.nkChckRangeF	
+nkChckRange64	compiler/ast.html#nkChckRange64	TNodeKind.nkChckRange64	
+nkChckRange	compiler/ast.html#nkChckRange	TNodeKind.nkChckRange	
+nkStringToCString	compiler/ast.html#nkStringToCString	TNodeKind.nkStringToCString	
+nkCStringToString	compiler/ast.html#nkCStringToString	TNodeKind.nkCStringToString	
+nkAsgn	compiler/ast.html#nkAsgn	TNodeKind.nkAsgn	
+nkFastAsgn	compiler/ast.html#nkFastAsgn	TNodeKind.nkFastAsgn	
+nkGenericParams	compiler/ast.html#nkGenericParams	TNodeKind.nkGenericParams	
+nkFormalParams	compiler/ast.html#nkFormalParams	TNodeKind.nkFormalParams	
+nkOfInherit	compiler/ast.html#nkOfInherit	TNodeKind.nkOfInherit	
+nkImportAs	compiler/ast.html#nkImportAs	TNodeKind.nkImportAs	
+nkProcDef	compiler/ast.html#nkProcDef	TNodeKind.nkProcDef	
+nkMethodDef	compiler/ast.html#nkMethodDef	TNodeKind.nkMethodDef	
+nkConverterDef	compiler/ast.html#nkConverterDef	TNodeKind.nkConverterDef	
+nkMacroDef	compiler/ast.html#nkMacroDef	TNodeKind.nkMacroDef	
+nkTemplateDef	compiler/ast.html#nkTemplateDef	TNodeKind.nkTemplateDef	
+nkIteratorDef	compiler/ast.html#nkIteratorDef	TNodeKind.nkIteratorDef	
+nkOfBranch	compiler/ast.html#nkOfBranch	TNodeKind.nkOfBranch	
+nkElifBranch	compiler/ast.html#nkElifBranch	TNodeKind.nkElifBranch	
+nkExceptBranch	compiler/ast.html#nkExceptBranch	TNodeKind.nkExceptBranch	
+nkElse	compiler/ast.html#nkElse	TNodeKind.nkElse	
+nkAsmStmt	compiler/ast.html#nkAsmStmt	TNodeKind.nkAsmStmt	
+nkPragma	compiler/ast.html#nkPragma	TNodeKind.nkPragma	
+nkPragmaBlock	compiler/ast.html#nkPragmaBlock	TNodeKind.nkPragmaBlock	
+nkIfStmt	compiler/ast.html#nkIfStmt	TNodeKind.nkIfStmt	
+nkWhenStmt	compiler/ast.html#nkWhenStmt	TNodeKind.nkWhenStmt	
+nkForStmt	compiler/ast.html#nkForStmt	TNodeKind.nkForStmt	
+nkParForStmt	compiler/ast.html#nkParForStmt	TNodeKind.nkParForStmt	
+nkWhileStmt	compiler/ast.html#nkWhileStmt	TNodeKind.nkWhileStmt	
+nkCaseStmt	compiler/ast.html#nkCaseStmt	TNodeKind.nkCaseStmt	
+nkTypeSection	compiler/ast.html#nkTypeSection	TNodeKind.nkTypeSection	
+nkVarSection	compiler/ast.html#nkVarSection	TNodeKind.nkVarSection	
+nkLetSection	compiler/ast.html#nkLetSection	TNodeKind.nkLetSection	
+nkConstSection	compiler/ast.html#nkConstSection	TNodeKind.nkConstSection	
+nkConstDef	compiler/ast.html#nkConstDef	TNodeKind.nkConstDef	
+nkTypeDef	compiler/ast.html#nkTypeDef	TNodeKind.nkTypeDef	
+nkYieldStmt	compiler/ast.html#nkYieldStmt	TNodeKind.nkYieldStmt	
+nkDefer	compiler/ast.html#nkDefer	TNodeKind.nkDefer	
+nkTryStmt	compiler/ast.html#nkTryStmt	TNodeKind.nkTryStmt	
+nkFinally	compiler/ast.html#nkFinally	TNodeKind.nkFinally	
+nkRaiseStmt	compiler/ast.html#nkRaiseStmt	TNodeKind.nkRaiseStmt	
+nkReturnStmt	compiler/ast.html#nkReturnStmt	TNodeKind.nkReturnStmt	
+nkBreakStmt	compiler/ast.html#nkBreakStmt	TNodeKind.nkBreakStmt	
+nkContinueStmt	compiler/ast.html#nkContinueStmt	TNodeKind.nkContinueStmt	
+nkBlockStmt	compiler/ast.html#nkBlockStmt	TNodeKind.nkBlockStmt	
+nkStaticStmt	compiler/ast.html#nkStaticStmt	TNodeKind.nkStaticStmt	
+nkDiscardStmt	compiler/ast.html#nkDiscardStmt	TNodeKind.nkDiscardStmt	
+nkStmtList	compiler/ast.html#nkStmtList	TNodeKind.nkStmtList	
+nkImportStmt	compiler/ast.html#nkImportStmt	TNodeKind.nkImportStmt	
+nkImportExceptStmt	compiler/ast.html#nkImportExceptStmt	TNodeKind.nkImportExceptStmt	
+nkExportStmt	compiler/ast.html#nkExportStmt	TNodeKind.nkExportStmt	
+nkExportExceptStmt	compiler/ast.html#nkExportExceptStmt	TNodeKind.nkExportExceptStmt	
+nkFromStmt	compiler/ast.html#nkFromStmt	TNodeKind.nkFromStmt	
+nkIncludeStmt	compiler/ast.html#nkIncludeStmt	TNodeKind.nkIncludeStmt	
+nkBindStmt	compiler/ast.html#nkBindStmt	TNodeKind.nkBindStmt	
+nkMixinStmt	compiler/ast.html#nkMixinStmt	TNodeKind.nkMixinStmt	
+nkUsingStmt	compiler/ast.html#nkUsingStmt	TNodeKind.nkUsingStmt	
+nkCommentStmt	compiler/ast.html#nkCommentStmt	TNodeKind.nkCommentStmt	
+nkStmtListExpr	compiler/ast.html#nkStmtListExpr	TNodeKind.nkStmtListExpr	
+nkBlockExpr	compiler/ast.html#nkBlockExpr	TNodeKind.nkBlockExpr	
+nkStmtListType	compiler/ast.html#nkStmtListType	TNodeKind.nkStmtListType	
+nkBlockType	compiler/ast.html#nkBlockType	TNodeKind.nkBlockType	
+nkWith	compiler/ast.html#nkWith	TNodeKind.nkWith	
+nkWithout	compiler/ast.html#nkWithout	TNodeKind.nkWithout	
+nkTypeOfExpr	compiler/ast.html#nkTypeOfExpr	TNodeKind.nkTypeOfExpr	
+nkObjectTy	compiler/ast.html#nkObjectTy	TNodeKind.nkObjectTy	
+nkTupleTy	compiler/ast.html#nkTupleTy	TNodeKind.nkTupleTy	
+nkTupleClassTy	compiler/ast.html#nkTupleClassTy	TNodeKind.nkTupleClassTy	
+nkTypeClassTy	compiler/ast.html#nkTypeClassTy	TNodeKind.nkTypeClassTy	
+nkStaticTy	compiler/ast.html#nkStaticTy	TNodeKind.nkStaticTy	
+nkRecList	compiler/ast.html#nkRecList	TNodeKind.nkRecList	
+nkRecCase	compiler/ast.html#nkRecCase	TNodeKind.nkRecCase	
+nkRecWhen	compiler/ast.html#nkRecWhen	TNodeKind.nkRecWhen	
+nkRefTy	compiler/ast.html#nkRefTy	TNodeKind.nkRefTy	
+nkPtrTy	compiler/ast.html#nkPtrTy	TNodeKind.nkPtrTy	
+nkVarTy	compiler/ast.html#nkVarTy	TNodeKind.nkVarTy	
+nkConstTy	compiler/ast.html#nkConstTy	TNodeKind.nkConstTy	
+nkMutableTy	compiler/ast.html#nkMutableTy	TNodeKind.nkMutableTy	
+nkDistinctTy	compiler/ast.html#nkDistinctTy	TNodeKind.nkDistinctTy	
+nkProcTy	compiler/ast.html#nkProcTy	TNodeKind.nkProcTy	
+nkIteratorTy	compiler/ast.html#nkIteratorTy	TNodeKind.nkIteratorTy	
+nkSharedTy	compiler/ast.html#nkSharedTy	TNodeKind.nkSharedTy	
+nkEnumTy	compiler/ast.html#nkEnumTy	TNodeKind.nkEnumTy	
+nkEnumFieldDef	compiler/ast.html#nkEnumFieldDef	TNodeKind.nkEnumFieldDef	
+nkArgList	compiler/ast.html#nkArgList	TNodeKind.nkArgList	
+nkPattern	compiler/ast.html#nkPattern	TNodeKind.nkPattern	
+nkHiddenTryStmt	compiler/ast.html#nkHiddenTryStmt	TNodeKind.nkHiddenTryStmt	
+nkClosure	compiler/ast.html#nkClosure	TNodeKind.nkClosure	
+nkGotoState	compiler/ast.html#nkGotoState	TNodeKind.nkGotoState	
+nkState	compiler/ast.html#nkState	TNodeKind.nkState	
+nkBreakState	compiler/ast.html#nkBreakState	TNodeKind.nkBreakState	
+nkFuncDef	compiler/ast.html#nkFuncDef	TNodeKind.nkFuncDef	
+nkTupleConstr	compiler/ast.html#nkTupleConstr	TNodeKind.nkTupleConstr	
+TNodeKind	compiler/ast.html#TNodeKind	ast: TNodeKind	
+TNodeKinds	compiler/ast.html#TNodeKinds	ast: TNodeKinds	
+sfUsed	compiler/ast.html#sfUsed	TSymFlag.sfUsed	
+sfExported	compiler/ast.html#sfExported	TSymFlag.sfExported	
+sfFromGeneric	compiler/ast.html#sfFromGeneric	TSymFlag.sfFromGeneric	
+sfGlobal	compiler/ast.html#sfGlobal	TSymFlag.sfGlobal	
+sfForward	compiler/ast.html#sfForward	TSymFlag.sfForward	
+sfImportc	compiler/ast.html#sfImportc	TSymFlag.sfImportc	
+sfExportc	compiler/ast.html#sfExportc	TSymFlag.sfExportc	
+sfMangleCpp	compiler/ast.html#sfMangleCpp	TSymFlag.sfMangleCpp	
+sfVolatile	compiler/ast.html#sfVolatile	TSymFlag.sfVolatile	
+sfRegister	compiler/ast.html#sfRegister	TSymFlag.sfRegister	
+sfPure	compiler/ast.html#sfPure	TSymFlag.sfPure	
+sfNoSideEffect	compiler/ast.html#sfNoSideEffect	TSymFlag.sfNoSideEffect	
+sfSideEffect	compiler/ast.html#sfSideEffect	TSymFlag.sfSideEffect	
+sfMainModule	compiler/ast.html#sfMainModule	TSymFlag.sfMainModule	
+sfSystemModule	compiler/ast.html#sfSystemModule	TSymFlag.sfSystemModule	
+sfNoReturn	compiler/ast.html#sfNoReturn	TSymFlag.sfNoReturn	
+sfAddrTaken	compiler/ast.html#sfAddrTaken	TSymFlag.sfAddrTaken	
+sfCompilerProc	compiler/ast.html#sfCompilerProc	TSymFlag.sfCompilerProc	
+sfProcvar	compiler/ast.html#sfProcvar	TSymFlag.sfProcvar	
+sfDiscriminant	compiler/ast.html#sfDiscriminant	TSymFlag.sfDiscriminant	
+sfDeprecated	compiler/ast.html#sfDeprecated	TSymFlag.sfDeprecated	
+sfExplain	compiler/ast.html#sfExplain	TSymFlag.sfExplain	
+sfError	compiler/ast.html#sfError	TSymFlag.sfError	
+sfShadowed	compiler/ast.html#sfShadowed	TSymFlag.sfShadowed	
+sfThread	compiler/ast.html#sfThread	TSymFlag.sfThread	
+sfCompileTime	compiler/ast.html#sfCompileTime	TSymFlag.sfCompileTime	
+sfConstructor	compiler/ast.html#sfConstructor	TSymFlag.sfConstructor	
+sfDispatcher	compiler/ast.html#sfDispatcher	TSymFlag.sfDispatcher	
+sfBorrow	compiler/ast.html#sfBorrow	TSymFlag.sfBorrow	
+sfInfixCall	compiler/ast.html#sfInfixCall	TSymFlag.sfInfixCall	
+sfNamedParamCall	compiler/ast.html#sfNamedParamCall	TSymFlag.sfNamedParamCall	
+sfDiscardable	compiler/ast.html#sfDiscardable	TSymFlag.sfDiscardable	
+sfOverriden	compiler/ast.html#sfOverriden	TSymFlag.sfOverriden	
+sfCallsite	compiler/ast.html#sfCallsite	TSymFlag.sfCallsite	
+sfGenSym	compiler/ast.html#sfGenSym	TSymFlag.sfGenSym	
+sfNonReloadable	compiler/ast.html#sfNonReloadable	TSymFlag.sfNonReloadable	
+sfGeneratedOp	compiler/ast.html#sfGeneratedOp	TSymFlag.sfGeneratedOp	
+sfTemplateParam	compiler/ast.html#sfTemplateParam	TSymFlag.sfTemplateParam	
+sfCursor	compiler/ast.html#sfCursor	TSymFlag.sfCursor	
+sfInjectDestructors	compiler/ast.html#sfInjectDestructors	TSymFlag.sfInjectDestructors	
+TSymFlag	compiler/ast.html#TSymFlag	ast: TSymFlag	
+TSymFlags	compiler/ast.html#TSymFlags	ast: TSymFlags	
+sfNoInit	compiler/ast.html#sfNoInit	ast: sfNoInit	
+sfAllUntyped	compiler/ast.html#sfAllUntyped	ast: sfAllUntyped	
+sfDirty	compiler/ast.html#sfDirty	ast: sfDirty	
+sfAnon	compiler/ast.html#sfAnon	ast: sfAnon	
+sfHoisted	compiler/ast.html#sfHoisted	ast: sfHoisted	
+sfNoForward	compiler/ast.html#sfNoForward	ast: sfNoForward	
+sfReorder	compiler/ast.html#sfReorder	ast: sfReorder	
+sfCompileToCpp	compiler/ast.html#sfCompileToCpp	ast: sfCompileToCpp	
+sfCompileToObjc	compiler/ast.html#sfCompileToObjc	ast: sfCompileToObjc	
+sfExperimental	compiler/ast.html#sfExperimental	ast: sfExperimental	
+sfGoto	compiler/ast.html#sfGoto	ast: sfGoto	
+sfWrittenTo	compiler/ast.html#sfWrittenTo	ast: sfWrittenTo	
+sfEscapes	compiler/ast.html#sfEscapes	ast: sfEscapes	
+sfBase	compiler/ast.html#sfBase	ast: sfBase	
+sfIsSelf	compiler/ast.html#sfIsSelf	ast: sfIsSelf	
+sfCustomPragma	compiler/ast.html#sfCustomPragma	ast: sfCustomPragma	
+nkWhen	compiler/ast.html#nkWhen	ast: nkWhen	
+nkWhenExpr	compiler/ast.html#nkWhenExpr	ast: nkWhenExpr	
+nkEffectList	compiler/ast.html#nkEffectList	ast: nkEffectList	
+exceptionEffects	compiler/ast.html#exceptionEffects	ast: exceptionEffects	
+usesEffects	compiler/ast.html#usesEffects	ast: usesEffects	
+writeEffects	compiler/ast.html#writeEffects	ast: writeEffects	
+tagEffects	compiler/ast.html#tagEffects	ast: tagEffects	
+pragmasEffects	compiler/ast.html#pragmasEffects	ast: pragmasEffects	
+effectListLen	compiler/ast.html#effectListLen	ast: effectListLen	
+tyNone	compiler/ast.html#tyNone	TTypeKind.tyNone	
+tyBool	compiler/ast.html#tyBool	TTypeKind.tyBool	
+tyChar	compiler/ast.html#tyChar	TTypeKind.tyChar	
+tyEmpty	compiler/ast.html#tyEmpty	TTypeKind.tyEmpty	
+tyAlias	compiler/ast.html#tyAlias	TTypeKind.tyAlias	
+tyNil	compiler/ast.html#tyNil	TTypeKind.tyNil	
+tyUntyped	compiler/ast.html#tyUntyped	TTypeKind.tyUntyped	
+tyTyped	compiler/ast.html#tyTyped	TTypeKind.tyTyped	
+tyTypeDesc	compiler/ast.html#tyTypeDesc	TTypeKind.tyTypeDesc	
+tyGenericInvocation	compiler/ast.html#tyGenericInvocation	TTypeKind.tyGenericInvocation	
+tyGenericBody	compiler/ast.html#tyGenericBody	TTypeKind.tyGenericBody	
+tyGenericInst	compiler/ast.html#tyGenericInst	TTypeKind.tyGenericInst	
+tyGenericParam	compiler/ast.html#tyGenericParam	TTypeKind.tyGenericParam	
+tyDistinct	compiler/ast.html#tyDistinct	TTypeKind.tyDistinct	
+tyEnum	compiler/ast.html#tyEnum	TTypeKind.tyEnum	
+tyOrdinal	compiler/ast.html#tyOrdinal	TTypeKind.tyOrdinal	
+tyArray	compiler/ast.html#tyArray	TTypeKind.tyArray	
+tyObject	compiler/ast.html#tyObject	TTypeKind.tyObject	
+tyTuple	compiler/ast.html#tyTuple	TTypeKind.tyTuple	
+tySet	compiler/ast.html#tySet	TTypeKind.tySet	
+tyRange	compiler/ast.html#tyRange	TTypeKind.tyRange	
+tyPtr	compiler/ast.html#tyPtr	TTypeKind.tyPtr	
+tyRef	compiler/ast.html#tyRef	TTypeKind.tyRef	
+tyVar	compiler/ast.html#tyVar	TTypeKind.tyVar	
+tySequence	compiler/ast.html#tySequence	TTypeKind.tySequence	
+tyProc	compiler/ast.html#tyProc	TTypeKind.tyProc	
+tyPointer	compiler/ast.html#tyPointer	TTypeKind.tyPointer	
+tyOpenArray	compiler/ast.html#tyOpenArray	TTypeKind.tyOpenArray	
+tyString	compiler/ast.html#tyString	TTypeKind.tyString	
+tyCString	compiler/ast.html#tyCString	TTypeKind.tyCString	
+tyForward	compiler/ast.html#tyForward	TTypeKind.tyForward	
+tyInt	compiler/ast.html#tyInt	TTypeKind.tyInt	
+tyInt8	compiler/ast.html#tyInt8	TTypeKind.tyInt8	
+tyInt16	compiler/ast.html#tyInt16	TTypeKind.tyInt16	
+tyInt32	compiler/ast.html#tyInt32	TTypeKind.tyInt32	
+tyInt64	compiler/ast.html#tyInt64	TTypeKind.tyInt64	
+tyFloat	compiler/ast.html#tyFloat	TTypeKind.tyFloat	
+tyFloat32	compiler/ast.html#tyFloat32	TTypeKind.tyFloat32	
+tyFloat64	compiler/ast.html#tyFloat64	TTypeKind.tyFloat64	
+tyFloat128	compiler/ast.html#tyFloat128	TTypeKind.tyFloat128	
+tyUInt	compiler/ast.html#tyUInt	TTypeKind.tyUInt	
+tyUInt8	compiler/ast.html#tyUInt8	TTypeKind.tyUInt8	
+tyUInt16	compiler/ast.html#tyUInt16	TTypeKind.tyUInt16	
+tyUInt32	compiler/ast.html#tyUInt32	TTypeKind.tyUInt32	
+tyUInt64	compiler/ast.html#tyUInt64	TTypeKind.tyUInt64	
+tyOwned	compiler/ast.html#tyOwned	TTypeKind.tyOwned	
+tySink	compiler/ast.html#tySink	TTypeKind.tySink	
+tyLent	compiler/ast.html#tyLent	TTypeKind.tyLent	
+tyVarargs	compiler/ast.html#tyVarargs	TTypeKind.tyVarargs	
+tyUncheckedArray	compiler/ast.html#tyUncheckedArray	TTypeKind.tyUncheckedArray	
+tyProxy	compiler/ast.html#tyProxy	TTypeKind.tyProxy	
+tyBuiltInTypeClass	compiler/ast.html#tyBuiltInTypeClass	TTypeKind.tyBuiltInTypeClass	
+tyUserTypeClass	compiler/ast.html#tyUserTypeClass	TTypeKind.tyUserTypeClass	
+tyUserTypeClassInst	compiler/ast.html#tyUserTypeClassInst	TTypeKind.tyUserTypeClassInst	
+tyCompositeTypeClass	compiler/ast.html#tyCompositeTypeClass	TTypeKind.tyCompositeTypeClass	
+tyInferred	compiler/ast.html#tyInferred	TTypeKind.tyInferred	
+tyAnd	compiler/ast.html#tyAnd	TTypeKind.tyAnd	
+tyOr	compiler/ast.html#tyOr	TTypeKind.tyOr	
+tyNot	compiler/ast.html#tyNot	TTypeKind.tyNot	
+tyAnything	compiler/ast.html#tyAnything	TTypeKind.tyAnything	
+tyStatic	compiler/ast.html#tyStatic	TTypeKind.tyStatic	
+tyFromExpr	compiler/ast.html#tyFromExpr	TTypeKind.tyFromExpr	
+tyOpt	compiler/ast.html#tyOpt	TTypeKind.tyOpt	
+tyVoid	compiler/ast.html#tyVoid	TTypeKind.tyVoid	
+TTypeKind	compiler/ast.html#TTypeKind	ast: TTypeKind	
+tyPureObject	compiler/ast.html#tyPureObject	ast: tyPureObject	
+GcTypeKinds	compiler/ast.html#GcTypeKinds	ast: GcTypeKinds	
+tyError	compiler/ast.html#tyError	ast: tyError	
+tyUnknown	compiler/ast.html#tyUnknown	ast: tyUnknown	
+tyUnknownTypes	compiler/ast.html#tyUnknownTypes	ast: tyUnknownTypes	
+tyTypeClasses	compiler/ast.html#tyTypeClasses	ast: tyTypeClasses	
+tyMetaTypes	compiler/ast.html#tyMetaTypes	ast: tyMetaTypes	
+tyUserTypeClasses	compiler/ast.html#tyUserTypeClasses	ast: tyUserTypeClasses	
+TTypeKinds	compiler/ast.html#TTypeKinds	ast: TTypeKinds	
+nfNone	compiler/ast.html#nfNone	TNodeFlag.nfNone	
+nfBase2	compiler/ast.html#nfBase2	TNodeFlag.nfBase2	
+nfBase8	compiler/ast.html#nfBase8	TNodeFlag.nfBase8	
+nfBase16	compiler/ast.html#nfBase16	TNodeFlag.nfBase16	
+nfAllConst	compiler/ast.html#nfAllConst	TNodeFlag.nfAllConst	
+nfTransf	compiler/ast.html#nfTransf	TNodeFlag.nfTransf	
+nfNoRewrite	compiler/ast.html#nfNoRewrite	TNodeFlag.nfNoRewrite	
+nfSem	compiler/ast.html#nfSem	TNodeFlag.nfSem	
+nfLL	compiler/ast.html#nfLL	TNodeFlag.nfLL	
+nfDotField	compiler/ast.html#nfDotField	TNodeFlag.nfDotField	
+nfDotSetter	compiler/ast.html#nfDotSetter	TNodeFlag.nfDotSetter	
+nfExplicitCall	compiler/ast.html#nfExplicitCall	TNodeFlag.nfExplicitCall	
+nfExprCall	compiler/ast.html#nfExprCall	TNodeFlag.nfExprCall	
+nfIsRef	compiler/ast.html#nfIsRef	TNodeFlag.nfIsRef	
+nfIsPtr	compiler/ast.html#nfIsPtr	TNodeFlag.nfIsPtr	
+nfPreventCg	compiler/ast.html#nfPreventCg	TNodeFlag.nfPreventCg	
+nfBlockArg	compiler/ast.html#nfBlockArg	TNodeFlag.nfBlockArg	
+nfFromTemplate	compiler/ast.html#nfFromTemplate	TNodeFlag.nfFromTemplate	
+nfDefaultParam	compiler/ast.html#nfDefaultParam	TNodeFlag.nfDefaultParam	
+nfDefaultRefsParam	compiler/ast.html#nfDefaultRefsParam	TNodeFlag.nfDefaultRefsParam	
+nfExecuteOnReload	compiler/ast.html#nfExecuteOnReload	TNodeFlag.nfExecuteOnReload	
+TNodeFlag	compiler/ast.html#TNodeFlag	ast: TNodeFlag	
+TNodeFlags	compiler/ast.html#TNodeFlags	ast: TNodeFlags	
+tfVarargs	compiler/ast.html#tfVarargs	TTypeFlag.tfVarargs	
+tfNoSideEffect	compiler/ast.html#tfNoSideEffect	TTypeFlag.tfNoSideEffect	
+tfFinal	compiler/ast.html#tfFinal	TTypeFlag.tfFinal	
+tfInheritable	compiler/ast.html#tfInheritable	TTypeFlag.tfInheritable	
+tfHasOwned	compiler/ast.html#tfHasOwned	TTypeFlag.tfHasOwned	
+tfEnumHasHoles	compiler/ast.html#tfEnumHasHoles	TTypeFlag.tfEnumHasHoles	
+tfShallow	compiler/ast.html#tfShallow	TTypeFlag.tfShallow	
+tfThread	compiler/ast.html#tfThread	TTypeFlag.tfThread	
+tfFromGeneric	compiler/ast.html#tfFromGeneric	TTypeFlag.tfFromGeneric	
+tfUnresolved	compiler/ast.html#tfUnresolved	TTypeFlag.tfUnresolved	
+tfResolved	compiler/ast.html#tfResolved	TTypeFlag.tfResolved	
+tfRetType	compiler/ast.html#tfRetType	TTypeFlag.tfRetType	
+tfCapturesEnv	compiler/ast.html#tfCapturesEnv	TTypeFlag.tfCapturesEnv	
+tfByCopy	compiler/ast.html#tfByCopy	TTypeFlag.tfByCopy	
+tfByRef	compiler/ast.html#tfByRef	TTypeFlag.tfByRef	
+tfIterator	compiler/ast.html#tfIterator	TTypeFlag.tfIterator	
+tfPartial	compiler/ast.html#tfPartial	TTypeFlag.tfPartial	
+tfNotNil	compiler/ast.html#tfNotNil	TTypeFlag.tfNotNil	
+tfNeedsInit	compiler/ast.html#tfNeedsInit	TTypeFlag.tfNeedsInit	
+tfVarIsPtr	compiler/ast.html#tfVarIsPtr	TTypeFlag.tfVarIsPtr	
+tfHasMeta	compiler/ast.html#tfHasMeta	TTypeFlag.tfHasMeta	
+tfHasGCedMem	compiler/ast.html#tfHasGCedMem	TTypeFlag.tfHasGCedMem	
+tfPacked	compiler/ast.html#tfPacked	TTypeFlag.tfPacked	
+tfHasStatic	compiler/ast.html#tfHasStatic	TTypeFlag.tfHasStatic	
+tfGenericTypeParam	compiler/ast.html#tfGenericTypeParam	TTypeFlag.tfGenericTypeParam	
+tfImplicitTypeParam	compiler/ast.html#tfImplicitTypeParam	TTypeFlag.tfImplicitTypeParam	
+tfInferrableStatic	compiler/ast.html#tfInferrableStatic	TTypeFlag.tfInferrableStatic	
+tfConceptMatchedTypeSym	compiler/ast.html#tfConceptMatchedTypeSym	TTypeFlag.tfConceptMatchedTypeSym	
+tfExplicit	compiler/ast.html#tfExplicit	TTypeFlag.tfExplicit	
+tfWildcard	compiler/ast.html#tfWildcard	TTypeFlag.tfWildcard	
+tfHasAsgn	compiler/ast.html#tfHasAsgn	TTypeFlag.tfHasAsgn	
+tfBorrowDot	compiler/ast.html#tfBorrowDot	TTypeFlag.tfBorrowDot	
+tfTriggersCompileTime	compiler/ast.html#tfTriggersCompileTime	TTypeFlag.tfTriggersCompileTime	
+tfRefsAnonObj	compiler/ast.html#tfRefsAnonObj	TTypeFlag.tfRefsAnonObj	
+tfCovariant	compiler/ast.html#tfCovariant	TTypeFlag.tfCovariant	
+tfWeakCovariant	compiler/ast.html#tfWeakCovariant	TTypeFlag.tfWeakCovariant	
+tfContravariant	compiler/ast.html#tfContravariant	TTypeFlag.tfContravariant	
+tfCheckedForDestructor	compiler/ast.html#tfCheckedForDestructor	TTypeFlag.tfCheckedForDestructor	
+tfAcyclic	compiler/ast.html#tfAcyclic	TTypeFlag.tfAcyclic	
+tfIncompleteStruct	compiler/ast.html#tfIncompleteStruct	TTypeFlag.tfIncompleteStruct	
+TTypeFlag	compiler/ast.html#TTypeFlag	ast: TTypeFlag	
+TTypeFlags	compiler/ast.html#TTypeFlags	ast: TTypeFlags	
+skUnknown	compiler/ast.html#skUnknown	TSymKind.skUnknown	
+skConditional	compiler/ast.html#skConditional	TSymKind.skConditional	
+skDynLib	compiler/ast.html#skDynLib	TSymKind.skDynLib	
+skParam	compiler/ast.html#skParam	TSymKind.skParam	
+skGenericParam	compiler/ast.html#skGenericParam	TSymKind.skGenericParam	
+skTemp	compiler/ast.html#skTemp	TSymKind.skTemp	
+skModule	compiler/ast.html#skModule	TSymKind.skModule	
+skType	compiler/ast.html#skType	TSymKind.skType	
+skVar	compiler/ast.html#skVar	TSymKind.skVar	
+skLet	compiler/ast.html#skLet	TSymKind.skLet	
+skConst	compiler/ast.html#skConst	TSymKind.skConst	
+skResult	compiler/ast.html#skResult	TSymKind.skResult	
+skProc	compiler/ast.html#skProc	TSymKind.skProc	
+skFunc	compiler/ast.html#skFunc	TSymKind.skFunc	
+skMethod	compiler/ast.html#skMethod	TSymKind.skMethod	
+skIterator	compiler/ast.html#skIterator	TSymKind.skIterator	
+skConverter	compiler/ast.html#skConverter	TSymKind.skConverter	
+skMacro	compiler/ast.html#skMacro	TSymKind.skMacro	
+skTemplate	compiler/ast.html#skTemplate	TSymKind.skTemplate	
+skField	compiler/ast.html#skField	TSymKind.skField	
+skEnumField	compiler/ast.html#skEnumField	TSymKind.skEnumField	
+skForVar	compiler/ast.html#skForVar	TSymKind.skForVar	
+skLabel	compiler/ast.html#skLabel	TSymKind.skLabel	
+skStub	compiler/ast.html#skStub	TSymKind.skStub	
+skPackage	compiler/ast.html#skPackage	TSymKind.skPackage	
+skAlias	compiler/ast.html#skAlias	TSymKind.skAlias	
+TSymKind	compiler/ast.html#TSymKind	ast: TSymKind	
+TSymKinds	compiler/ast.html#TSymKinds	ast: TSymKinds	
+routineKinds	compiler/ast.html#routineKinds	ast: routineKinds	
+tfUnion	compiler/ast.html#tfUnion	ast: tfUnion	
+tfGcSafe	compiler/ast.html#tfGcSafe	ast: tfGcSafe	
+tfObjHasKids	compiler/ast.html#tfObjHasKids	ast: tfObjHasKids	
+tfReturnsNew	compiler/ast.html#tfReturnsNew	ast: tfReturnsNew	
+skError	compiler/ast.html#skError	ast: skError	
+eqTypeFlags	compiler/ast.html#eqTypeFlags	ast: eqTypeFlags	
+mNone	compiler/ast.html#mNone	TMagic.mNone	
+mDefined	compiler/ast.html#mDefined	TMagic.mDefined	
+mDefinedInScope	compiler/ast.html#mDefinedInScope	TMagic.mDefinedInScope	
+mCompiles	compiler/ast.html#mCompiles	TMagic.mCompiles	
+mArrGet	compiler/ast.html#mArrGet	TMagic.mArrGet	
+mArrPut	compiler/ast.html#mArrPut	TMagic.mArrPut	
+mAsgn	compiler/ast.html#mAsgn	TMagic.mAsgn	
+mLow	compiler/ast.html#mLow	TMagic.mLow	
+mHigh	compiler/ast.html#mHigh	TMagic.mHigh	
+mSizeOf	compiler/ast.html#mSizeOf	TMagic.mSizeOf	
+mAlignOf	compiler/ast.html#mAlignOf	TMagic.mAlignOf	
+mOffsetOf	compiler/ast.html#mOffsetOf	TMagic.mOffsetOf	
+mTypeTrait	compiler/ast.html#mTypeTrait	TMagic.mTypeTrait	
+mIs	compiler/ast.html#mIs	TMagic.mIs	
+mOf	compiler/ast.html#mOf	TMagic.mOf	
+mAddr	compiler/ast.html#mAddr	TMagic.mAddr	
+mType	compiler/ast.html#mType	TMagic.mType	
+mTypeOf	compiler/ast.html#mTypeOf	TMagic.mTypeOf	
+mRoof	compiler/ast.html#mRoof	TMagic.mRoof	
+mPlugin	compiler/ast.html#mPlugin	TMagic.mPlugin	
+mEcho	compiler/ast.html#mEcho	TMagic.mEcho	
+mShallowCopy	compiler/ast.html#mShallowCopy	TMagic.mShallowCopy	
+mSlurp	compiler/ast.html#mSlurp	TMagic.mSlurp	
+mStaticExec	compiler/ast.html#mStaticExec	TMagic.mStaticExec	
+mStatic	compiler/ast.html#mStatic	TMagic.mStatic	
+mParseExprToAst	compiler/ast.html#mParseExprToAst	TMagic.mParseExprToAst	
+mParseStmtToAst	compiler/ast.html#mParseStmtToAst	TMagic.mParseStmtToAst	
+mExpandToAst	compiler/ast.html#mExpandToAst	TMagic.mExpandToAst	
+mQuoteAst	compiler/ast.html#mQuoteAst	TMagic.mQuoteAst	
+mUnaryLt	compiler/ast.html#mUnaryLt	TMagic.mUnaryLt	
+mInc	compiler/ast.html#mInc	TMagic.mInc	
+mDec	compiler/ast.html#mDec	TMagic.mDec	
+mOrd	compiler/ast.html#mOrd	TMagic.mOrd	
+mNew	compiler/ast.html#mNew	TMagic.mNew	
+mNewFinalize	compiler/ast.html#mNewFinalize	TMagic.mNewFinalize	
+mNewSeq	compiler/ast.html#mNewSeq	TMagic.mNewSeq	
+mNewSeqOfCap	compiler/ast.html#mNewSeqOfCap	TMagic.mNewSeqOfCap	
+mLengthOpenArray	compiler/ast.html#mLengthOpenArray	TMagic.mLengthOpenArray	
+mLengthStr	compiler/ast.html#mLengthStr	TMagic.mLengthStr	
+mLengthArray	compiler/ast.html#mLengthArray	TMagic.mLengthArray	
+mLengthSeq	compiler/ast.html#mLengthSeq	TMagic.mLengthSeq	
+mXLenStr	compiler/ast.html#mXLenStr	TMagic.mXLenStr	
+mXLenSeq	compiler/ast.html#mXLenSeq	TMagic.mXLenSeq	
+mIncl	compiler/ast.html#mIncl	TMagic.mIncl	
+mExcl	compiler/ast.html#mExcl	TMagic.mExcl	
+mCard	compiler/ast.html#mCard	TMagic.mCard	
+mChr	compiler/ast.html#mChr	TMagic.mChr	
+mGCref	compiler/ast.html#mGCref	TMagic.mGCref	
+mGCunref	compiler/ast.html#mGCunref	TMagic.mGCunref	
+mAddI	compiler/ast.html#mAddI	TMagic.mAddI	
+mSubI	compiler/ast.html#mSubI	TMagic.mSubI	
+mMulI	compiler/ast.html#mMulI	TMagic.mMulI	
+mDivI	compiler/ast.html#mDivI	TMagic.mDivI	
+mModI	compiler/ast.html#mModI	TMagic.mModI	
+mSucc	compiler/ast.html#mSucc	TMagic.mSucc	
+mPred	compiler/ast.html#mPred	TMagic.mPred	
+mAddF64	compiler/ast.html#mAddF64	TMagic.mAddF64	
+mSubF64	compiler/ast.html#mSubF64	TMagic.mSubF64	
+mMulF64	compiler/ast.html#mMulF64	TMagic.mMulF64	
+mDivF64	compiler/ast.html#mDivF64	TMagic.mDivF64	
+mShrI	compiler/ast.html#mShrI	TMagic.mShrI	
+mShlI	compiler/ast.html#mShlI	TMagic.mShlI	
+mAshrI	compiler/ast.html#mAshrI	TMagic.mAshrI	
+mBitandI	compiler/ast.html#mBitandI	TMagic.mBitandI	
+mBitorI	compiler/ast.html#mBitorI	TMagic.mBitorI	
+mBitxorI	compiler/ast.html#mBitxorI	TMagic.mBitxorI	
+mMinI	compiler/ast.html#mMinI	TMagic.mMinI	
+mMaxI	compiler/ast.html#mMaxI	TMagic.mMaxI	
+mAddU	compiler/ast.html#mAddU	TMagic.mAddU	
+mSubU	compiler/ast.html#mSubU	TMagic.mSubU	
+mMulU	compiler/ast.html#mMulU	TMagic.mMulU	
+mDivU	compiler/ast.html#mDivU	TMagic.mDivU	
+mModU	compiler/ast.html#mModU	TMagic.mModU	
+mEqI	compiler/ast.html#mEqI	TMagic.mEqI	
+mLeI	compiler/ast.html#mLeI	TMagic.mLeI	
+mLtI	compiler/ast.html#mLtI	TMagic.mLtI	
+mEqF64	compiler/ast.html#mEqF64	TMagic.mEqF64	
+mLeF64	compiler/ast.html#mLeF64	TMagic.mLeF64	
+mLtF64	compiler/ast.html#mLtF64	TMagic.mLtF64	
+mLeU	compiler/ast.html#mLeU	TMagic.mLeU	
+mLtU	compiler/ast.html#mLtU	TMagic.mLtU	
+mLeU64	compiler/ast.html#mLeU64	TMagic.mLeU64	
+mLtU64	compiler/ast.html#mLtU64	TMagic.mLtU64	
+mEqEnum	compiler/ast.html#mEqEnum	TMagic.mEqEnum	
+mLeEnum	compiler/ast.html#mLeEnum	TMagic.mLeEnum	
+mLtEnum	compiler/ast.html#mLtEnum	TMagic.mLtEnum	
+mEqCh	compiler/ast.html#mEqCh	TMagic.mEqCh	
+mLeCh	compiler/ast.html#mLeCh	TMagic.mLeCh	
+mLtCh	compiler/ast.html#mLtCh	TMagic.mLtCh	
+mEqB	compiler/ast.html#mEqB	TMagic.mEqB	
+mLeB	compiler/ast.html#mLeB	TMagic.mLeB	
+mLtB	compiler/ast.html#mLtB	TMagic.mLtB	
+mEqRef	compiler/ast.html#mEqRef	TMagic.mEqRef	
+mEqUntracedRef	compiler/ast.html#mEqUntracedRef	TMagic.mEqUntracedRef	
+mLePtr	compiler/ast.html#mLePtr	TMagic.mLePtr	
+mLtPtr	compiler/ast.html#mLtPtr	TMagic.mLtPtr	
+mXor	compiler/ast.html#mXor	TMagic.mXor	
+mEqCString	compiler/ast.html#mEqCString	TMagic.mEqCString	
+mEqProc	compiler/ast.html#mEqProc	TMagic.mEqProc	
+mUnaryMinusI	compiler/ast.html#mUnaryMinusI	TMagic.mUnaryMinusI	
+mUnaryMinusI64	compiler/ast.html#mUnaryMinusI64	TMagic.mUnaryMinusI64	
+mAbsI	compiler/ast.html#mAbsI	TMagic.mAbsI	
+mNot	compiler/ast.html#mNot	TMagic.mNot	
+mUnaryPlusI	compiler/ast.html#mUnaryPlusI	TMagic.mUnaryPlusI	
+mBitnotI	compiler/ast.html#mBitnotI	TMagic.mBitnotI	
+mUnaryPlusF64	compiler/ast.html#mUnaryPlusF64	TMagic.mUnaryPlusF64	
+mUnaryMinusF64	compiler/ast.html#mUnaryMinusF64	TMagic.mUnaryMinusF64	
+mCharToStr	compiler/ast.html#mCharToStr	TMagic.mCharToStr	
+mBoolToStr	compiler/ast.html#mBoolToStr	TMagic.mBoolToStr	
+mIntToStr	compiler/ast.html#mIntToStr	TMagic.mIntToStr	
+mInt64ToStr	compiler/ast.html#mInt64ToStr	TMagic.mInt64ToStr	
+mFloatToStr	compiler/ast.html#mFloatToStr	TMagic.mFloatToStr	
+mCStrToStr	compiler/ast.html#mCStrToStr	TMagic.mCStrToStr	
+mStrToStr	compiler/ast.html#mStrToStr	TMagic.mStrToStr	
+mEnumToStr	compiler/ast.html#mEnumToStr	TMagic.mEnumToStr	
+mAnd	compiler/ast.html#mAnd	TMagic.mAnd	
+mOr	compiler/ast.html#mOr	TMagic.mOr	
+mEqStr	compiler/ast.html#mEqStr	TMagic.mEqStr	
+mLeStr	compiler/ast.html#mLeStr	TMagic.mLeStr	
+mLtStr	compiler/ast.html#mLtStr	TMagic.mLtStr	
+mEqSet	compiler/ast.html#mEqSet	TMagic.mEqSet	
+mLeSet	compiler/ast.html#mLeSet	TMagic.mLeSet	
+mLtSet	compiler/ast.html#mLtSet	TMagic.mLtSet	
+mMulSet	compiler/ast.html#mMulSet	TMagic.mMulSet	
+mPlusSet	compiler/ast.html#mPlusSet	TMagic.mPlusSet	
+mMinusSet	compiler/ast.html#mMinusSet	TMagic.mMinusSet	
+mSymDiffSet	compiler/ast.html#mSymDiffSet	TMagic.mSymDiffSet	
+mConStrStr	compiler/ast.html#mConStrStr	TMagic.mConStrStr	
+mSlice	compiler/ast.html#mSlice	TMagic.mSlice	
+mDotDot	compiler/ast.html#mDotDot	TMagic.mDotDot	
+mFields	compiler/ast.html#mFields	TMagic.mFields	
+mFieldPairs	compiler/ast.html#mFieldPairs	TMagic.mFieldPairs	
+mOmpParFor	compiler/ast.html#mOmpParFor	TMagic.mOmpParFor	
+mAppendStrCh	compiler/ast.html#mAppendStrCh	TMagic.mAppendStrCh	
+mAppendStrStr	compiler/ast.html#mAppendStrStr	TMagic.mAppendStrStr	
+mAppendSeqElem	compiler/ast.html#mAppendSeqElem	TMagic.mAppendSeqElem	
+mInRange	compiler/ast.html#mInRange	TMagic.mInRange	
+mInSet	compiler/ast.html#mInSet	TMagic.mInSet	
+mRepr	compiler/ast.html#mRepr	TMagic.mRepr	
+mExit	compiler/ast.html#mExit	TMagic.mExit	
+mSetLengthStr	compiler/ast.html#mSetLengthStr	TMagic.mSetLengthStr	
+mSetLengthSeq	compiler/ast.html#mSetLengthSeq	TMagic.mSetLengthSeq	
+mIsPartOf	compiler/ast.html#mIsPartOf	TMagic.mIsPartOf	
+mAstToStr	compiler/ast.html#mAstToStr	TMagic.mAstToStr	
+mParallel	compiler/ast.html#mParallel	TMagic.mParallel	
+mSwap	compiler/ast.html#mSwap	TMagic.mSwap	
+mIsNil	compiler/ast.html#mIsNil	TMagic.mIsNil	
+mArrToSeq	compiler/ast.html#mArrToSeq	TMagic.mArrToSeq	
+mCopyStr	compiler/ast.html#mCopyStr	TMagic.mCopyStr	
+mCopyStrLast	compiler/ast.html#mCopyStrLast	TMagic.mCopyStrLast	
+mNewString	compiler/ast.html#mNewString	TMagic.mNewString	
+mNewStringOfCap	compiler/ast.html#mNewStringOfCap	TMagic.mNewStringOfCap	
+mParseBiggestFloat	compiler/ast.html#mParseBiggestFloat	TMagic.mParseBiggestFloat	
+mMove	compiler/ast.html#mMove	TMagic.mMove	
+mWasMoved	compiler/ast.html#mWasMoved	TMagic.mWasMoved	
+mDestroy	compiler/ast.html#mDestroy	TMagic.mDestroy	
+mDefault	compiler/ast.html#mDefault	TMagic.mDefault	
+mUnown	compiler/ast.html#mUnown	TMagic.mUnown	
+mAccessEnv	compiler/ast.html#mAccessEnv	TMagic.mAccessEnv	
+mAccessTypeInfo	compiler/ast.html#mAccessTypeInfo	TMagic.mAccessTypeInfo	
+mReset	compiler/ast.html#mReset	TMagic.mReset	
+mArray	compiler/ast.html#mArray	TMagic.mArray	
+mOpenArray	compiler/ast.html#mOpenArray	TMagic.mOpenArray	
+mRange	compiler/ast.html#mRange	TMagic.mRange	
+mSet	compiler/ast.html#mSet	TMagic.mSet	
+mSeq	compiler/ast.html#mSeq	TMagic.mSeq	
+mOpt	compiler/ast.html#mOpt	TMagic.mOpt	
+mVarargs	compiler/ast.html#mVarargs	TMagic.mVarargs	
+mRef	compiler/ast.html#mRef	TMagic.mRef	
+mPtr	compiler/ast.html#mPtr	TMagic.mPtr	
+mVar	compiler/ast.html#mVar	TMagic.mVar	
+mDistinct	compiler/ast.html#mDistinct	TMagic.mDistinct	
+mVoid	compiler/ast.html#mVoid	TMagic.mVoid	
+mTuple	compiler/ast.html#mTuple	TMagic.mTuple	
+mOrdinal	compiler/ast.html#mOrdinal	TMagic.mOrdinal	
+mInt	compiler/ast.html#mInt	TMagic.mInt	
+mInt8	compiler/ast.html#mInt8	TMagic.mInt8	
+mInt16	compiler/ast.html#mInt16	TMagic.mInt16	
+mInt32	compiler/ast.html#mInt32	TMagic.mInt32	
+mInt64	compiler/ast.html#mInt64	TMagic.mInt64	
+mUInt	compiler/ast.html#mUInt	TMagic.mUInt	
+mUInt8	compiler/ast.html#mUInt8	TMagic.mUInt8	
+mUInt16	compiler/ast.html#mUInt16	TMagic.mUInt16	
+mUInt32	compiler/ast.html#mUInt32	TMagic.mUInt32	
+mUInt64	compiler/ast.html#mUInt64	TMagic.mUInt64	
+mFloat	compiler/ast.html#mFloat	TMagic.mFloat	
+mFloat32	compiler/ast.html#mFloat32	TMagic.mFloat32	
+mFloat64	compiler/ast.html#mFloat64	TMagic.mFloat64	
+mFloat128	compiler/ast.html#mFloat128	TMagic.mFloat128	
+mBool	compiler/ast.html#mBool	TMagic.mBool	
+mChar	compiler/ast.html#mChar	TMagic.mChar	
+mString	compiler/ast.html#mString	TMagic.mString	
+mCstring	compiler/ast.html#mCstring	TMagic.mCstring	
+mPointer	compiler/ast.html#mPointer	TMagic.mPointer	
+mEmptySet	compiler/ast.html#mEmptySet	TMagic.mEmptySet	
+mIntSetBaseType	compiler/ast.html#mIntSetBaseType	TMagic.mIntSetBaseType	
+mNil	compiler/ast.html#mNil	TMagic.mNil	
+mExpr	compiler/ast.html#mExpr	TMagic.mExpr	
+mStmt	compiler/ast.html#mStmt	TMagic.mStmt	
+mTypeDesc	compiler/ast.html#mTypeDesc	TMagic.mTypeDesc	
+mVoidType	compiler/ast.html#mVoidType	TMagic.mVoidType	
+mPNimrodNode	compiler/ast.html#mPNimrodNode	TMagic.mPNimrodNode	
+mShared	compiler/ast.html#mShared	TMagic.mShared	
+mGuarded	compiler/ast.html#mGuarded	TMagic.mGuarded	
+mLock	compiler/ast.html#mLock	TMagic.mLock	
+mSpawn	compiler/ast.html#mSpawn	TMagic.mSpawn	
+mDeepCopy	compiler/ast.html#mDeepCopy	TMagic.mDeepCopy	
+mIsMainModule	compiler/ast.html#mIsMainModule	TMagic.mIsMainModule	
+mCompileDate	compiler/ast.html#mCompileDate	TMagic.mCompileDate	
+mCompileTime	compiler/ast.html#mCompileTime	TMagic.mCompileTime	
+mProcCall	compiler/ast.html#mProcCall	TMagic.mProcCall	
+mCpuEndian	compiler/ast.html#mCpuEndian	TMagic.mCpuEndian	
+mHostOS	compiler/ast.html#mHostOS	TMagic.mHostOS	
+mHostCPU	compiler/ast.html#mHostCPU	TMagic.mHostCPU	
+mBuildOS	compiler/ast.html#mBuildOS	TMagic.mBuildOS	
+mBuildCPU	compiler/ast.html#mBuildCPU	TMagic.mBuildCPU	
+mAppType	compiler/ast.html#mAppType	TMagic.mAppType	
+mCompileOption	compiler/ast.html#mCompileOption	TMagic.mCompileOption	
+mCompileOptionArg	compiler/ast.html#mCompileOptionArg	TMagic.mCompileOptionArg	
+mNLen	compiler/ast.html#mNLen	TMagic.mNLen	
+mNChild	compiler/ast.html#mNChild	TMagic.mNChild	
+mNSetChild	compiler/ast.html#mNSetChild	TMagic.mNSetChild	
+mNAdd	compiler/ast.html#mNAdd	TMagic.mNAdd	
+mNAddMultiple	compiler/ast.html#mNAddMultiple	TMagic.mNAddMultiple	
+mNDel	compiler/ast.html#mNDel	TMagic.mNDel	
+mNKind	compiler/ast.html#mNKind	TMagic.mNKind	
+mNSymKind	compiler/ast.html#mNSymKind	TMagic.mNSymKind	
+mNccValue	compiler/ast.html#mNccValue	TMagic.mNccValue	
+mNccInc	compiler/ast.html#mNccInc	TMagic.mNccInc	
+mNcsAdd	compiler/ast.html#mNcsAdd	TMagic.mNcsAdd	
+mNcsIncl	compiler/ast.html#mNcsIncl	TMagic.mNcsIncl	
+mNcsLen	compiler/ast.html#mNcsLen	TMagic.mNcsLen	
+mNcsAt	compiler/ast.html#mNcsAt	TMagic.mNcsAt	
+mNctPut	compiler/ast.html#mNctPut	TMagic.mNctPut	
+mNctLen	compiler/ast.html#mNctLen	TMagic.mNctLen	
+mNctGet	compiler/ast.html#mNctGet	TMagic.mNctGet	
+mNctHasNext	compiler/ast.html#mNctHasNext	TMagic.mNctHasNext	
+mNctNext	compiler/ast.html#mNctNext	TMagic.mNctNext	
+mNIntVal	compiler/ast.html#mNIntVal	TMagic.mNIntVal	
+mNFloatVal	compiler/ast.html#mNFloatVal	TMagic.mNFloatVal	
+mNSymbol	compiler/ast.html#mNSymbol	TMagic.mNSymbol	
+mNIdent	compiler/ast.html#mNIdent	TMagic.mNIdent	
+mNGetType	compiler/ast.html#mNGetType	TMagic.mNGetType	
+mNStrVal	compiler/ast.html#mNStrVal	TMagic.mNStrVal	
+mNSetIntVal	compiler/ast.html#mNSetIntVal	TMagic.mNSetIntVal	
+mNSetFloatVal	compiler/ast.html#mNSetFloatVal	TMagic.mNSetFloatVal	
+mNSetSymbol	compiler/ast.html#mNSetSymbol	TMagic.mNSetSymbol	
+mNSetIdent	compiler/ast.html#mNSetIdent	TMagic.mNSetIdent	
+mNSetType	compiler/ast.html#mNSetType	TMagic.mNSetType	
+mNSetStrVal	compiler/ast.html#mNSetStrVal	TMagic.mNSetStrVal	
+mNLineInfo	compiler/ast.html#mNLineInfo	TMagic.mNLineInfo	
+mNNewNimNode	compiler/ast.html#mNNewNimNode	TMagic.mNNewNimNode	
+mNCopyNimNode	compiler/ast.html#mNCopyNimNode	TMagic.mNCopyNimNode	
+mNCopyNimTree	compiler/ast.html#mNCopyNimTree	TMagic.mNCopyNimTree	
+mStrToIdent	compiler/ast.html#mStrToIdent	TMagic.mStrToIdent	
+mNSigHash	compiler/ast.html#mNSigHash	TMagic.mNSigHash	
+mNSizeOf	compiler/ast.html#mNSizeOf	TMagic.mNSizeOf	
+mNBindSym	compiler/ast.html#mNBindSym	TMagic.mNBindSym	
+mLocals	compiler/ast.html#mLocals	TMagic.mLocals	
+mNCallSite	compiler/ast.html#mNCallSite	TMagic.mNCallSite	
+mEqIdent	compiler/ast.html#mEqIdent	TMagic.mEqIdent	
+mEqNimrodNode	compiler/ast.html#mEqNimrodNode	TMagic.mEqNimrodNode	
+mSameNodeType	compiler/ast.html#mSameNodeType	TMagic.mSameNodeType	
+mGetImpl	compiler/ast.html#mGetImpl	TMagic.mGetImpl	
+mNGenSym	compiler/ast.html#mNGenSym	TMagic.mNGenSym	
+mNHint	compiler/ast.html#mNHint	TMagic.mNHint	
+mNWarning	compiler/ast.html#mNWarning	TMagic.mNWarning	
+mNError	compiler/ast.html#mNError	TMagic.mNError	
+mInstantiationInfo	compiler/ast.html#mInstantiationInfo	TMagic.mInstantiationInfo	
+mGetTypeInfo	compiler/ast.html#mGetTypeInfo	TMagic.mGetTypeInfo	
+mNimvm	compiler/ast.html#mNimvm	TMagic.mNimvm	
+mIntDefine	compiler/ast.html#mIntDefine	TMagic.mIntDefine	
+mStrDefine	compiler/ast.html#mStrDefine	TMagic.mStrDefine	
+mBoolDefine	compiler/ast.html#mBoolDefine	TMagic.mBoolDefine	
+mRunnableExamples	compiler/ast.html#mRunnableExamples	TMagic.mRunnableExamples	
+mException	compiler/ast.html#mException	TMagic.mException	
+mBuiltinType	compiler/ast.html#mBuiltinType	TMagic.mBuiltinType	
+mSymOwner	compiler/ast.html#mSymOwner	TMagic.mSymOwner	
+mUncheckedArray	compiler/ast.html#mUncheckedArray	TMagic.mUncheckedArray	
+mGetImplTransf	compiler/ast.html#mGetImplTransf	TMagic.mGetImplTransf	
+mSymIsInstantiationOf	compiler/ast.html#mSymIsInstantiationOf	TMagic.mSymIsInstantiationOf	
+mNodeId	compiler/ast.html#mNodeId	TMagic.mNodeId	
+TMagic	compiler/ast.html#TMagic	ast: TMagic	
+ctfeWhitelist	compiler/ast.html#ctfeWhitelist	ast: ctfeWhitelist	
+PNode	compiler/ast.html#PNode	ast: PNode	
+TNodeSeq	compiler/ast.html#TNodeSeq	ast: TNodeSeq	
+PType	compiler/ast.html#PType	ast: PType	
+PSym	compiler/ast.html#PSym	ast: PSym	
+TNode	compiler/ast.html#TNode	ast: TNode	
+TStrTable	compiler/ast.html#TStrTable	ast: TStrTable	
+locNone	compiler/ast.html#locNone	TLocKind.locNone	
+locTemp	compiler/ast.html#locTemp	TLocKind.locTemp	
+locLocalVar	compiler/ast.html#locLocalVar	TLocKind.locLocalVar	
+locGlobalVar	compiler/ast.html#locGlobalVar	TLocKind.locGlobalVar	
+locParam	compiler/ast.html#locParam	TLocKind.locParam	
+locField	compiler/ast.html#locField	TLocKind.locField	
+locExpr	compiler/ast.html#locExpr	TLocKind.locExpr	
+locProc	compiler/ast.html#locProc	TLocKind.locProc	
+locData	compiler/ast.html#locData	TLocKind.locData	
+locCall	compiler/ast.html#locCall	TLocKind.locCall	
+locOther	compiler/ast.html#locOther	TLocKind.locOther	
+TLocKind	compiler/ast.html#TLocKind	ast: TLocKind	
+lfIndirect	compiler/ast.html#lfIndirect	TLocFlag.lfIndirect	
+lfFullExternalName	compiler/ast.html#lfFullExternalName	TLocFlag.lfFullExternalName	
+lfNoDeepCopy	compiler/ast.html#lfNoDeepCopy	TLocFlag.lfNoDeepCopy	
+lfNoDecl	compiler/ast.html#lfNoDecl	TLocFlag.lfNoDecl	
+lfDynamicLib	compiler/ast.html#lfDynamicLib	TLocFlag.lfDynamicLib	
+lfExportLib	compiler/ast.html#lfExportLib	TLocFlag.lfExportLib	
+lfHeader	compiler/ast.html#lfHeader	TLocFlag.lfHeader	
+lfImportCompilerProc	compiler/ast.html#lfImportCompilerProc	TLocFlag.lfImportCompilerProc	
+lfSingleUse	compiler/ast.html#lfSingleUse	TLocFlag.lfSingleUse	
+lfEnforceDeref	compiler/ast.html#lfEnforceDeref	TLocFlag.lfEnforceDeref	
+lfPrepareForMutation	compiler/ast.html#lfPrepareForMutation	TLocFlag.lfPrepareForMutation	
+TLocFlag	compiler/ast.html#TLocFlag	ast: TLocFlag	
+OnUnknown	compiler/ast.html#OnUnknown	TStorageLoc.OnUnknown	
+OnStatic	compiler/ast.html#OnStatic	TStorageLoc.OnStatic	
+OnStack	compiler/ast.html#OnStack	TStorageLoc.OnStack	
+OnHeap	compiler/ast.html#OnHeap	TStorageLoc.OnHeap	
+TStorageLoc	compiler/ast.html#TStorageLoc	ast: TStorageLoc	
+TLocFlags	compiler/ast.html#TLocFlags	ast: TLocFlags	
+TLoc	compiler/ast.html#TLoc	ast: TLoc	
+libHeader	compiler/ast.html#libHeader	TLibKind.libHeader	
+libDynamic	compiler/ast.html#libDynamic	TLibKind.libDynamic	
+TLibKind	compiler/ast.html#TLibKind	ast: TLibKind	
+TLib	compiler/ast.html#TLib	ast: TLib	
+CompilesId	compiler/ast.html#CompilesId	ast: CompilesId	
+TInstantiation	compiler/ast.html#TInstantiation	ast: TInstantiation	
+PInstantiation	compiler/ast.html#PInstantiation	ast: PInstantiation	
+TScope	compiler/ast.html#TScope	ast: TScope	
+PScope	compiler/ast.html#PScope	ast: PScope	
+PLib	compiler/ast.html#PLib	ast: PLib	
+TSym	compiler/ast.html#TSym	ast: TSym	
+TTypeSeq	compiler/ast.html#TTypeSeq	ast: TTypeSeq	
+TLockLevel	compiler/ast.html#TLockLevel	ast: TLockLevel	
+attachedDestructor	compiler/ast.html#attachedDestructor	TTypeAttachedOp.attachedDestructor	
+attachedAsgn	compiler/ast.html#attachedAsgn	TTypeAttachedOp.attachedAsgn	
+attachedSink	compiler/ast.html#attachedSink	TTypeAttachedOp.attachedSink	
+attachedTrace	compiler/ast.html#attachedTrace	TTypeAttachedOp.attachedTrace	
+attachedDispose	compiler/ast.html#attachedDispose	TTypeAttachedOp.attachedDispose	
+attachedDeepCopy	compiler/ast.html#attachedDeepCopy	TTypeAttachedOp.attachedDeepCopy	
+TTypeAttachedOp	compiler/ast.html#TTypeAttachedOp	ast: TTypeAttachedOp	
+TType	compiler/ast.html#TType	ast: TType	
+TPair	compiler/ast.html#TPair	ast: TPair	
+TPairSeq	compiler/ast.html#TPairSeq	ast: TPairSeq	
+TIdPair	compiler/ast.html#TIdPair	ast: TIdPair	
+TIdPairSeq	compiler/ast.html#TIdPairSeq	ast: TIdPairSeq	
+TIdTable	compiler/ast.html#TIdTable	ast: TIdTable	
+TIdNodePair	compiler/ast.html#TIdNodePair	ast: TIdNodePair	
+TIdNodePairSeq	compiler/ast.html#TIdNodePairSeq	ast: TIdNodePairSeq	
+TIdNodeTable	compiler/ast.html#TIdNodeTable	ast: TIdNodeTable	
+TNodePair	compiler/ast.html#TNodePair	ast: TNodePair	
+TNodePairSeq	compiler/ast.html#TNodePairSeq	ast: TNodePairSeq	
+TNodeTable	compiler/ast.html#TNodeTable	ast: TNodeTable	
+TObjectSeq	compiler/ast.html#TObjectSeq	ast: TObjectSeq	
+TObjectSet	compiler/ast.html#TObjectSet	ast: TObjectSet	
+impUnknown	compiler/ast.html#impUnknown	TImplication.impUnknown	
+impNo	compiler/ast.html#impNo	TImplication.impNo	
+impYes	compiler/ast.html#impYes	TImplication.impYes	
+TImplication	compiler/ast.html#TImplication	ast: TImplication	
+OverloadableSyms	compiler/ast.html#OverloadableSyms	ast: OverloadableSyms	
+GenericTypes	compiler/ast.html#GenericTypes	ast: GenericTypes	
+StructuralEquivTypes	compiler/ast.html#StructuralEquivTypes	ast: StructuralEquivTypes	
+ConcreteTypes	compiler/ast.html#ConcreteTypes	ast: ConcreteTypes	
+IntegralTypes	compiler/ast.html#IntegralTypes	ast: IntegralTypes	
+ConstantDataTypes	compiler/ast.html#ConstantDataTypes	ast: ConstantDataTypes	
+NilableTypes	compiler/ast.html#NilableTypes	ast: NilableTypes	
+PtrLikeKinds	compiler/ast.html#PtrLikeKinds	ast: PtrLikeKinds	
+ExportableSymKinds	compiler/ast.html#ExportableSymKinds	ast: ExportableSymKinds	
+PersistentNodeFlags	compiler/ast.html#PersistentNodeFlags	ast: PersistentNodeFlags	
+namePos	compiler/ast.html#namePos	ast: namePos	
+patternPos	compiler/ast.html#patternPos	ast: patternPos	
+genericParamsPos	compiler/ast.html#genericParamsPos	ast: genericParamsPos	
+paramsPos	compiler/ast.html#paramsPos	ast: paramsPos	
+pragmasPos	compiler/ast.html#pragmasPos	ast: pragmasPos	
+miscPos	compiler/ast.html#miscPos	ast: miscPos	
+bodyPos	compiler/ast.html#bodyPos	ast: bodyPos	
+resultPos	compiler/ast.html#resultPos	ast: resultPos	
+dispatcherPos	compiler/ast.html#dispatcherPos	ast: dispatcherPos	
+nfAllFieldsSet	compiler/ast.html#nfAllFieldsSet	ast: nfAllFieldsSet	
+nkCallKinds	compiler/ast.html#nkCallKinds	ast: nkCallKinds	
+nkIdentKinds	compiler/ast.html#nkIdentKinds	ast: nkIdentKinds	
+nkPragmaCallKinds	compiler/ast.html#nkPragmaCallKinds	ast: nkPragmaCallKinds	
+nkLiterals	compiler/ast.html#nkLiterals	ast: nkLiterals	
+nkFloatLiterals	compiler/ast.html#nkFloatLiterals	ast: nkFloatLiterals	
+nkLambdaKinds	compiler/ast.html#nkLambdaKinds	ast: nkLambdaKinds	
+declarativeDefs	compiler/ast.html#declarativeDefs	ast: declarativeDefs	
+procDefs	compiler/ast.html#procDefs	ast: procDefs	
+nkSymChoices	compiler/ast.html#nkSymChoices	ast: nkSymChoices	
+nkStrKinds	compiler/ast.html#nkStrKinds	ast: nkStrKinds	
+skLocalVars	compiler/ast.html#skLocalVars	ast: skLocalVars	
+skProcKinds	compiler/ast.html#skProcKinds	ast: skProcKinds	
+getnimblePkg	compiler/ast.html#getnimblePkg,PSym	ast: getnimblePkg(a: PSym): PSym	
+getnimblePkgId	compiler/ast.html#getnimblePkgId,PSym	ast: getnimblePkgId(a: PSym): int	
+ggDebug	compiler/ast.html#ggDebug	ast: ggDebug	
+isCallExpr	compiler/ast.html#isCallExpr,PNode	ast: isCallExpr(n: PNode): bool	
+len	compiler/ast.html#len,Indexable	ast: len(n: Indexable): int	
+safeLen	compiler/ast.html#safeLen,PNode	ast: safeLen(n: PNode): int	
+safeArrLen	compiler/ast.html#safeArrLen,PNode	ast: safeArrLen(n: PNode): int	
+add	compiler/ast.html#add,Indexable,Indexable	ast: add(father, son: Indexable)	
+`[]`	compiler/ast.html#[].t,Indexable,int	ast: `[]`(n: Indexable; i: int): Indexable	
+`[]=`	compiler/ast.html#[]=.t,Indexable,int,Indexable	ast: `[]=`(n: Indexable; i: int; x: Indexable)	
+`[]`	compiler/ast.html#[].t,Indexable,BackwardsIndex	ast: `[]`(n: Indexable; i: BackwardsIndex): Indexable	
+`[]=`	compiler/ast.html#[]=.t,Indexable,BackwardsIndex,Indexable	ast: `[]=`(n: Indexable; i: BackwardsIndex; x: Indexable)	
+newNode	compiler/ast.html#newNode,TNodeKind	ast: newNode(kind: TNodeKind): PNode	
+newTree	compiler/ast.html#newTree,TNodeKind,varargs[PNode]	ast: newTree(kind: TNodeKind; children: varargs[PNode]): PNode	
+previouslyInferred	compiler/ast.html#previouslyInferred.t,PType	ast: previouslyInferred(t: PType): PType	
+newSym	compiler/ast.html#newSym,TSymKind,PIdent,PSym,TLineInfo,TOptions	ast: newSym(symKind: TSymKind; name: PIdent; owner: PSym; info: TLineInfo;\n       options: TOptions = {}): PSym	
+astdef	compiler/ast.html#astdef,PSym	ast: astdef(s: PSym): PNode	
+isMetaType	compiler/ast.html#isMetaType,PType	ast: isMetaType(t: PType): bool	
+isUnresolvedStatic	compiler/ast.html#isUnresolvedStatic,PType	ast: isUnresolvedStatic(t: PType): bool	
+linkTo	compiler/ast.html#linkTo,PType,PSym	ast: linkTo(t: PType; s: PSym): PType	
+linkTo	compiler/ast.html#linkTo,PSym,PType	ast: linkTo(s: PSym; t: PType): PSym	
+fileIdx	compiler/ast.html#fileIdx.t,PSym	ast: fileIdx(c: PSym): FileIndex	
+filename	compiler/ast.html#filename.t,PSym	ast: filename(c: PSym): string	
+appendToModule	compiler/ast.html#appendToModule,PSym,PNode	ast: appendToModule(m: PSym; n: PNode)	
+GrowthFactor	compiler/ast.html#GrowthFactor	ast: GrowthFactor	
+StartSize	compiler/ast.html#StartSize	ast: StartSize	
+copyStrTable	compiler/ast.html#copyStrTable,TStrTable,TStrTable	ast: copyStrTable(dest: var TStrTable; src: TStrTable)	
+copyIdTable	compiler/ast.html#copyIdTable,TIdTable,TIdTable	ast: copyIdTable(dest: var TIdTable; src: TIdTable)	
+copyObjectSet	compiler/ast.html#copyObjectSet,TObjectSet,TObjectSet	ast: copyObjectSet(dest: var TObjectSet; src: TObjectSet)	
+discardSons	compiler/ast.html#discardSons,PNode	ast: discardSons(father: PNode)	
+withInfo	compiler/ast.html#withInfo,PNode,TLineInfo	ast: withInfo(n: PNode; info: TLineInfo): PNode	
+newIdentNode	compiler/ast.html#newIdentNode,PIdent,TLineInfo	ast: newIdentNode(ident: PIdent; info: TLineInfo): PNode	
+newSymNode	compiler/ast.html#newSymNode,PSym	ast: newSymNode(sym: PSym): PNode	
+newSymNode	compiler/ast.html#newSymNode,PSym,TLineInfo	ast: newSymNode(sym: PSym; info: TLineInfo): PNode	
+newNodeI	compiler/ast.html#newNodeI,TNodeKind,TLineInfo	ast: newNodeI(kind: TNodeKind; info: TLineInfo): PNode	
+newNodeI	compiler/ast.html#newNodeI,TNodeKind,TLineInfo,int	ast: newNodeI(kind: TNodeKind; info: TLineInfo; children: int): PNode	
+newNode	compiler/ast.html#newNode,TNodeKind,TLineInfo,seq[PNode],PType	ast: newNode(kind: TNodeKind; info: TLineInfo; sons: TNodeSeq = @[]; typ: PType = nil): PNode	
+newNodeIT	compiler/ast.html#newNodeIT,TNodeKind,TLineInfo,PType	ast: newNodeIT(kind: TNodeKind; info: TLineInfo; typ: PType): PNode	
+newIntNode	compiler/ast.html#newIntNode,TNodeKind,BiggestInt	ast: newIntNode(kind: TNodeKind; intVal: BiggestInt): PNode	
+newIntNode	compiler/ast.html#newIntNode,TNodeKind,Int128	ast: newIntNode(kind: TNodeKind; intVal: Int128): PNode	
+lastSon	compiler/ast.html#lastSon,Indexable	ast: lastSon(n: Indexable): Indexable	
+skipTypes	compiler/ast.html#skipTypes,PType,TTypeKinds	ast: skipTypes(t: PType; kinds: TTypeKinds): PType	
+newIntTypeNode	compiler/ast.html#newIntTypeNode,BiggestInt,PType	ast: newIntTypeNode(intVal: BiggestInt; typ: PType): PNode	
+newIntTypeNode	compiler/ast.html#newIntTypeNode,Int128,PType	ast: newIntTypeNode(intVal: Int128; typ: PType): PNode	
+newFloatNode	compiler/ast.html#newFloatNode,TNodeKind,BiggestFloat	ast: newFloatNode(kind: TNodeKind; floatVal: BiggestFloat): PNode	
+newStrNode	compiler/ast.html#newStrNode,TNodeKind,string	ast: newStrNode(kind: TNodeKind; strVal: string): PNode	
+newStrNode	compiler/ast.html#newStrNode,string,TLineInfo	ast: newStrNode(strVal: string; info: TLineInfo): PNode	
+newProcNode	compiler/ast.html#newProcNode,TNodeKind,TLineInfo,PNode,PNode,PNode,PNode,PNode,PNode,PNode	ast: newProcNode(kind: TNodeKind; info: TLineInfo; body: PNode;\n            params, name, pattern, genericParams, pragmas, exceptions: PNode): PNode	
+UnspecifiedLockLevel	compiler/ast.html#UnspecifiedLockLevel	ast: UnspecifiedLockLevel	
+MaxLockLevel	compiler/ast.html#MaxLockLevel	ast: MaxLockLevel	
+UnknownLockLevel	compiler/ast.html#UnknownLockLevel	ast: UnknownLockLevel	
+AttachedOpToStr	compiler/ast.html#AttachedOpToStr	ast: AttachedOpToStr	
+`$`	compiler/ast.html#$,TLockLevel	ast: `$`(x: TLockLevel): string	
+`$`	compiler/ast.html#$,PSym	ast: `$`(s: PSym): string	
+newType	compiler/ast.html#newType,TTypeKind,PSym	ast: newType(kind: TTypeKind; owner: PSym): PType	
+newSons	compiler/ast.html#newSons,Indexable,int	ast: newSons(father: Indexable; length: int)	
+assignType	compiler/ast.html#assignType,PType,PType	ast: assignType(dest, src: PType)	
+copyType	compiler/ast.html#copyType,PType,PSym,bool	ast: copyType(t: PType; owner: PSym; keepId: bool): PType	
+exactReplica	compiler/ast.html#exactReplica,PType	ast: exactReplica(t: PType): PType	
+copySym	compiler/ast.html#copySym,PSym	ast: copySym(s: PSym): PSym	
+createModuleAlias	compiler/ast.html#createModuleAlias,PSym,PIdent,TLineInfo,TOptions	ast: createModuleAlias(s: PSym; newIdent: PIdent; info: TLineInfo; options: TOptions): PSym	
+initStrTable	compiler/ast.html#initStrTable,TStrTable	ast: initStrTable(x: var TStrTable)	
+newStrTable	compiler/ast.html#newStrTable	ast: newStrTable(): TStrTable	
+initIdTable	compiler/ast.html#initIdTable,TIdTable	ast: initIdTable(x: var TIdTable)	
+newIdTable	compiler/ast.html#newIdTable	ast: newIdTable(): TIdTable	
+resetIdTable	compiler/ast.html#resetIdTable,TIdTable	ast: resetIdTable(x: var TIdTable)	
+initObjectSet	compiler/ast.html#initObjectSet,TObjectSet	ast: initObjectSet(x: var TObjectSet)	
+initIdNodeTable	compiler/ast.html#initIdNodeTable,TIdNodeTable	ast: initIdNodeTable(x: var TIdNodeTable)	
+initNodeTable	compiler/ast.html#initNodeTable,TNodeTable	ast: initNodeTable(x: var TNodeTable)	
+skipTypes	compiler/ast.html#skipTypes,PType,TTypeKinds,int	ast: skipTypes(t: PType; kinds: TTypeKinds; maxIters: int): PType	
+skipTypesOrNil	compiler/ast.html#skipTypesOrNil,PType,TTypeKinds	ast: skipTypesOrNil(t: PType; kinds: TTypeKinds): PType	
+isGCedMem	compiler/ast.html#isGCedMem,PType	ast: isGCedMem(t: PType): bool	
+propagateToOwner	compiler/ast.html#propagateToOwner,PType,PType	ast: propagateToOwner(owner, elem: PType; propagateHasAsgn = true)	
+rawAddSon	compiler/ast.html#rawAddSon,PType,PType	ast: rawAddSon(father, son: PType; propagateHasAsgn = true)	
+rawAddSonNoPropagationOfTypeFlags	compiler/ast.html#rawAddSonNoPropagationOfTypeFlags,PType,PType	ast: rawAddSonNoPropagationOfTypeFlags(father, son: PType)	
+addSonNilAllowed	compiler/ast.html#addSonNilAllowed,PNode,PNode	ast: addSonNilAllowed(father, son: PNode)	
+delSon	compiler/ast.html#delSon,PNode,int	ast: delSon(father: PNode; idx: int)	
+copyNode	compiler/ast.html#copyNode,PNode	ast: copyNode(src: PNode): PNode	
+transitionSonsKind	compiler/ast.html#transitionSonsKind,PNode,range[]	ast: transitionSonsKind(n: PNode; kind: range[nkComesFrom .. nkTupleConstr])	
+transitionIntKind	compiler/ast.html#transitionIntKind,PNode,range[]	ast: transitionIntKind(n: PNode; kind: range[nkCharLit .. nkUInt64Lit])	
+transitionNoneToSym	compiler/ast.html#transitionNoneToSym,PNode	ast: transitionNoneToSym(n: PNode)	
+transitionSymKindCommon	compiler/ast.html#transitionSymKindCommon.t,TSymKind	ast: transitionSymKindCommon(k: TSymKind)	
+transitionGenericParamToType	compiler/ast.html#transitionGenericParamToType,PSym	ast: transitionGenericParamToType(s: PSym)	
+transitionRoutineSymKind	compiler/ast.html#transitionRoutineSymKind,PSym,range[]	ast: transitionRoutineSymKind(s: PSym; kind: range[skProc .. skTemplate])	
+transitionToLet	compiler/ast.html#transitionToLet,PSym	ast: transitionToLet(s: PSym)	
+shallowCopy	compiler/ast.html#shallowCopy,PNode	ast: shallowCopy(src: PNode): PNode	
+copyTree	compiler/ast.html#copyTree,PNode	ast: copyTree(src: PNode): PNode	
+hasSonWith	compiler/ast.html#hasSonWith,PNode,TNodeKind	ast: hasSonWith(n: PNode; kind: TNodeKind): bool	
+hasNilSon	compiler/ast.html#hasNilSon,PNode	ast: hasNilSon(n: PNode): bool	
+containsNode	compiler/ast.html#containsNode,PNode,TNodeKinds	ast: containsNode(n: PNode; kinds: TNodeKinds): bool	
+hasSubnodeWith	compiler/ast.html#hasSubnodeWith,PNode,TNodeKind	ast: hasSubnodeWith(n: PNode; kind: TNodeKind): bool	
+getInt	compiler/ast.html#getInt,PNode	ast: getInt(a: PNode): Int128	
+getInt64	compiler/ast.html#getInt64,PNode	ast: getInt64(a: PNode): int64	
+getFloat	compiler/ast.html#getFloat,PNode	ast: getFloat(a: PNode): BiggestFloat	
+getStr	compiler/ast.html#getStr,PNode	ast: getStr(a: PNode): string	
+getStrOrChar	compiler/ast.html#getStrOrChar,PNode	ast: getStrOrChar(a: PNode): string	
+isGenericRoutine	compiler/ast.html#isGenericRoutine,PSym	ast: isGenericRoutine(s: PSym): bool	
+skipGenericOwner	compiler/ast.html#skipGenericOwner,PSym	ast: skipGenericOwner(s: PSym): PSym	
+originatingModule	compiler/ast.html#originatingModule,PSym	ast: originatingModule(s: PSym): PSym	
+isRoutine	compiler/ast.html#isRoutine,PSym	ast: isRoutine(s: PSym): bool	
+isCompileTimeProc	compiler/ast.html#isCompileTimeProc,PSym	ast: isCompileTimeProc(s: PSym): bool	
+isRunnableExamples	compiler/ast.html#isRunnableExamples,PNode	ast: isRunnableExamples(n: PNode): bool	
+requiredParams	compiler/ast.html#requiredParams,PSym	ast: requiredParams(s: PSym): int	
+hasPattern	compiler/ast.html#hasPattern,PSym	ast: hasPattern(s: PSym): bool	
+items	compiler/ast.html#items.i,PNode	ast: items(n: PNode): PNode	
+pairs	compiler/ast.html#pairs.i,PNode	ast: pairs(n: PNode): tuple[i: int, n: PNode]	
+isAtom	compiler/ast.html#isAtom,PNode	ast: isAtom(n: PNode): bool	
+isEmptyType	compiler/ast.html#isEmptyType,PType	ast: isEmptyType(t: PType): bool	
+makeStmtList	compiler/ast.html#makeStmtList,PNode	ast: makeStmtList(n: PNode): PNode	
+skipStmtList	compiler/ast.html#skipStmtList,PNode	ast: skipStmtList(n: PNode): PNode	
+toVar	compiler/ast.html#toVar,PType	ast: toVar(typ: PType): PType	
+toRef	compiler/ast.html#toRef,PType	ast: toRef(typ: PType): PType	
+toObject	compiler/ast.html#toObject,PType	ast: toObject(typ: PType): PType	
+isImportedException	compiler/ast.html#isImportedException,PType,ConfigRef	ast: isImportedException(t: PType; conf: ConfigRef): bool	
+isInfixAs	compiler/ast.html#isInfixAs,PNode	ast: isInfixAs(n: PNode): bool	
+findUnresolvedStatic	compiler/ast.html#findUnresolvedStatic,PNode	ast: findUnresolvedStatic(n: PNode): PNode	
+hasDestructor	compiler/ast.html#hasDestructor.t,PType	ast: hasDestructor(t: PType): bool	
+incompleteType	compiler/ast.html#incompleteType.t,PType	ast: incompleteType(t: PType): bool	
+typeCompleted	compiler/ast.html#typeCompleted.t,PSym	ast: typeCompleted(s: PSym)	
+getBody	compiler/ast.html#getBody.t,PSym	ast: getBody(s: PSym): PNode	
+detailedInfo	compiler/ast.html#detailedInfo.t,PSym	ast: detailedInfo(sym: PSym): string	
+isInlineIterator	compiler/ast.html#isInlineIterator,PType	ast: isInlineIterator(typ: PType): bool	
+isClosureIterator	compiler/ast.html#isClosureIterator,PType	ast: isClosureIterator(typ: PType): bool	
+isSinkParam	compiler/ast.html#isSinkParam,PSym	ast: isSinkParam(s: PSym): bool	
+isSinkType	compiler/ast.html#isSinkType,PType	ast: isSinkType(t: PType): bool	
+newProcType	compiler/ast.html#newProcType,TLineInfo,PSym	ast: newProcType(info: TLineInfo; owner: PSym): PType	
+addParam	compiler/ast.html#addParam,PType,PSym	ast: addParam(procType: PType; param: PSym)	
+destructor	compiler/ast.html#destructor.t,PType	ast: destructor(t: PType): PSym	
+assignment	compiler/ast.html#assignment.t,PType	ast: assignment(t: PType): PSym	
+asink	compiler/ast.html#asink.t,PType	ast: asink(t: PType): PSym	
+canRaiseConservative	compiler/ast.html#canRaiseConservative,PNode	ast: canRaiseConservative(fn: PNode): bool	
+canRaise	compiler/ast.html#canRaise,PNode	ast: canRaise(fn: PNode): bool	
+toHumanStr	compiler/ast.html#toHumanStr,TSymKind	ast: toHumanStr(kind: TSymKind): string	
+toHumanStr	compiler/ast.html#toHumanStr,TTypeKind	ast: toHumanStr(kind: TTypeKind): string	

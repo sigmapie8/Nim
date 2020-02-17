@@ -1,0 +1,24 @@
+renderNone	compiler/renderer.html#renderNone	TRenderFlag.renderNone	
+renderNoBody	compiler/renderer.html#renderNoBody	TRenderFlag.renderNoBody	
+renderNoComments	compiler/renderer.html#renderNoComments	TRenderFlag.renderNoComments	
+renderDocComments	compiler/renderer.html#renderDocComments	TRenderFlag.renderDocComments	
+renderNoPragmas	compiler/renderer.html#renderNoPragmas	TRenderFlag.renderNoPragmas	
+renderIds	compiler/renderer.html#renderIds	TRenderFlag.renderIds	
+renderNoProcDefs	compiler/renderer.html#renderNoProcDefs	TRenderFlag.renderNoProcDefs	
+renderSyms	compiler/renderer.html#renderSyms	TRenderFlag.renderSyms	
+TRenderFlag	compiler/renderer.html#TRenderFlag	renderer: TRenderFlag	
+TRenderFlags	compiler/renderer.html#TRenderFlags	renderer: TRenderFlags	
+TRenderTok	compiler/renderer.html#TRenderTok	renderer: TRenderTok	
+TRenderTokSeq	compiler/renderer.html#TRenderTokSeq	renderer: TRenderTokSeq	
+TSrcGen	compiler/renderer.html#TSrcGen	renderer: TSrcGen	
+isKeyword	compiler/renderer.html#isKeyword,PIdent	renderer: isKeyword(i: PIdent): bool	
+renderDefinitionName	compiler/renderer.html#renderDefinitionName,PSym	renderer: renderDefinitionName(s: PSym; noQuotes = false): string	
+isBracket	compiler/renderer.html#isBracket,PNode	renderer: isBracket(n: PNode): bool	
+renderTree	compiler/renderer.html#renderTree,PNode,TRenderFlags	renderer: renderTree(n: PNode; renderFlags: TRenderFlags = {}): string	
+`$`	compiler/renderer.html#$,PNode	renderer: `$`(n: PNode): string	
+renderModule	compiler/renderer.html#renderModule,PNode,string,string,TRenderFlags,ConfigRef	renderer: renderModule(n: PNode; infile, outfile: string; renderFlags: TRenderFlags = {};\n             fid = FileIndex(-1); conf: ConfigRef = nil)	
+initTokRender	compiler/renderer.html#initTokRender,TSrcGen,PNode,TRenderFlags	renderer: initTokRender(r: var TSrcGen; n: PNode; renderFlags: TRenderFlags = {})	
+getNextTok	compiler/renderer.html#getNextTok,TSrcGen,TTokType,string	renderer: getNextTok(r: var TSrcGen; kind: var TTokType; literal: var string)	
+getTokSym	compiler/renderer.html#getTokSym,TSrcGen	renderer: getTokSym(r: TSrcGen): PSym	
+quoteExpr	compiler/renderer.html#quoteExpr,string	renderer: quoteExpr(a: string): string	
+genFieldError	compiler/renderer.html#genFieldError,PSym,PSym	renderer: genFieldError(field: PSym; disc: PSym): string	

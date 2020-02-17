@@ -1,0 +1,22 @@
+aqNone	compiler/parampatterns.html#aqNone	TAliasRequest.aqNone	
+aqShouldAlias	compiler/parampatterns.html#aqShouldAlias	TAliasRequest.aqShouldAlias	
+aqNoAlias	compiler/parampatterns.html#aqNoAlias	TAliasRequest.aqNoAlias	
+TAliasRequest	compiler/parampatterns.html#TAliasRequest	parampatterns: TAliasRequest	
+MaxStackSize	compiler/parampatterns.html#MaxStackSize	parampatterns: MaxStackSize	
+whichAlias	compiler/parampatterns.html#whichAlias,PSym	parampatterns: whichAlias(p: PSym): TAliasRequest	
+semNodeKindConstraints	compiler/parampatterns.html#semNodeKindConstraints,PNode,ConfigRef,Natural	parampatterns: semNodeKindConstraints(n: PNode; conf: ConfigRef; start: Natural): PNode	
+seUnknown	compiler/parampatterns.html#seUnknown	TSideEffectAnalysis.seUnknown	
+seSideEffect	compiler/parampatterns.html#seSideEffect	TSideEffectAnalysis.seSideEffect	
+seNoSideEffect	compiler/parampatterns.html#seNoSideEffect	TSideEffectAnalysis.seNoSideEffect	
+TSideEffectAnalysis	compiler/parampatterns.html#TSideEffectAnalysis	parampatterns: TSideEffectAnalysis	
+checkForSideEffects	compiler/parampatterns.html#checkForSideEffects,PNode	parampatterns: checkForSideEffects(n: PNode): TSideEffectAnalysis	
+arNone	compiler/parampatterns.html#arNone	TAssignableResult.arNone	
+arLValue	compiler/parampatterns.html#arLValue	TAssignableResult.arLValue	
+arLocalLValue	compiler/parampatterns.html#arLocalLValue	TAssignableResult.arLocalLValue	
+arDiscriminant	compiler/parampatterns.html#arDiscriminant	TAssignableResult.arDiscriminant	
+arStrange	compiler/parampatterns.html#arStrange	TAssignableResult.arStrange	
+TAssignableResult	compiler/parampatterns.html#TAssignableResult	parampatterns: TAssignableResult	
+exprRoot	compiler/parampatterns.html#exprRoot,PNode	parampatterns: exprRoot(n: PNode): PSym	
+isAssignable	compiler/parampatterns.html#isAssignable,PSym,PNode	parampatterns: isAssignable(owner: PSym; n: PNode; isUnsafeAddr = false): TAssignableResult	
+isLValue	compiler/parampatterns.html#isLValue,PNode	parampatterns: isLValue(n: PNode): bool	
+matchNodeKinds	compiler/parampatterns.html#matchNodeKinds,PNode,PNode	parampatterns: matchNodeKinds(p, n: PNode): bool	

@@ -1,0 +1,44 @@
+considerQuotedIdent	compiler/lookups.html#considerQuotedIdent,PContext,PNode,PNode	lookups: considerQuotedIdent(c: PContext; n: PNode; origin: PNode = nil): PIdent	
+addSym	compiler/lookups.html#addSym.t,PScope,PSym	lookups: addSym(scope: PScope; s: PSym)	
+addUniqueSym	compiler/lookups.html#addUniqueSym,PScope,PSym	lookups: addUniqueSym(scope: PScope; s: PSym): PSym	
+openScope	compiler/lookups.html#openScope,PContext	lookups: openScope(c: PContext): PScope	
+rawCloseScope	compiler/lookups.html#rawCloseScope,PContext	lookups: rawCloseScope(c: PContext)	
+closeScope	compiler/lookups.html#closeScope,PContext	lookups: closeScope(c: PContext)	
+walkScopes	compiler/lookups.html#walkScopes.i,PScope	lookups: walkScopes(scope: PScope): PScope	
+skipAlias	compiler/lookups.html#skipAlias,PSym,PNode,ConfigRef	lookups: skipAlias(s: PSym; n: PNode; conf: ConfigRef): PSym	
+localSearchInScope	compiler/lookups.html#localSearchInScope,PContext,PIdent	lookups: localSearchInScope(c: PContext; s: PIdent): PSym	
+searchInScopes	compiler/lookups.html#searchInScopes,PContext,PIdent	lookups: searchInScopes(c: PContext; s: PIdent): PSym	
+debugScopes	compiler/lookups.html#debugScopes,PContext,int	lookups: debugScopes(c: PContext; limit = 0)	
+searchInScopes	compiler/lookups.html#searchInScopes,PContext,PIdent,TSymKinds	lookups: searchInScopes(c: PContext; s: PIdent; filter: TSymKinds): PSym	
+errorSym	compiler/lookups.html#errorSym,PContext,PNode	lookups: errorSym(c: PContext; n: PNode): PSym	
+oimDone	compiler/lookups.html#oimDone	TOverloadIterMode.oimDone	
+oimNoQualifier	compiler/lookups.html#oimNoQualifier	TOverloadIterMode.oimNoQualifier	
+oimSelfModule	compiler/lookups.html#oimSelfModule	TOverloadIterMode.oimSelfModule	
+oimOtherModule	compiler/lookups.html#oimOtherModule	TOverloadIterMode.oimOtherModule	
+oimSymChoice	compiler/lookups.html#oimSymChoice	TOverloadIterMode.oimSymChoice	
+oimSymChoiceLocalLookup	compiler/lookups.html#oimSymChoiceLocalLookup	TOverloadIterMode.oimSymChoiceLocalLookup	
+TOverloadIterMode	compiler/lookups.html#TOverloadIterMode	lookups: TOverloadIterMode	
+TOverloadIter	compiler/lookups.html#TOverloadIter	lookups: TOverloadIter	
+getSymRepr	compiler/lookups.html#getSymRepr,ConfigRef,PSym	lookups: getSymRepr(conf: ConfigRef; s: PSym): string	
+wrongRedefinition	compiler/lookups.html#wrongRedefinition,PContext,TLineInfo,string,TLineInfo	lookups: wrongRedefinition(c: PContext; info: TLineInfo; s: string; conflictsWith: TLineInfo)	
+addDecl	compiler/lookups.html#addDecl,PContext,PSym,TLineInfo	lookups: addDecl(c: PContext; sym: PSym; info: TLineInfo)	
+addDecl	compiler/lookups.html#addDecl,PContext,PSym	lookups: addDecl(c: PContext; sym: PSym)	
+addPrelimDecl	compiler/lookups.html#addPrelimDecl,PContext,PSym	lookups: addPrelimDecl(c: PContext; sym: PSym)	
+addDeclAt	compiler/lookups.html#addDeclAt,PContext,PScope,PSym	lookups: addDeclAt(c: PContext; scope: PScope; sym: PSym)	
+addInterfaceDeclAt	compiler/lookups.html#addInterfaceDeclAt,PContext,PScope,PSym	lookups: addInterfaceDeclAt(c: PContext; scope: PScope; sym: PSym)	
+addOverloadableSymAt	compiler/lookups.html#addOverloadableSymAt,PContext,PScope,PSym	lookups: addOverloadableSymAt(c: PContext; scope: PScope; fn: PSym)	
+addInterfaceDecl	compiler/lookups.html#addInterfaceDecl,PContext,PSym	lookups: addInterfaceDecl(c: PContext; sym: PSym)	
+addInterfaceOverloadableSymAt	compiler/lookups.html#addInterfaceOverloadableSymAt,PContext,PScope,PSym	lookups: addInterfaceOverloadableSymAt(c: PContext; scope: PScope; sym: PSym)	
+errorUseQualifier	compiler/lookups.html#errorUseQualifier,PContext,TLineInfo,PSym	lookups: errorUseQualifier(c: PContext; info: TLineInfo; s: PSym)	
+errorUndeclaredIdentifier	compiler/lookups.html#errorUndeclaredIdentifier,PContext,TLineInfo,string	lookups: errorUndeclaredIdentifier(c: PContext; info: TLineInfo; name: string)	
+lookUp	compiler/lookups.html#lookUp,PContext,PNode	lookups: lookUp(c: PContext; n: PNode): PSym	
+checkAmbiguity	compiler/lookups.html#checkAmbiguity	TLookupFlag.checkAmbiguity	
+checkUndeclared	compiler/lookups.html#checkUndeclared	TLookupFlag.checkUndeclared	
+checkModule	compiler/lookups.html#checkModule	TLookupFlag.checkModule	
+checkPureEnumFields	compiler/lookups.html#checkPureEnumFields	TLookupFlag.checkPureEnumFields	
+TLookupFlag	compiler/lookups.html#TLookupFlag	lookups: TLookupFlag	
+qualifiedLookUp	compiler/lookups.html#qualifiedLookUp,PContext,PNode,set[TLookupFlag]	lookups: qualifiedLookUp(c: PContext; n: PNode; flags: set[TLookupFlag]): PSym	
+initOverloadIter	compiler/lookups.html#initOverloadIter,TOverloadIter,PContext,PNode	lookups: initOverloadIter(o: var TOverloadIter; c: PContext; n: PNode): PSym	
+lastOverloadScope	compiler/lookups.html#lastOverloadScope,TOverloadIter	lookups: lastOverloadScope(o: TOverloadIter): int	
+nextOverloadIter	compiler/lookups.html#nextOverloadIter,TOverloadIter,PContext,PNode	lookups: nextOverloadIter(o: var TOverloadIter; c: PContext; n: PNode): PSym	
+pickSym	compiler/lookups.html#pickSym,PContext,PNode,set[TSymKind],TSymFlags	lookups: pickSym(c: PContext; n: PNode; kinds: set[TSymKind]; flags: TSymFlags = {}): PSym	

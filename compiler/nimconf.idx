@@ -1,0 +1,4 @@
+readConfigFile	compiler/nimconf.html#readConfigFile,AbsoluteFile,IdentCache,ConfigRef	nimconf: readConfigFile(filename: AbsoluteFile; cache: IdentCache; config: ConfigRef): bool	
+getUserConfigPath	compiler/nimconf.html#getUserConfigPath,RelativeFile	nimconf: getUserConfigPath(filename: RelativeFile): AbsoluteFile	
+getSystemConfigPath	compiler/nimconf.html#getSystemConfigPath,ConfigRef,RelativeFile	nimconf: getSystemConfigPath(conf: ConfigRef; filename: RelativeFile): AbsoluteFile	
+loadConfigs	compiler/nimconf.html#loadConfigs,RelativeFile,IdentCache,ConfigRef	nimconf: loadConfigs(cfg: RelativeFile; cache: IdentCache; conf: ConfigRef)	

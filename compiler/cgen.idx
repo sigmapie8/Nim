@@ -1,0 +1,4 @@
+fillObjectFields	compiler/cgen.html#fillObjectFields,BModule,PType	cgen: fillObjectFields(m: BModule; typ: PType)	
+cgDeclFrmt	compiler/cgen.html#cgDeclFrmt.t,PSym	cgen: cgDeclFrmt(s: PSym): string	
+cgenWriteModules	compiler/cgen.html#cgenWriteModules,RootRef,ConfigRef	cgen: cgenWriteModules(backend: RootRef; config: ConfigRef)	
+cgenPass	compiler/cgen.html#cgenPass	cgen: cgenPass	

@@ -1,0 +1,17 @@
+filtNone	compiler/syntaxes.html#filtNone	TFilterKind.filtNone	
+filtTemplate	compiler/syntaxes.html#filtTemplate	TFilterKind.filtTemplate	
+filtReplace	compiler/syntaxes.html#filtReplace	TFilterKind.filtReplace	
+filtStrip	compiler/syntaxes.html#filtStrip	TFilterKind.filtStrip	
+TFilterKind	compiler/syntaxes.html#TFilterKind	syntaxes: TFilterKind	
+skinStandard	compiler/syntaxes.html#skinStandard	TParserKind.skinStandard	
+skinEndX	compiler/syntaxes.html#skinEndX	TParserKind.skinEndX	
+TParserKind	compiler/syntaxes.html#TParserKind	syntaxes: TParserKind	
+parserNames	compiler/syntaxes.html#parserNames	syntaxes: parserNames	
+filterNames	compiler/syntaxes.html#filterNames	syntaxes: filterNames	
+TParsers	compiler/syntaxes.html#TParsers	syntaxes: TParsers	
+parseAll	compiler/syntaxes.html#parseAll,TParsers	syntaxes: parseAll(p: var TParsers): PNode	
+parseTopLevelStmt	compiler/syntaxes.html#parseTopLevelStmt,TParsers	syntaxes: parseTopLevelStmt(p: var TParsers): PNode	
+openParsers	compiler/syntaxes.html#openParsers,TParsers,FileIndex,PLLStream,IdentCache,ConfigRef	syntaxes: openParsers(p: var TParsers; fileIdx: FileIndex; inputstream: PLLStream;\n            cache: IdentCache; config: ConfigRef)	
+closeParsers	compiler/syntaxes.html#closeParsers,TParsers	syntaxes: closeParsers(p: var TParsers)	
+setupParsers	compiler/syntaxes.html#setupParsers,TParsers,FileIndex,IdentCache,ConfigRef	syntaxes: setupParsers(p: var TParsers; fileIdx: FileIndex; cache: IdentCache; config: ConfigRef): bool	
+parseFile	compiler/syntaxes.html#parseFile,FileIndex,IdentCache,ConfigRef	syntaxes: parseFile(fileIdx: FileIndex; cache: IdentCache; config: ConfigRef): PNode	

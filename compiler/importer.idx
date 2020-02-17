@@ -1,0 +1,6 @@
+readExceptSet	compiler/importer.html#readExceptSet,PContext,PNode	importer: readExceptSet(c: PContext; n: PNode): IntSet	
+importPureEnumField	compiler/importer.html#importPureEnumField,PContext,PSym	importer: importPureEnumField(c: PContext; s: PSym)	
+importAllSymbols	compiler/importer.html#importAllSymbols,PContext,PSym	importer: importAllSymbols(c: PContext; fromMod: PSym)	
+evalImport	compiler/importer.html#evalImport,PContext,PNode	importer: evalImport(c: PContext; n: PNode): PNode	
+evalFrom	compiler/importer.html#evalFrom,PContext,PNode	importer: evalFrom(c: PContext; n: PNode): PNode	
+evalImportExcept	compiler/importer.html#evalImportExcept,PContext,PNode	importer: evalImportExcept(c: PContext; n: PNode): PNode	

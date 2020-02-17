@@ -1,0 +1,9 @@
+toStrMaxPrecision	compiler/rodutils.html#toStrMaxPrecision,BiggestFloat,string	rodutils: toStrMaxPrecision(f: BiggestFloat; literalPostfix = &quot;&quot;): string	
+encodeStr	compiler/rodutils.html#encodeStr,string,string	rodutils: encodeStr(s: string; result: var string)	
+decodeStr	compiler/rodutils.html#decodeStr,cstring,int	rodutils: decodeStr(s: cstring; pos: var int): string	
+encodeVBiggestInt	compiler/rodutils.html#encodeVBiggestInt,BiggestInt,string	rodutils: encodeVBiggestInt(x: BiggestInt; result: var string)	
+encodeVInt	compiler/rodutils.html#encodeVInt,int,string	rodutils: encodeVInt(x: int; result: var string)	
+decodeVInt	compiler/rodutils.html#decodeVInt,cstring,int	rodutils: decodeVInt(s: cstring; pos: var int): int	
+decodeVBiggestInt	compiler/rodutils.html#decodeVBiggestInt,cstring,int	rodutils: decodeVBiggestInt(s: cstring; pos: var int): BiggestInt	
+decodeVIntArray	compiler/rodutils.html#decodeVIntArray.i,cstring	rodutils: decodeVIntArray(s: cstring): int	
+decodeStrArray	compiler/rodutils.html#decodeStrArray.i,cstring	rodutils: decodeStrArray(s: cstring): string	

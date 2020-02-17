@@ -1,0 +1,26 @@
+SigHash	compiler/modulegraphs.html#SigHash	modulegraphs: SigHash	
+ModuleGraph	compiler/modulegraphs.html#ModuleGraph	modulegraphs: ModuleGraph	
+TPassContext	compiler/modulegraphs.html#TPassContext	modulegraphs: TPassContext	
+PPassContext	compiler/modulegraphs.html#PPassContext	modulegraphs: PPassContext	
+TPassOpen	compiler/modulegraphs.html#TPassOpen	modulegraphs: TPassOpen	
+TPassClose	compiler/modulegraphs.html#TPassClose	modulegraphs: TPassClose	
+TPassProcess	compiler/modulegraphs.html#TPassProcess	modulegraphs: TPassProcess	
+TPass	compiler/modulegraphs.html#TPass	modulegraphs: TPass	
+`$`	compiler/modulegraphs.html#$,SigHash	modulegraphs: `$`(u: SigHash): string	
+`==`	compiler/modulegraphs.html#==,SigHash,SigHash	modulegraphs: `==`(a, b: SigHash): bool	
+hash	compiler/modulegraphs.html#hash,SigHash	modulegraphs: hash(u: SigHash): Hash	
+hash	compiler/modulegraphs.html#hash,FileIndex	modulegraphs: hash(x: FileIndex): Hash	
+onUse	compiler/modulegraphs.html#onUse.t,TLineInfo,PSym	modulegraphs: onUse(info: TLineInfo; s: PSym)	
+onDef	compiler/modulegraphs.html#onDef.t,TLineInfo,PSym	modulegraphs: onDef(info: TLineInfo; s: PSym)	
+onDefResolveForward	compiler/modulegraphs.html#onDefResolveForward.t,TLineInfo,PSym	modulegraphs: onDefResolveForward(info: TLineInfo; s: PSym)	
+stopCompile	compiler/modulegraphs.html#stopCompile,ModuleGraph	modulegraphs: stopCompile(g: ModuleGraph): bool	
+createMagic	compiler/modulegraphs.html#createMagic,ModuleGraph,string,TMagic	modulegraphs: createMagic(g: ModuleGraph; name: string; m: TMagic): PSym	
+newModuleGraph	compiler/modulegraphs.html#newModuleGraph,IdentCache,ConfigRef	modulegraphs: newModuleGraph(cache: IdentCache; config: ConfigRef): ModuleGraph	
+resetAllModules	compiler/modulegraphs.html#resetAllModules,ModuleGraph	modulegraphs: resetAllModules(g: ModuleGraph)	
+getModule	compiler/modulegraphs.html#getModule,ModuleGraph,FileIndex	modulegraphs: getModule(g: ModuleGraph; fileIdx: FileIndex): PSym	
+addDep	compiler/modulegraphs.html#addDep,ModuleGraph,PSym,FileIndex	modulegraphs: addDep(g: ModuleGraph; m: PSym; dep: FileIndex)	
+addIncludeDep	compiler/modulegraphs.html#addIncludeDep,ModuleGraph,FileIndex,FileIndex	modulegraphs: addIncludeDep(g: ModuleGraph; module, includeFile: FileIndex)	
+parentModule	compiler/modulegraphs.html#parentModule,ModuleGraph,FileIndex	modulegraphs: parentModule(g: ModuleGraph; fileIdx: FileIndex): FileIndex	
+markDirty	compiler/modulegraphs.html#markDirty,ModuleGraph,FileIndex	modulegraphs: markDirty(g: ModuleGraph; fileIdx: FileIndex)	
+markClientsDirty	compiler/modulegraphs.html#markClientsDirty,ModuleGraph,FileIndex	modulegraphs: markClientsDirty(g: ModuleGraph; fileIdx: FileIndex)	
+isDirty	compiler/modulegraphs.html#isDirty,ModuleGraph,PSym	modulegraphs: isDirty(g: ModuleGraph; m: PSym): bool	

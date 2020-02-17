@@ -1,0 +1,11 @@
+resetSystemArtifacts	compiler/modules.html#resetSystemArtifacts,ModuleGraph	modules: resetSystemArtifacts(g: ModuleGraph)	
+compileModule	compiler/modules.html#compileModule,ModuleGraph,FileIndex,TSymFlags	modules: compileModule(graph: ModuleGraph; fileIdx: FileIndex; flags: TSymFlags): PSym	
+importModule	compiler/modules.html#importModule,ModuleGraph,PSym,FileIndex	modules: importModule(graph: ModuleGraph; s: PSym; fileIdx: FileIndex): PSym	
+includeModule	compiler/modules.html#includeModule,ModuleGraph,PSym,FileIndex	modules: includeModule(graph: ModuleGraph; s: PSym; fileIdx: FileIndex): PNode	
+connectCallbacks	compiler/modules.html#connectCallbacks,ModuleGraph	modules: connectCallbacks(graph: ModuleGraph)	
+compileSystemModule	compiler/modules.html#compileSystemModule,ModuleGraph	modules: compileSystemModule(graph: ModuleGraph)	
+wantMainModule	compiler/modules.html#wantMainModule,ConfigRef	modules: wantMainModule(conf: ConfigRef)	
+compileProject	compiler/modules.html#compileProject,ModuleGraph	modules: compileProject(graph: ModuleGraph; projectFileIdx = InvalidFileIdx)	
+makeModule	compiler/modules.html#makeModule,ModuleGraph,AbsoluteFile	modules: makeModule(graph: ModuleGraph; filename: AbsoluteFile): PSym	
+makeModule	compiler/modules.html#makeModule,ModuleGraph,string	modules: makeModule(graph: ModuleGraph; filename: string): PSym	
+makeStdinModule	compiler/modules.html#makeStdinModule,ModuleGraph	modules: makeStdinModule(graph: ModuleGraph): PSym	

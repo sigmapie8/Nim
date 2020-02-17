@@ -1,0 +1,27 @@
+PStackFrame	compiler/vm.html#PStackFrame	vm: PStackFrame	
+TStackFrame	compiler/vm.html#TStackFrame	vm: TStackFrame	
+setResult	compiler/vm.html#setResult,VmArgs,BiggestInt	vm: setResult(a: VmArgs; v: BiggestInt)	
+setResult	compiler/vm.html#setResult,VmArgs,BiggestFloat	vm: setResult(a: VmArgs; v: BiggestFloat)	
+setResult	compiler/vm.html#setResult,VmArgs,bool	vm: setResult(a: VmArgs; v: bool)	
+setResult	compiler/vm.html#setResult,VmArgs,string	vm: setResult(a: VmArgs; v: string)	
+setResult	compiler/vm.html#setResult,VmArgs,PNode	vm: setResult(a: VmArgs; n: PNode)	
+setResult	compiler/vm.html#setResult,VmArgs,AbsoluteDir	vm: setResult(a: VmArgs; v: AbsoluteDir)	
+setResult	compiler/vm.html#setResult,VmArgs,seq[T][string]	vm: setResult(a: VmArgs; v: seq[string])	
+getInt	compiler/vm.html#getInt,VmArgs,Natural	vm: getInt(a: VmArgs; i: Natural): BiggestInt	
+getBool	compiler/vm.html#getBool,VmArgs,Natural	vm: getBool(a: VmArgs; i: Natural): bool	
+getFloat	compiler/vm.html#getFloat,VmArgs,Natural	vm: getFloat(a: VmArgs; i: Natural): BiggestFloat	
+getString	compiler/vm.html#getString,VmArgs,Natural	vm: getString(a: VmArgs; i: Natural): string	
+getNode	compiler/vm.html#getNode,VmArgs,Natural	vm: getNode(a: VmArgs; i: Natural): PNode	
+execProc	compiler/vm.html#execProc,PCtx,PSym,openArray[PNode]	vm: execProc(c: PCtx; sym: PSym; args: openArray[PNode]): PNode	
+evalStmt	compiler/vm.html#evalStmt,PCtx,PNode	vm: evalStmt(c: PCtx; n: PNode)	
+evalExpr	compiler/vm.html#evalExpr,PCtx,PNode	vm: evalExpr(c: PCtx; n: PNode): PNode	
+getGlobalValue	compiler/vm.html#getGlobalValue,PCtx,PSym	vm: getGlobalValue(c: PCtx; s: PSym): PNode	
+registerAdditionalOps	compiler/vm.html#registerAdditionalOps,PCtx	vm: registerAdditionalOps(c: PCtx)	
+setupGlobalCtx	compiler/vm.html#setupGlobalCtx,PSym,ModuleGraph	vm: setupGlobalCtx(module: PSym; graph: ModuleGraph)	
+evalPass	compiler/vm.html#evalPass	vm: evalPass	
+evalConstExpr	compiler/vm.html#evalConstExpr,PSym,ModuleGraph,PNode	vm: evalConstExpr(module: PSym; g: ModuleGraph; e: PNode): PNode	
+evalStaticExpr	compiler/vm.html#evalStaticExpr,PSym,ModuleGraph,PNode,PSym	vm: evalStaticExpr(module: PSym; g: ModuleGraph; e: PNode; prc: PSym): PNode	
+evalStaticStmt	compiler/vm.html#evalStaticStmt,PSym,ModuleGraph,PNode,PSym	vm: evalStaticStmt(module: PSym; g: ModuleGraph; e: PNode; prc: PSym)	
+setupCompileTimeVar	compiler/vm.html#setupCompileTimeVar,PSym,ModuleGraph,PNode	vm: setupCompileTimeVar(module: PSym; g: ModuleGraph; n: PNode)	
+genericParamsInMacroCall	compiler/vm.html#genericParamsInMacroCall.i,PSym,PNode	vm: genericParamsInMacroCall(macroSym: PSym; call: PNode): (PSym, PNode)	
+evalMacroCall	compiler/vm.html#evalMacroCall,PSym,ModuleGraph,PNode,PNode,PSym	vm: evalMacroCall(module: PSym; g: ModuleGraph; n, nOrig: PNode; sym: PSym): PNode	

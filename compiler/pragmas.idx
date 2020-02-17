@@ -1,0 +1,28 @@
+FirstCallConv	compiler/pragmas.html#FirstCallConv	pragmas: FirstCallConv	
+LastCallConv	compiler/pragmas.html#LastCallConv	pragmas: LastCallConv	
+procPragmas	compiler/pragmas.html#procPragmas	pragmas: procPragmas	
+converterPragmas	compiler/pragmas.html#converterPragmas	pragmas: converterPragmas	
+methodPragmas	compiler/pragmas.html#methodPragmas	pragmas: methodPragmas	
+templatePragmas	compiler/pragmas.html#templatePragmas	pragmas: templatePragmas	
+macroPragmas	compiler/pragmas.html#macroPragmas	pragmas: macroPragmas	
+iteratorPragmas	compiler/pragmas.html#iteratorPragmas	pragmas: iteratorPragmas	
+exprPragmas	compiler/pragmas.html#exprPragmas	pragmas: exprPragmas	
+stmtPragmas	compiler/pragmas.html#stmtPragmas	pragmas: stmtPragmas	
+lambdaPragmas	compiler/pragmas.html#lambdaPragmas	pragmas: lambdaPragmas	
+typePragmas	compiler/pragmas.html#typePragmas	pragmas: typePragmas	
+fieldPragmas	compiler/pragmas.html#fieldPragmas	pragmas: fieldPragmas	
+varPragmas	compiler/pragmas.html#varPragmas	pragmas: varPragmas	
+constPragmas	compiler/pragmas.html#constPragmas	pragmas: constPragmas	
+letPragmas	compiler/pragmas.html#letPragmas	pragmas: letPragmas	
+procTypePragmas	compiler/pragmas.html#procTypePragmas	pragmas: procTypePragmas	
+forVarPragmas	compiler/pragmas.html#forVarPragmas	pragmas: forVarPragmas	
+allRoutinePragmas	compiler/pragmas.html#allRoutinePragmas	pragmas: allRoutinePragmas	
+enumFieldPragmas	compiler/pragmas.html#enumFieldPragmas	pragmas: enumFieldPragmas	
+getPragmaVal	compiler/pragmas.html#getPragmaVal,PNode,TSpecialWord	pragmas: getPragmaVal(procAst: PNode; name: TSpecialWord): PNode	
+invalidPragma	compiler/pragmas.html#invalidPragma,PContext,PNode	pragmas: invalidPragma(c: PContext; n: PNode)	
+illegalCustomPragma	compiler/pragmas.html#illegalCustomPragma,PContext,PNode,PSym	pragmas: illegalCustomPragma(c: PContext; n: PNode; s: PSym)	
+pragmaAsm	compiler/pragmas.html#pragmaAsm,PContext,PNode	pragmas: pragmaAsm(c: PContext; n: PNode): char	
+semAsmOrEmit	compiler/pragmas.html#semAsmOrEmit,PContext,PNode,char	pragmas: semAsmOrEmit(con: PContext; n: PNode; marker: char): PNode	
+implicitPragmas	compiler/pragmas.html#implicitPragmas,PContext,PSym,PNode,TSpecialWords	pragmas: implicitPragmas(c: PContext; sym: PSym; n: PNode; validPragmas: TSpecialWords)	
+hasPragma	compiler/pragmas.html#hasPragma,PNode,TSpecialWord	pragmas: hasPragma(n: PNode; pragma: TSpecialWord): bool	
+pragma	compiler/pragmas.html#pragma,PContext,PSym,PNode,TSpecialWords,bool	pragmas: pragma(c: PContext; sym: PSym; n: PNode; validPragmas: TSpecialWords;\n       isStatement: bool = false)	

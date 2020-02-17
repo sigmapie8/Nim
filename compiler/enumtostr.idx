@@ -1,0 +1,2 @@
+genEnumToStrProc	compiler/enumtostr.html#genEnumToStrProc,PType,TLineInfo,ModuleGraph	enumtostr: genEnumToStrProc(t: PType; info: TLineInfo; g: ModuleGraph): PSym	
+genCaseObjDiscMapping	compiler/enumtostr.html#genCaseObjDiscMapping,PType,PSym,TLineInfo,ModuleGraph	enumtostr: genCaseObjDiscMapping(t: PType; field: PSym; info: TLineInfo; g: ModuleGraph): PSym	

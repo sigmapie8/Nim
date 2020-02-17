@@ -1,0 +1,110 @@
+explanationsBaseUrl	compiler/lineinfos.html#explanationsBaseUrl	lineinfos: explanationsBaseUrl	
+errUnknown	compiler/lineinfos.html#errUnknown	TMsgKind.errUnknown	
+errInternal	compiler/lineinfos.html#errInternal	TMsgKind.errInternal	
+errIllFormedAstX	compiler/lineinfos.html#errIllFormedAstX	TMsgKind.errIllFormedAstX	
+errCannotOpenFile	compiler/lineinfos.html#errCannotOpenFile	TMsgKind.errCannotOpenFile	
+errXExpected	compiler/lineinfos.html#errXExpected	TMsgKind.errXExpected	
+errGridTableNotImplemented	compiler/lineinfos.html#errGridTableNotImplemented	TMsgKind.errGridTableNotImplemented	
+errGeneralParseError	compiler/lineinfos.html#errGeneralParseError	TMsgKind.errGeneralParseError	
+errNewSectionExpected	compiler/lineinfos.html#errNewSectionExpected	TMsgKind.errNewSectionExpected	
+errInvalidDirectiveX	compiler/lineinfos.html#errInvalidDirectiveX	TMsgKind.errInvalidDirectiveX	
+errGenerated	compiler/lineinfos.html#errGenerated	TMsgKind.errGenerated	
+errUser	compiler/lineinfos.html#errUser	TMsgKind.errUser	
+warnCannotOpenFile	compiler/lineinfos.html#warnCannotOpenFile	TMsgKind.warnCannotOpenFile	
+warnOctalEscape	compiler/lineinfos.html#warnOctalEscape	TMsgKind.warnOctalEscape	
+warnXIsNeverRead	compiler/lineinfos.html#warnXIsNeverRead	TMsgKind.warnXIsNeverRead	
+warnXmightNotBeenInit	compiler/lineinfos.html#warnXmightNotBeenInit	TMsgKind.warnXmightNotBeenInit	
+warnDeprecated	compiler/lineinfos.html#warnDeprecated	TMsgKind.warnDeprecated	
+warnConfigDeprecated	compiler/lineinfos.html#warnConfigDeprecated	TMsgKind.warnConfigDeprecated	
+warnSmallLshouldNotBeUsed	compiler/lineinfos.html#warnSmallLshouldNotBeUsed	TMsgKind.warnSmallLshouldNotBeUsed	
+warnUnknownMagic	compiler/lineinfos.html#warnUnknownMagic	TMsgKind.warnUnknownMagic	
+warnRedefinitionOfLabel	compiler/lineinfos.html#warnRedefinitionOfLabel	TMsgKind.warnRedefinitionOfLabel	
+warnUnknownSubstitutionX	compiler/lineinfos.html#warnUnknownSubstitutionX	TMsgKind.warnUnknownSubstitutionX	
+warnLanguageXNotSupported	compiler/lineinfos.html#warnLanguageXNotSupported	TMsgKind.warnLanguageXNotSupported	
+warnFieldXNotSupported	compiler/lineinfos.html#warnFieldXNotSupported	TMsgKind.warnFieldXNotSupported	
+warnCommentXIgnored	compiler/lineinfos.html#warnCommentXIgnored	TMsgKind.warnCommentXIgnored	
+warnTypelessParam	compiler/lineinfos.html#warnTypelessParam	TMsgKind.warnTypelessParam	
+warnUseBase	compiler/lineinfos.html#warnUseBase	TMsgKind.warnUseBase	
+warnWriteToForeignHeap	compiler/lineinfos.html#warnWriteToForeignHeap	TMsgKind.warnWriteToForeignHeap	
+warnUnsafeCode	compiler/lineinfos.html#warnUnsafeCode	TMsgKind.warnUnsafeCode	
+warnUnusedImportX	compiler/lineinfos.html#warnUnusedImportX	TMsgKind.warnUnusedImportX	
+warnEachIdentIsTuple	compiler/lineinfos.html#warnEachIdentIsTuple	TMsgKind.warnEachIdentIsTuple	
+warnProveInit	compiler/lineinfos.html#warnProveInit	TMsgKind.warnProveInit	
+warnProveField	compiler/lineinfos.html#warnProveField	TMsgKind.warnProveField	
+warnProveIndex	compiler/lineinfos.html#warnProveIndex	TMsgKind.warnProveIndex	
+warnGcUnsafe	compiler/lineinfos.html#warnGcUnsafe	TMsgKind.warnGcUnsafe	
+warnGcUnsafe2	compiler/lineinfos.html#warnGcUnsafe2	TMsgKind.warnGcUnsafe2	
+warnUninit	compiler/lineinfos.html#warnUninit	TMsgKind.warnUninit	
+warnGcMem	compiler/lineinfos.html#warnGcMem	TMsgKind.warnGcMem	
+warnDestructor	compiler/lineinfos.html#warnDestructor	TMsgKind.warnDestructor	
+warnLockLevel	compiler/lineinfos.html#warnLockLevel	TMsgKind.warnLockLevel	
+warnResultShadowed	compiler/lineinfos.html#warnResultShadowed	TMsgKind.warnResultShadowed	
+warnInconsistentSpacing	compiler/lineinfos.html#warnInconsistentSpacing	TMsgKind.warnInconsistentSpacing	
+warnCaseTransition	compiler/lineinfos.html#warnCaseTransition	TMsgKind.warnCaseTransition	
+warnCycleCreated	compiler/lineinfos.html#warnCycleCreated	TMsgKind.warnCycleCreated	
+warnUser	compiler/lineinfos.html#warnUser	TMsgKind.warnUser	
+hintSuccess	compiler/lineinfos.html#hintSuccess	TMsgKind.hintSuccess	
+hintSuccessX	compiler/lineinfos.html#hintSuccessX	TMsgKind.hintSuccessX	
+hintCC	compiler/lineinfos.html#hintCC	TMsgKind.hintCC	
+hintLineTooLong	compiler/lineinfos.html#hintLineTooLong	TMsgKind.hintLineTooLong	
+hintXDeclaredButNotUsed	compiler/lineinfos.html#hintXDeclaredButNotUsed	TMsgKind.hintXDeclaredButNotUsed	
+hintConvToBaseNotNeeded	compiler/lineinfos.html#hintConvToBaseNotNeeded	TMsgKind.hintConvToBaseNotNeeded	
+hintConvFromXtoItselfNotNeeded	compiler/lineinfos.html#hintConvFromXtoItselfNotNeeded	TMsgKind.hintConvFromXtoItselfNotNeeded	
+hintExprAlwaysX	compiler/lineinfos.html#hintExprAlwaysX	TMsgKind.hintExprAlwaysX	
+hintQuitCalled	compiler/lineinfos.html#hintQuitCalled	TMsgKind.hintQuitCalled	
+hintProcessing	compiler/lineinfos.html#hintProcessing	TMsgKind.hintProcessing	
+hintCodeBegin	compiler/lineinfos.html#hintCodeBegin	TMsgKind.hintCodeBegin	
+hintCodeEnd	compiler/lineinfos.html#hintCodeEnd	TMsgKind.hintCodeEnd	
+hintConf	compiler/lineinfos.html#hintConf	TMsgKind.hintConf	
+hintPath	compiler/lineinfos.html#hintPath	TMsgKind.hintPath	
+hintConditionAlwaysTrue	compiler/lineinfos.html#hintConditionAlwaysTrue	TMsgKind.hintConditionAlwaysTrue	
+hintConditionAlwaysFalse	compiler/lineinfos.html#hintConditionAlwaysFalse	TMsgKind.hintConditionAlwaysFalse	
+hintName	compiler/lineinfos.html#hintName	TMsgKind.hintName	
+hintPattern	compiler/lineinfos.html#hintPattern	TMsgKind.hintPattern	
+hintExecuting	compiler/lineinfos.html#hintExecuting	TMsgKind.hintExecuting	
+hintLinking	compiler/lineinfos.html#hintLinking	TMsgKind.hintLinking	
+hintDependency	compiler/lineinfos.html#hintDependency	TMsgKind.hintDependency	
+hintSource	compiler/lineinfos.html#hintSource	TMsgKind.hintSource	
+hintPerformance	compiler/lineinfos.html#hintPerformance	TMsgKind.hintPerformance	
+hintStackTrace	compiler/lineinfos.html#hintStackTrace	TMsgKind.hintStackTrace	
+hintGCStats	compiler/lineinfos.html#hintGCStats	TMsgKind.hintGCStats	
+hintGlobalVar	compiler/lineinfos.html#hintGlobalVar	TMsgKind.hintGlobalVar	
+hintExpandMacro	compiler/lineinfos.html#hintExpandMacro	TMsgKind.hintExpandMacro	
+hintUser	compiler/lineinfos.html#hintUser	TMsgKind.hintUser	
+hintUserRaw	compiler/lineinfos.html#hintUserRaw	TMsgKind.hintUserRaw	
+hintExtendedContext	compiler/lineinfos.html#hintExtendedContext	TMsgKind.hintExtendedContext	
+TMsgKind	compiler/lineinfos.html#TMsgKind	lineinfos: TMsgKind	
+MsgKindToStr	compiler/lineinfos.html#MsgKindToStr	lineinfos: MsgKindToStr	
+WarningsToStr	compiler/lineinfos.html#WarningsToStr	lineinfos: WarningsToStr	
+HintsToStr	compiler/lineinfos.html#HintsToStr	lineinfos: HintsToStr	
+fatalMin	compiler/lineinfos.html#fatalMin	lineinfos: fatalMin	
+fatalMax	compiler/lineinfos.html#fatalMax	lineinfos: fatalMax	
+errMin	compiler/lineinfos.html#errMin	lineinfos: errMin	
+errMax	compiler/lineinfos.html#errMax	lineinfos: errMax	
+warnMin	compiler/lineinfos.html#warnMin	lineinfos: warnMin	
+warnMax	compiler/lineinfos.html#warnMax	lineinfos: warnMax	
+hintMin	compiler/lineinfos.html#hintMin	lineinfos: hintMin	
+hintMax	compiler/lineinfos.html#hintMax	lineinfos: hintMax	
+TNoteKind	compiler/lineinfos.html#TNoteKind	lineinfos: TNoteKind	
+TNoteKinds	compiler/lineinfos.html#TNoteKinds	lineinfos: TNoteKinds	
+NotesVerbosity	compiler/lineinfos.html#NotesVerbosity	lineinfos: NotesVerbosity	
+errXMustBeCompileTime	compiler/lineinfos.html#errXMustBeCompileTime	lineinfos: errXMustBeCompileTime	
+errArgsNeedRunOption	compiler/lineinfos.html#errArgsNeedRunOption	lineinfos: errArgsNeedRunOption	
+TFileInfo	compiler/lineinfos.html#TFileInfo	lineinfos: TFileInfo	
+FileIndex	compiler/lineinfos.html#FileIndex	lineinfos: FileIndex	
+TLineInfo	compiler/lineinfos.html#TLineInfo	lineinfos: TLineInfo	
+eStdOut	compiler/lineinfos.html#eStdOut	TErrorOutput.eStdOut	
+eStdErr	compiler/lineinfos.html#eStdErr	TErrorOutput.eStdErr	
+TErrorOutput	compiler/lineinfos.html#TErrorOutput	lineinfos: TErrorOutput	
+TErrorOutputs	compiler/lineinfos.html#TErrorOutputs	lineinfos: TErrorOutputs	
+ERecoverableError	compiler/lineinfos.html#ERecoverableError	lineinfos: ERecoverableError	
+ESuggestDone	compiler/lineinfos.html#ESuggestDone	lineinfos: ESuggestDone	
+`==`	compiler/lineinfos.html#==,FileIndex,FileIndex	lineinfos: `==`(a, b: FileIndex): bool	
+raiseRecoverableError	compiler/lineinfos.html#raiseRecoverableError,string	lineinfos: raiseRecoverableError(msg: string)	
+InvalidFileIdx	compiler/lineinfos.html#InvalidFileIdx	lineinfos: InvalidFileIdx	
+unknownLineInfo	compiler/lineinfos.html#unknownLineInfo	lineinfos: unknownLineInfo	
+Severity	compiler/lineinfos.html#Severity	lineinfos: Severity	
+trackPosInvalidFileIdx	compiler/lineinfos.html#trackPosInvalidFileIdx	lineinfos: trackPosInvalidFileIdx	
+commandLineIdx	compiler/lineinfos.html#commandLineIdx	lineinfos: commandLineIdx	
+MsgConfig	compiler/lineinfos.html#MsgConfig	lineinfos: MsgConfig	
+initMsgConfig	compiler/lineinfos.html#initMsgConfig	lineinfos: initMsgConfig(): MsgConfig	

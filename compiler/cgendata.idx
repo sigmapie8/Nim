@@ -1,0 +1,83 @@
+TLabel	compiler/cgendata.html#TLabel	cgendata: TLabel	
+cfsMergeInfo	compiler/cgendata.html#cfsMergeInfo	TCFileSection.cfsMergeInfo	
+cfsHeaders	compiler/cgendata.html#cfsHeaders	TCFileSection.cfsHeaders	
+cfsFrameDefines	compiler/cgendata.html#cfsFrameDefines	TCFileSection.cfsFrameDefines	
+cfsForwardTypes	compiler/cgendata.html#cfsForwardTypes	TCFileSection.cfsForwardTypes	
+cfsTypes	compiler/cgendata.html#cfsTypes	TCFileSection.cfsTypes	
+cfsSeqTypes	compiler/cgendata.html#cfsSeqTypes	TCFileSection.cfsSeqTypes	
+cfsFieldInfo	compiler/cgendata.html#cfsFieldInfo	TCFileSection.cfsFieldInfo	
+cfsTypeInfo	compiler/cgendata.html#cfsTypeInfo	TCFileSection.cfsTypeInfo	
+cfsProcHeaders	compiler/cgendata.html#cfsProcHeaders	TCFileSection.cfsProcHeaders	
+cfsData	compiler/cgendata.html#cfsData	TCFileSection.cfsData	
+cfsVars	compiler/cgendata.html#cfsVars	TCFileSection.cfsVars	
+cfsProcs	compiler/cgendata.html#cfsProcs	TCFileSection.cfsProcs	
+cfsInitProc	compiler/cgendata.html#cfsInitProc	TCFileSection.cfsInitProc	
+cfsDatInitProc	compiler/cgendata.html#cfsDatInitProc	TCFileSection.cfsDatInitProc	
+cfsTypeInit1	compiler/cgendata.html#cfsTypeInit1	TCFileSection.cfsTypeInit1	
+cfsTypeInit2	compiler/cgendata.html#cfsTypeInit2	TCFileSection.cfsTypeInit2	
+cfsTypeInit3	compiler/cgendata.html#cfsTypeInit3	TCFileSection.cfsTypeInit3	
+cfsDebugInit	compiler/cgendata.html#cfsDebugInit	TCFileSection.cfsDebugInit	
+cfsDynLibInit	compiler/cgendata.html#cfsDynLibInit	TCFileSection.cfsDynLibInit	
+cfsDynLibDeinit	compiler/cgendata.html#cfsDynLibDeinit	TCFileSection.cfsDynLibDeinit	
+TCFileSection	compiler/cgendata.html#TCFileSection	cgendata: TCFileSection	
+ctVoid	compiler/cgendata.html#ctVoid	TCTypeKind.ctVoid	
+ctChar	compiler/cgendata.html#ctChar	TCTypeKind.ctChar	
+ctBool	compiler/cgendata.html#ctBool	TCTypeKind.ctBool	
+ctInt	compiler/cgendata.html#ctInt	TCTypeKind.ctInt	
+ctInt8	compiler/cgendata.html#ctInt8	TCTypeKind.ctInt8	
+ctInt16	compiler/cgendata.html#ctInt16	TCTypeKind.ctInt16	
+ctInt32	compiler/cgendata.html#ctInt32	TCTypeKind.ctInt32	
+ctInt64	compiler/cgendata.html#ctInt64	TCTypeKind.ctInt64	
+ctFloat	compiler/cgendata.html#ctFloat	TCTypeKind.ctFloat	
+ctFloat32	compiler/cgendata.html#ctFloat32	TCTypeKind.ctFloat32	
+ctFloat64	compiler/cgendata.html#ctFloat64	TCTypeKind.ctFloat64	
+ctFloat128	compiler/cgendata.html#ctFloat128	TCTypeKind.ctFloat128	
+ctUInt	compiler/cgendata.html#ctUInt	TCTypeKind.ctUInt	
+ctUInt8	compiler/cgendata.html#ctUInt8	TCTypeKind.ctUInt8	
+ctUInt16	compiler/cgendata.html#ctUInt16	TCTypeKind.ctUInt16	
+ctUInt32	compiler/cgendata.html#ctUInt32	TCTypeKind.ctUInt32	
+ctUInt64	compiler/cgendata.html#ctUInt64	TCTypeKind.ctUInt64	
+ctArray	compiler/cgendata.html#ctArray	TCTypeKind.ctArray	
+ctPtrToArray	compiler/cgendata.html#ctPtrToArray	TCTypeKind.ctPtrToArray	
+ctStruct	compiler/cgendata.html#ctStruct	TCTypeKind.ctStruct	
+ctPtr	compiler/cgendata.html#ctPtr	TCTypeKind.ctPtr	
+ctNimStr	compiler/cgendata.html#ctNimStr	TCTypeKind.ctNimStr	
+ctNimSeq	compiler/cgendata.html#ctNimSeq	TCTypeKind.ctNimSeq	
+ctProc	compiler/cgendata.html#ctProc	TCTypeKind.ctProc	
+ctCString	compiler/cgendata.html#ctCString	TCTypeKind.ctCString	
+TCTypeKind	compiler/cgendata.html#TCTypeKind	cgendata: TCTypeKind	
+TCFileSections	compiler/cgendata.html#TCFileSections	cgendata: TCFileSections	
+cpsLocals	compiler/cgendata.html#cpsLocals	TCProcSection.cpsLocals	
+cpsInit	compiler/cgendata.html#cpsInit	TCProcSection.cpsInit	
+cpsStmts	compiler/cgendata.html#cpsStmts	TCProcSection.cpsStmts	
+TCProcSection	compiler/cgendata.html#TCProcSection	cgendata: TCProcSection	
+TCProcSections	compiler/cgendata.html#TCProcSections	cgendata: TCProcSections	
+BModule	compiler/cgendata.html#BModule	cgendata: BModule	
+BProc	compiler/cgendata.html#BProc	cgendata: BProc	
+TBlock	compiler/cgendata.html#TBlock	cgendata: TBlock	
+beforeRetNeeded	compiler/cgendata.html#beforeRetNeeded	TCProcFlag.beforeRetNeeded	
+threadVarAccessed	compiler/cgendata.html#threadVarAccessed	TCProcFlag.threadVarAccessed	
+hasCurFramePointer	compiler/cgendata.html#hasCurFramePointer	TCProcFlag.hasCurFramePointer	
+noSafePoints	compiler/cgendata.html#noSafePoints	TCProcFlag.noSafePoints	
+nimErrorFlagAccessed	compiler/cgendata.html#nimErrorFlagAccessed	TCProcFlag.nimErrorFlagAccessed	
+nimErrorFlagDeclared	compiler/cgendata.html#nimErrorFlagDeclared	TCProcFlag.nimErrorFlagDeclared	
+TCProcFlag	compiler/cgendata.html#TCProcFlag	cgendata: TCProcFlag	
+TTypeSeq	compiler/cgendata.html#TTypeSeq	cgendata: TTypeSeq	
+TypeCache	compiler/cgendata.html#TypeCache	cgendata: TypeCache	
+TypeCacheWithOwner	compiler/cgendata.html#TypeCacheWithOwner	cgendata: TypeCacheWithOwner	
+preventStackTrace	compiler/cgendata.html#preventStackTrace	CodegenFlag.preventStackTrace	
+usesThreadVars	compiler/cgendata.html#usesThreadVars	CodegenFlag.usesThreadVars	
+frameDeclared	compiler/cgendata.html#frameDeclared	CodegenFlag.frameDeclared	
+isHeaderFile	compiler/cgendata.html#isHeaderFile	CodegenFlag.isHeaderFile	
+includesStringh	compiler/cgendata.html#includesStringh	CodegenFlag.includesStringh	
+objHasKidsValid	compiler/cgendata.html#objHasKidsValid	CodegenFlag.objHasKidsValid	
+CodegenFlag	compiler/cgendata.html#CodegenFlag	cgendata: CodegenFlag	
+BModuleList	compiler/cgendata.html#BModuleList	cgendata: BModuleList	
+config	compiler/cgendata.html#config.t,BModule	cgendata: config(m: BModule): ConfigRef	
+config	compiler/cgendata.html#config.t,BProc	cgendata: config(p: BProc): ConfigRef	
+includeHeader	compiler/cgendata.html#includeHeader,BModule,string	cgendata: includeHeader(this: BModule; header: string)	
+s	compiler/cgendata.html#s,BProc,TCProcSection	cgendata: s(p: BProc; s: TCProcSection): var Rope	
+procSec	compiler/cgendata.html#procSec,BProc,TCProcSection	cgendata: procSec(p: BProc; s: TCProcSection): var Rope	
+newProc	compiler/cgendata.html#newProc,PSym,BModule	cgendata: newProc(prc: PSym; module: BModule): BProc	
+newModuleList	compiler/cgendata.html#newModuleList,ModuleGraph	cgendata: newModuleList(g: ModuleGraph): BModuleList	
+cgenModules	compiler/cgendata.html#cgenModules.i,BModuleList	cgendata: cgenModules(g: BModuleList): BModule	

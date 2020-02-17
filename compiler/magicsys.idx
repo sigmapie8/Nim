@@ -1,0 +1,17 @@
+nilOrSysInt	compiler/magicsys.html#nilOrSysInt,ModuleGraph	magicsys: nilOrSysInt(g: ModuleGraph): PType	
+registerSysType	compiler/magicsys.html#registerSysType,ModuleGraph,PType	magicsys: registerSysType(g: ModuleGraph; t: PType)	
+getSysSym	compiler/magicsys.html#getSysSym,ModuleGraph,TLineInfo,string	magicsys: getSysSym(g: ModuleGraph; info: TLineInfo; name: string): PSym	
+getSysMagic	compiler/magicsys.html#getSysMagic,ModuleGraph,TLineInfo,string,TMagic	magicsys: getSysMagic(g: ModuleGraph; info: TLineInfo; name: string; m: TMagic): PSym	
+sysTypeFromName	compiler/magicsys.html#sysTypeFromName,ModuleGraph,TLineInfo,string	magicsys: sysTypeFromName(g: ModuleGraph; info: TLineInfo; name: string): PType	
+getSysType	compiler/magicsys.html#getSysType,ModuleGraph,TLineInfo,TTypeKind	magicsys: getSysType(g: ModuleGraph; info: TLineInfo; kind: TTypeKind): PType	
+resetSysTypes	compiler/magicsys.html#resetSysTypes,ModuleGraph	magicsys: resetSysTypes(g: ModuleGraph)	
+getIntLitType	compiler/magicsys.html#getIntLitType,ModuleGraph,PNode	magicsys: getIntLitType(g: ModuleGraph; literal: PNode): PType	
+getFloatLitType	compiler/magicsys.html#getFloatLitType,ModuleGraph,PNode	magicsys: getFloatLitType(g: ModuleGraph; literal: PNode): PType	
+skipIntLit	compiler/magicsys.html#skipIntLit,PType	magicsys: skipIntLit(t: PType): PType	
+addSonSkipIntLit	compiler/magicsys.html#addSonSkipIntLit,PType,PType	magicsys: addSonSkipIntLit(father, son: PType)	
+setIntLitType	compiler/magicsys.html#setIntLitType,ModuleGraph,PNode	magicsys: setIntLitType(g: ModuleGraph; result: PNode)	
+getCompilerProc	compiler/magicsys.html#getCompilerProc,ModuleGraph,string	magicsys: getCompilerProc(g: ModuleGraph; name: string): PSym	
+registerCompilerProc	compiler/magicsys.html#registerCompilerProc,ModuleGraph,PSym	magicsys: registerCompilerProc(g: ModuleGraph; s: PSym)	
+registerNimScriptSymbol	compiler/magicsys.html#registerNimScriptSymbol,ModuleGraph,PSym	magicsys: registerNimScriptSymbol(g: ModuleGraph; s: PSym)	
+getNimScriptSymbol	compiler/magicsys.html#getNimScriptSymbol,ModuleGraph,string	magicsys: getNimScriptSymbol(g: ModuleGraph; name: string): PSym	
+resetNimScriptSymbols	compiler/magicsys.html#resetNimScriptSymbols,ModuleGraph	magicsys: resetNimScriptSymbols(g: ModuleGraph)	

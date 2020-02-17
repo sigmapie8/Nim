@@ -1,0 +1,7 @@
+srVoid	compiler/spawn.html#srVoid	TSpawnResult.srVoid	
+srFlowVar	compiler/spawn.html#srFlowVar	TSpawnResult.srFlowVar	
+srByVar	compiler/spawn.html#srByVar	TSpawnResult.srByVar	
+TSpawnResult	compiler/spawn.html#TSpawnResult	spawn: TSpawnResult	
+spawnResult	compiler/spawn.html#spawnResult,PType,bool	spawn: spawnResult(t: PType; inParallel: bool): TSpawnResult	
+getRoot	compiler/spawn.html#getRoot,PNode	spawn: getRoot(n: PNode): PSym	
+wrapProcForSpawn	compiler/spawn.html#wrapProcForSpawn,ModuleGraph,PSym,PNode,PType,PNode,PNode	spawn: wrapProcForSpawn(g: ModuleGraph; owner: PSym; spawnExpr: PNode; retType: PType;\n                 barrier, dest: PNode = nil): PNode	

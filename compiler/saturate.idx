@@ -1,0 +1,6 @@
+`|+|`	compiler/saturate.html#|+|,BiggestInt,BiggestInt	saturate: `|+|`(a, b: BiggestInt): BiggestInt	
+`|-|`	compiler/saturate.html#|-|,BiggestInt,BiggestInt	saturate: `|-|`(a, b: BiggestInt): BiggestInt	
+`|abs|`	compiler/saturate.html#|abs|,BiggestInt	saturate: `|abs|`(a: BiggestInt): BiggestInt	
+`|div|`	compiler/saturate.html#|div|,BiggestInt,BiggestInt	saturate: `|div|`(a, b: BiggestInt): BiggestInt	
+`|mod|`	compiler/saturate.html#|mod|,BiggestInt,BiggestInt	saturate: `|mod|`(a, b: BiggestInt): BiggestInt	
+`|*|`	compiler/saturate.html#|*|,BiggestInt,BiggestInt	saturate: `|*|`(a, b: BiggestInt): BiggestInt	

@@ -1,0 +1,23 @@
+TLLRepl	compiler/llstream.html#TLLRepl	llstream: TLLRepl	
+llsNone	compiler/llstream.html#llsNone	TLLStreamKind.llsNone	
+llsString	compiler/llstream.html#llsString	TLLStreamKind.llsString	
+llsFile	compiler/llstream.html#llsFile	TLLStreamKind.llsFile	
+llsStdIn	compiler/llstream.html#llsStdIn	TLLStreamKind.llsStdIn	
+TLLStreamKind	compiler/llstream.html#TLLStreamKind	llstream: TLLStreamKind	
+TLLStream	compiler/llstream.html#TLLStream	llstream: TLLStream	
+PLLStream	compiler/llstream.html#PLLStream	llstream: PLLStream	
+llStreamOpen	compiler/llstream.html#llStreamOpen,string	llstream: llStreamOpen(data: string): PLLStream	
+llStreamOpen	compiler/llstream.html#llStreamOpen,File	llstream: llStreamOpen(f: File): PLLStream	
+llStreamOpen	compiler/llstream.html#llStreamOpen,AbsoluteFile,FileMode	llstream: llStreamOpen(filename: AbsoluteFile; mode: FileMode): PLLStream	
+llStreamOpen	compiler/llstream.html#llStreamOpen	llstream: llStreamOpen(): PLLStream	
+llStreamOpenStdIn	compiler/llstream.html#llStreamOpenStdIn,TLLRepl	llstream: llStreamOpenStdIn(r: TLLRepl = llReadFromStdin): PLLStream	
+llStreamClose	compiler/llstream.html#llStreamClose,PLLStream	llstream: llStreamClose(s: PLLStream)	
+endsWith	compiler/llstream.html#endsWith,string,set[char]	llstream: endsWith(x: string; s: set[char]): bool	
+endsWithOpr	compiler/llstream.html#endsWithOpr,string	llstream: endsWithOpr(x: string): bool	
+llStreamRead	compiler/llstream.html#llStreamRead,PLLStream,pointer,int	llstream: llStreamRead(s: PLLStream; buf: pointer; bufLen: int): int	
+llStreamReadLine	compiler/llstream.html#llStreamReadLine,PLLStream,string	llstream: llStreamReadLine(s: PLLStream; line: var string): bool	
+llStreamWrite	compiler/llstream.html#llStreamWrite,PLLStream,string	llstream: llStreamWrite(s: PLLStream; data: string)	
+llStreamWriteln	compiler/llstream.html#llStreamWriteln,PLLStream,string	llstream: llStreamWriteln(s: PLLStream; data: string)	
+llStreamWrite	compiler/llstream.html#llStreamWrite,PLLStream,char	llstream: llStreamWrite(s: PLLStream; data: char)	
+llStreamWrite	compiler/llstream.html#llStreamWrite,PLLStream,pointer,int	llstream: llStreamWrite(s: PLLStream; buf: pointer; buflen: int)	
+llStreamReadAll	compiler/llstream.html#llStreamReadAll,PLLStream	llstream: llStreamReadAll(s: PLLStream): string	

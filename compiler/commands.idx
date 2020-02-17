@@ -1,0 +1,14 @@
+passCmd1	compiler/commands.html#passCmd1	TCmdLinePass.passCmd1	
+passCmd2	compiler/commands.html#passCmd2	TCmdLinePass.passCmd2	
+passPP	compiler/commands.html#passPP	TCmdLinePass.passPP	
+TCmdLinePass	compiler/commands.html#TCmdLinePass	commands: TCmdLinePass	
+writeCommandLineUsage	compiler/commands.html#writeCommandLineUsage,ConfigRef	commands: writeCommandLineUsage(conf: ConfigRef)	
+processSpecificNote	compiler/commands.html#processSpecificNote,string,TSpecialWord,TCmdLinePass,TLineInfo,string,ConfigRef	commands: processSpecificNote(arg: string; state: TSpecialWord; pass: TCmdLinePass;\n                    info: TLineInfo; orig: string; conf: ConfigRef)	
+testCompileOptionArg	compiler/commands.html#testCompileOptionArg,ConfigRef,string,string,TLineInfo	commands: testCompileOptionArg(conf: ConfigRef; switch, arg: string; info: TLineInfo): bool	
+testCompileOption	compiler/commands.html#testCompileOption,ConfigRef,string,TLineInfo	commands: testCompileOption(conf: ConfigRef; switch: string; info: TLineInfo): bool	
+handleStdinInput	compiler/commands.html#handleStdinInput,ConfigRef	commands: handleStdinInput(conf: ConfigRef)	
+processSwitch	compiler/commands.html#processSwitch,string,string,TCmdLinePass,TLineInfo,ConfigRef	commands: processSwitch(switch, arg: string; pass: TCmdLinePass; info: TLineInfo; conf: ConfigRef)	
+gCmdLineInfo	compiler/commands.html#gCmdLineInfo.t	commands: gCmdLineInfo(): untyped	
+processCommand	compiler/commands.html#processCommand,string,TCmdLinePass,ConfigRef	commands: processCommand(switch: string; pass: TCmdLinePass; config: ConfigRef)	
+processSwitch	compiler/commands.html#processSwitch,TCmdLinePass,OptParser,ConfigRef	commands: processSwitch(pass: TCmdLinePass; p: OptParser; config: ConfigRef)	
+processArgument	compiler/commands.html#processArgument,TCmdLinePass,OptParser,int,ConfigRef	commands: processArgument(pass: TCmdLinePass; p: OptParser; argsCount: var int; config: ConfigRef): bool	

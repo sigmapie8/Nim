@@ -1,0 +1,4 @@
+NimProg	compiler/cmdlinehelper.html#NimProg	cmdlinehelper: NimProg	
+initDefinesProg	compiler/cmdlinehelper.html#initDefinesProg,NimProg,ConfigRef,string	cmdlinehelper: initDefinesProg(self: NimProg; conf: ConfigRef; name: string)	
+processCmdLineAndProjectPath	compiler/cmdlinehelper.html#processCmdLineAndProjectPath,NimProg,ConfigRef	cmdlinehelper: processCmdLineAndProjectPath(self: NimProg; conf: ConfigRef)	
+loadConfigsAndRunMainCommand	compiler/cmdlinehelper.html#loadConfigsAndRunMainCommand,NimProg,IdentCache,ConfigRef	cmdlinehelper: loadConfigsAndRunMainCommand(self: NimProg; cache: IdentCache; conf: ConfigRef): bool	
